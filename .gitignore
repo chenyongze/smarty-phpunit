@@ -217,6 +217,8 @@ pip-log.txt
 .idea/
 .idea\
 #Smarty
+testdox.html
+TestResults.tap
 */template_c/*.php
 */cache/*.php
 .coverage/
