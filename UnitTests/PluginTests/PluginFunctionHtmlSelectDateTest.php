@@ -17,8 +17,8 @@ class PluginFunctionHtmlSelectDateTest extends PHPUnit_Smarty
         $this->now = mktime(15, 0, 0, 2, 20, 2014);
     }
 
-    protected $now = null;
-    protected $years = array(
+    public $now = null;
+    public $years = array(
         'start_2005' => '<option value="2005">2005</option>
 <option value="2006">2006</option>
 <option value="2007">2007</option>

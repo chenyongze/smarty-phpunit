@@ -50,6 +50,18 @@ class PHPUnit_Smarty extends PHPUnit_Framework_TestCase
 
     public function setUp($dir = null)
     {
+        if (!is_dir($dir . '/templates_c')) {
+            mkdir($dir . '/templates_c');
+        }
+        if (!is_dir($dir . '/templates')) {
+            mkdir($dir . '/templates');
+        }
+        if (!is_dir($dir . '/cache')) {
+            mkdir($dir . '/cache');
+        }
+        if (!is_dir($dir . '/config')) {
+            mkdir($dir . '/config');
+        }
         chdir($dir);
         self::$cwd = getcwd();
         $this->smarty = new Smarty;

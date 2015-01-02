@@ -30,7 +30,11 @@
     },
   "autoload": {
     "classmap": [
-      "Bootstrap.php"
+      "Bootstrap.php",
+      "PHPunit_Smarty.php",
+      "PHPunit_SmartyBC.php",
+      "PHPunit_SmartyBoth.php",
+      "PHPunit_SmartyDB.php"
     ]
   },
     "extra": {

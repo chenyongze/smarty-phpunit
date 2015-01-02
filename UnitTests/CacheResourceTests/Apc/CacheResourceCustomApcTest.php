@@ -6,7 +6,7 @@
  * @author  Uwe Tews
  */
 
-require_once(dirname(__FILE__) . "/CacheResourceCustomMemcacheTest.php");
+include_once 'UnitTests/CacheResourceTests/Memcache/CacheResourceCustomMemcacheTest.php';
 
 /**
  * class for cache resource file tests
@@ -21,6 +21,6 @@ class CacheResourceCustomApcTest extends CacheResourceCustomMemcacheTest
         }
         $this->smarty->setCachingType('apctest');
         $this->smarty->addPluginsDir(SMARTY_DIR . '../demo/plugins/');
-        $this->smarty->addPluginsDir('./PHPunitplaugins');
+        $this->smarty->addPluginsDir('./PHPunitplugins');
     }
 }

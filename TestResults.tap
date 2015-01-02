@@ -1,7 +1,7 @@
 TAP version 13
-ok 1 - # SKIP
-ok 2 - # SKIP
-ok 3 - # SKIP
+ok 1 - HttpModifiedSinceTest::testDisabled
+ok 2 - HttpModifiedSinceTest::testEnabledUncached
+ok 3 - HttpModifiedSinceTest::testEnabledCached
 ok 4 - # SKIP
 ok 5 - # SKIP
 ok 6 - # SKIP
@@ -16,142 +16,114 @@ ok 14 - # SKIP
 ok 15 - # SKIP
 ok 16 - # SKIP
 ok 17 - # SKIP
-ok 18 - CacheResourceCustomMemcacheTest::testGetCachedFilepathSubDirs
-ok 19 - CacheResourceCustomMemcacheTest::testGetCachedFilepathCacheId
-ok 20 - CacheResourceCustomMemcacheTest::testGetCachedFilepathCompileId
-ok 21 - CacheResourceCustomMemcacheTest::testGetCachedFilepathCacheIdCompileId
-ok 22 - CacheResourceCustomMemcacheTest::testClearCacheAllCacheIdCompileId
-ok 23 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId
-ok 24 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId2
-ok 25 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId2Sub
-ok 26 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId3
-ok 27 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId3Sub
-ok 28 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId4
-ok 29 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId4Sub
-ok 30 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId5
-ok 31 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId5Sub
-ok 32 - CacheResourceCustomMemcacheTest::testClearCacheCacheFile
-ok 33 - CacheResourceCustomMemcacheTest::testClearCacheCacheFileSub
-ok 34 - CacheResourceCustomMemcacheTest::testFinalCleanup2
-ok 35 - CacheResourceCustomMysqlTest::testGetCachedFilepathSubDirs
-ok 36 - CacheResourceCustomMysqlTest::testGetCachedFilepathCacheId
-ok 37 - CacheResourceCustomMysqlTest::testGetCachedFilepathCompileId
-ok 38 - CacheResourceCustomMysqlTest::testGetCachedFilepathCacheIdCompileId
-ok 39 - CacheResourceCustomMysqlTest::testClearCacheAllCacheIdCompileId
-ok 40 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId
-ok 41 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId2
-ok 42 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId2Sub
-ok 43 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId3
-ok 44 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId3Sub
-ok 45 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId4
-ok 46 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId4Sub
-ok 47 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId5
-ok 48 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId5Sub
-ok 49 - CacheResourceCustomMysqlTest::testClearCacheCacheFile
-ok 50 - CacheResourceCustomMysqlTest::testClearCacheCacheFileSub
-ok 51 - CacheResourceCustomMysqlTest::testFinalCleanup2
-ok 52 - CacheResourceCustomPDOGzipTest::testGetCachedFilepathSubDirs
-ok 53 - CacheResourceCustomPDOGzipTest::testGetCachedFilepathCacheId
-ok 54 - CacheResourceCustomPDOGzipTest::testGetCachedFilepathCompileId
-ok 55 - CacheResourceCustomPDOGzipTest::testGetCachedFilepathCacheIdCompileId
-ok 56 - CacheResourceCustomPDOGzipTest::testClearCacheAllCacheIdCompileId
-ok 57 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId
-ok 58 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId2
-ok 59 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId2Sub
-ok 60 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId3
-ok 61 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId3Sub
-ok 62 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId4
-ok 63 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId4Sub
-ok 64 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId5
-ok 65 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId5Sub
-ok 66 - CacheResourceCustomPDOGzipTest::testClearCacheCacheFile
-ok 67 - CacheResourceCustomPDOGzipTest::testClearCacheCacheFileSub
-ok 68 - CacheResourceCustomPDOGzipTest::testFinalCleanup2
-ok 69 - CacheResourceCustomPDOTest::testGetCachedFilepathSubDirs
-ok 70 - CacheResourceCustomPDOTest::testGetCachedFilepathCacheId
-ok 71 - CacheResourceCustomPDOTest::testGetCachedFilepathCompileId
-ok 72 - CacheResourceCustomPDOTest::testGetCachedFilepathCacheIdCompileId
-ok 73 - CacheResourceCustomPDOTest::testClearCacheAllCacheIdCompileId
-ok 74 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId
-ok 75 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId2
-ok 76 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId2Sub
-ok 77 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId3
-ok 78 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId3Sub
-ok 79 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId4
-ok 80 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId4Sub
-ok 81 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId5
-ok 82 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId5Sub
-ok 83 - CacheResourceCustomPDOTest::testClearCacheCacheFile
-ok 84 - CacheResourceCustomPDOTest::testClearCacheCacheFileSub
-ok 85 - CacheResourceCustomPDOTest::testFinalCleanup2
-ok 86 - CacheResourceCustomRegisteredTest::testGetCachedFilepathSubDirs
-ok 87 - CacheResourceCustomRegisteredTest::testGetCachedFilepathCacheId
-ok 88 - CacheResourceCustomRegisteredTest::testGetCachedFilepathCompileId
-ok 89 - CacheResourceCustomRegisteredTest::testGetCachedFilepathCacheIdCompileId
-ok 90 - CacheResourceCustomRegisteredTest::testClearCacheAllCacheIdCompileId
-ok 91 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId
-ok 92 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId2
-ok 93 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId2Sub
-ok 94 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId3
-ok 95 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId3Sub
-ok 96 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId4
-ok 97 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId4Sub
-ok 98 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId5
-ok 99 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId5Sub
-ok 100 - CacheResourceCustomRegisteredTest::testClearCacheCacheFile
-ok 101 - CacheResourceCustomRegisteredTest::testClearCacheCacheFileSub
-ok 102 - CacheResourceCustomRegisteredTest::testFinalCleanup2
-not ok 103 - Failure: CacheResourceFileTest::testGetCachedFilepathSubDirs
-  ---
-  message: 'Failed asserting that two strings are equal.'
-  severity: fail
-  data:
-      got: ./cache/ef/c6/01/efc6014d06e2f5b5b2a0fed465f85ad9eefd71d6.helloworld.tpl.php
-      expected: ./cache/ab/32/a6/ab32a66c7ebf631108b700b8933d55a65bde4c4e.helloworld.tpl.php
-  ...
-not ok 104 - Failure: CacheResourceFileTest::testGetCachedFilepathCacheId
-  ---
-  message: 'Failed asserting that two strings are equal.'
-  severity: fail
-  data:
-      got: ./cache/foo/bar/ef/c6/01/efc6014d06e2f5b5b2a0fed465f85ad9eefd71d6.helloworld.tpl.php
-      expected: ./cache/foo/bar/ab/32/a6/ab32a66c7ebf631108b700b8933d55a65bde4c4e.helloworld.tpl.php
-  ...
-not ok 105 - Failure: CacheResourceFileTest::testGetCachedFilepathCompileId
-  ---
-  message: 'Failed asserting that two strings are equal.'
-  severity: fail
-  data:
-      got: ./cache/blar/ef/c6/01/efc6014d06e2f5b5b2a0fed465f85ad9eefd71d6.helloworld.tpl.php
-      expected: ./cache/blar/ab/32/a6/ab32a66c7ebf631108b700b8933d55a65bde4c4e.helloworld.tpl.php
-  ...
-not ok 106 - Failure: CacheResourceFileTest::testGetCachedFilepathCacheIdCompileId
-  ---
-  message: 'Failed asserting that two strings are equal.'
-  severity: fail
-  data:
-      got: ./cache/foo/bar/blar/ef/c6/01/efc6014d06e2f5b5b2a0fed465f85ad9eefd71d6.helloworld.tpl.php
-      expected: ./cache/foo/bar/blar/ab/32/a6/ab32a66c7ebf631108b700b8933d55a65bde4c4e.helloworld.tpl.php
-  ...
-ok 107 - CacheResourceFileTest::testClearCacheAllCacheIdCompileId
-ok 108 - CacheResourceFileTest::testClearCacheCacheIdCompileId
-ok 109 - CacheResourceFileTest::testClearCacheCacheIdCompileId2
-ok 110 - CacheResourceFileTest::testClearCacheCacheIdCompileId2Sub
-ok 111 - CacheResourceFileTest::testClearCacheCacheIdCompileId3
-ok 112 - CacheResourceFileTest::testClearCacheCacheIdCompileId3Sub
-ok 113 - CacheResourceFileTest::testClearCacheCacheIdCompileId4
-ok 114 - CacheResourceFileTest::testClearCacheCacheIdCompileId4Sub
-ok 115 - CacheResourceFileTest::testClearCacheCacheIdCompileId5
-ok 116 - CacheResourceFileTest::testClearCacheCacheIdCompileId5Sub
-ok 117 - CacheResourceFileTest::testClearCacheCacheFile
-ok 118 - CacheResourceFileTest::testClearCacheCacheFileSub
-ok 119 - CacheResourceFileTest::testClearCacheAll
-ok 120 - CacheResourceFileTest::testClearCacheAllNotExpired
-ok 121 - CacheResourceFileTest::testClearCacheAllExpired
-ok 122 - CacheResourceFileTest::testFinalCleanup2
-ok 123 - HttpModifiedSinceTest::testDisabled
-ok 124 - HttpModifiedSinceTest::testEnabledUncached
-ok 125 - HttpModifiedSinceTest::testEnabledCached
+ok 18 - # SKIP
+ok 19 - # SKIP
+ok 20 - # SKIP
+ok 21 - CacheResourceFileTest::testGetCachedFilepathSubDirs
+ok 22 - CacheResourceFileTest::testGetCachedFilepathCacheId
+ok 23 - CacheResourceFileTest::testGetCachedFilepathCompileId
+ok 24 - CacheResourceFileTest::testGetCachedFilepathCacheIdCompileId
+ok 25 - CacheResourceFileTest::testClearCacheAllCacheIdCompileId
+ok 26 - CacheResourceFileTest::testClearCacheCacheIdCompileId
+ok 27 - CacheResourceFileTest::testClearCacheCacheIdCompileId2
+ok 28 - CacheResourceFileTest::testClearCacheCacheIdCompileId2Sub
+ok 29 - CacheResourceFileTest::testClearCacheCacheIdCompileId3
+ok 30 - CacheResourceFileTest::testClearCacheCacheIdCompileId3Sub
+ok 31 - CacheResourceFileTest::testClearCacheCacheIdCompileId4
+ok 32 - CacheResourceFileTest::testClearCacheCacheIdCompileId4Sub
+ok 33 - CacheResourceFileTest::testClearCacheCacheIdCompileId5
+ok 34 - CacheResourceFileTest::testClearCacheCacheIdCompileId5Sub
+ok 35 - CacheResourceFileTest::testClearCacheCacheFile
+ok 36 - CacheResourceFileTest::testClearCacheCacheFileSub
+ok 37 - CacheResourceFileTest::testClearCacheAll
+ok 38 - CacheResourceFileTest::testClearCacheAllNotExpired
+ok 39 - CacheResourceFileTest::testClearCacheAllExpired
+ok 40 - CacheResourceFileTest::testFinalCleanup2
+ok 41 - CacheResourceCustomMemcacheTest::testGetCachedFilepathSubDirs
+ok 42 - CacheResourceCustomMemcacheTest::testGetCachedFilepathCacheId
+ok 43 - CacheResourceCustomMemcacheTest::testGetCachedFilepathCompileId
+ok 44 - CacheResourceCustomMemcacheTest::testGetCachedFilepathCacheIdCompileId
+ok 45 - CacheResourceCustomMemcacheTest::testClearCacheAllCacheIdCompileId
+ok 46 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId
+ok 47 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId2
+ok 48 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId2Sub
+ok 49 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId3
+ok 50 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId3Sub
+ok 51 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId4
+ok 52 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId4Sub
+ok 53 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId5
+ok 54 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId5Sub
+ok 55 - CacheResourceCustomMemcacheTest::testClearCacheCacheFile
+ok 56 - CacheResourceCustomMemcacheTest::testClearCacheCacheFileSub
+ok 57 - CacheResourceCustomMemcacheTest::testFinalCleanup2
+ok 58 - CacheResourceCustomMysqlTest::testGetCachedFilepathSubDirs
+ok 59 - CacheResourceCustomMysqlTest::testGetCachedFilepathCacheId
+ok 60 - CacheResourceCustomMysqlTest::testGetCachedFilepathCompileId
+ok 61 - CacheResourceCustomMysqlTest::testGetCachedFilepathCacheIdCompileId
+ok 62 - CacheResourceCustomMysqlTest::testClearCacheAllCacheIdCompileId
+ok 63 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId
+ok 64 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId2
+ok 65 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId2Sub
+ok 66 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId3
+ok 67 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId3Sub
+ok 68 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId4
+ok 69 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId4Sub
+ok 70 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId5
+ok 71 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId5Sub
+ok 72 - CacheResourceCustomMysqlTest::testClearCacheCacheFile
+ok 73 - CacheResourceCustomMysqlTest::testClearCacheCacheFileSub
+ok 74 - CacheResourceCustomMysqlTest::testFinalCleanup2
+ok 75 - CacheResourceCustomPDOTest::testGetCachedFilepathSubDirs
+ok 76 - CacheResourceCustomPDOTest::testGetCachedFilepathCacheId
+ok 77 - CacheResourceCustomPDOTest::testGetCachedFilepathCompileId
+ok 78 - CacheResourceCustomPDOTest::testGetCachedFilepathCacheIdCompileId
+ok 79 - CacheResourceCustomPDOTest::testClearCacheAllCacheIdCompileId
+ok 80 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId
+ok 81 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId2
+ok 82 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId2Sub
+ok 83 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId3
+ok 84 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId3Sub
+ok 85 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId4
+ok 86 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId4Sub
+ok 87 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId5
+ok 88 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId5Sub
+ok 89 - CacheResourceCustomPDOTest::testClearCacheCacheFile
+ok 90 - CacheResourceCustomPDOTest::testClearCacheCacheFileSub
+ok 91 - CacheResourceCustomPDOTest::testFinalCleanup2
+ok 92 - CacheResourceCustomPDOGzipTest::testGetCachedFilepathSubDirs
+ok 93 - CacheResourceCustomPDOGzipTest::testGetCachedFilepathCacheId
+ok 94 - CacheResourceCustomPDOGzipTest::testGetCachedFilepathCompileId
+ok 95 - CacheResourceCustomPDOGzipTest::testGetCachedFilepathCacheIdCompileId
+ok 96 - CacheResourceCustomPDOGzipTest::testClearCacheAllCacheIdCompileId
+ok 97 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId
+ok 98 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId2
+ok 99 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId2Sub
+ok 100 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId3
+ok 101 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId3Sub
+ok 102 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId4
+ok 103 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId4Sub
+ok 104 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId5
+ok 105 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId5Sub
+ok 106 - CacheResourceCustomPDOGzipTest::testClearCacheCacheFile
+ok 107 - CacheResourceCustomPDOGzipTest::testClearCacheCacheFileSub
+ok 108 - CacheResourceCustomPDOGzipTest::testFinalCleanup2
+ok 109 - CacheResourceCustomRegisteredTest::testGetCachedFilepathSubDirs
+ok 110 - CacheResourceCustomRegisteredTest::testGetCachedFilepathCacheId
+ok 111 - CacheResourceCustomRegisteredTest::testGetCachedFilepathCompileId
+ok 112 - CacheResourceCustomRegisteredTest::testGetCachedFilepathCacheIdCompileId
+ok 113 - CacheResourceCustomRegisteredTest::testClearCacheAllCacheIdCompileId
+ok 114 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId
+ok 115 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId2
+ok 116 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId2Sub
+ok 117 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId3
+ok 118 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId3Sub
+ok 119 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId4
+ok 120 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId4Sub
+ok 121 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId5
+ok 122 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId5Sub
+ok 123 - CacheResourceCustomRegisteredTest::testClearCacheCacheFile
+ok 124 - CacheResourceCustomRegisteredTest::testClearCacheCacheFileSub
+ok 125 - CacheResourceCustomRegisteredTest::testFinalCleanup2
 ok 126 - CompileCompilerPluginTest::testCompilerPluginFromTemplateFile
 ok 127 - CompileCompilerPluginTest::testCompilerPluginFromCompiledTemplateFile
 ok 128 - DelimiterTest::testDelimiter1
@@ -199,15 +171,11 @@ ok 169 - ConfigVarTest::testConfigClearSingleConfigVarTemplate
 ok 170 - ConfigVarTest::testConfigClearConfigAllTemplate
 ok 171 - ConfigVarTest::testConfigAbsolutePath
 ok 172 - DefaultConfigHandlerTest::testUnknownConfig
-not ok 173 - Failure: DefaultConfigHandlerTest::testRegisterNoneExistentHandlerFunction
-  ---
-  message: 'Failed asserting that ''Default config handler not callable'' contains "Default config handler ''foo'' not callable".'
-  severity: fail
-  ...
+ok 173 - DefaultConfigHandlerTest::testRegisterNoneExistentHandlerFunction
 ok 174 - DefaultConfigHandlerTest::testDefaultConfigHandlerReplacement
 ok 175 - DefaultConfigHandlerTest::testDefaultConfigHandlerReplacementByConfigFile
 ok 176 - DefaultConfigHandlerTest::testDefaultConfigHandlerReturningFalse
-not ok 177 - Error: DefaultConfigHandlerTest::testConfigResourceDb4
+ok 177 - DefaultConfigHandlerTest::testConfigResourceDb4
 ok 178 - OutputFilterTrimWhitespaceTest::testWhitespace
 ok 179 - PluginBlockTextformatTest::testDefault
 ok 180 - PluginBlockTextformatTest::testDefaultWithoutMbstring
@@ -606,22 +574,8 @@ ok 411 - PluginModifierWordwrapTest::testLongCutWithoutMbstring
 ok 412 - PluginModifierWordwrapTest::testLongCutUmlauts
 ok 413 - PluginModifierWordwrapTest::testLinebreaks
 ok 414 - PluginModifierWordwrapTest::testLinebreaksWithoutMbstring
-not ok 415 - Failure: PluginModifierWordwrapTest::testLinebreaks2
-  ---
-  message: 'Failed asserting that two strings are equal.'
-  severity: fail
-  data:
-      got: "Blind woman\n            gets\n            new kidney from\ndad she hasn't seen in years."
-      expected: "Blind woman\r\n            gets\r\n            new kidney from\ndad she hasn't seen in years."
-  ...
-not ok 416 - Failure: PluginModifierWordwrapTest::testLinebreaks2WithoutMbstring
-  ---
-  message: 'Failed asserting that two strings are equal.'
-  severity: fail
-  data:
-      got: "Blind woman\n            gets\n            new kidney from\ndad she hasn't seen in years."
-      expected: "Blind woman\r\n            gets\r\n            new kidney from\ndad she hasn't seen in years."
-  ...
+ok 415 - PluginModifierWordwrapTest::testLinebreaks2
+ok 416 - PluginModifierWordwrapTest::testLinebreaks2WithoutMbstring
 ok 417 - SharedFunctionsTest::testEscapeSpecialChars
 ok 418 - CustomResourceAmbiguousTest::testNone
 ok 419 - CustomResourceAmbiguousTest::testCase1
@@ -650,16 +604,8 @@ ok 441 - EvalResourceTest::testUrlencodeTemplate
 ok 442 - EvalResourceTest::testBase64Template
 ok 443 - ExtendsResourceTest::testCompileBlockChildPrepend_003
 ok 444 - ExtendsResourceTest::testCompileBlockChildAppend_004
-not ok 445 - Failure: ExtendsResourceTest::testNocacheBlock_030_1
-  ---
-  message: 'Failed asserting that ''grandchild b6 b6_1*'' contains "parent b1 b1_1*parent b2*grandchild b3 b3_1*include b3 b6_1*grandchild b6 b6_1*".'
-  severity: fail
-  ...
-not ok 446 - Failure: ExtendsResourceTest::testNocacheBlock_030_2
-  ---
-  message: 'Failed asserting that ''grandchild b6 b6_2*'' contains "parent b1 b1_2*parent b2*grandchild b3 b3_2*include b3 b6_2*grandchild b6 b6_2*".'
-  severity: fail
-  ...
+ok 445 - ExtendsResourceTest::testNocacheBlock_030_1
+ok 446 - ExtendsResourceTest::testNocacheBlock_030_2
 ok 447 - FileResourceTest::testGetTemplateFilepath
 ok 448 - FileResourceTest::testTemplateFileExists1
 ok 449 - FileResourceTest::testTemplateFileExists2
@@ -670,14 +616,7 @@ ok 453 - FileResourceTest::testGetTemplateTimestamp
 ok 454 - FileResourceTest::testGetTemplateSource
 ok 455 - FileResourceTest::testUsesCompiler
 ok 456 - FileResourceTest::testIsEvaluated
-not ok 457 - Failure: FileResourceTest::testGetCompiledFilepath
-  ---
-  message: 'Failed asserting that two strings are equal.'
-  severity: fail
-  data:
-      got: ./templates_c/f0f9d1f1c2bdb992581f53efe011435f36188197_0.file.helloworld.tpl.php
-      expected: ./templates_c/bd9f7c32bb2db3a7dbdf7ea740432887f8c93c80.file.helloworld.tpl.php
-  ...
+ok 457 - FileResourceTest::testGetCompiledFilepath
 ok 458 - FileResourceTest::testGetCompiledTimestampPrepare
 ok 459 - FileResourceTest::testGetCompiledTimestamp
 ok 460 - FileResourceTest::testMustCompileExisting
@@ -685,19 +624,8 @@ ok 461 - FileResourceTest::testMustCompileAtForceCompile
 ok 462 - FileResourceTest::testMustCompileTouchedSource
 ok 463 - FileResourceTest::testCompileTemplateFile
 ok 464 - FileResourceTest::testCompiledTemplateFileExits
-not ok 465 - Failure: FileResourceTest::testGetCachedFilepath
-  ---
-  message: 'Failed asserting that two strings are equal.'
-  severity: fail
-  data:
-      got: ./cache/f0f9d1f1c2bdb992581f53efe011435f36188197.helloworld.tpl.php
-      expected: ./cache/bd9f7c32bb2db3a7dbdf7ea740432887f8c93c80.helloworld.tpl.php
-  ...
-not ok 466 - Failure: FileResourceTest::testGetCachedTimestamp
-  ---
-  message: 'Failed asserting that false is true.'
-  severity: fail
-  ...
+ok 465 - FileResourceTest::testGetCachedFilepath
+ok 466 - FileResourceTest::testGetCachedTimestamp
 ok 467 - FileResourceTest::testIsCachedPrepare
 ok 468 - FileResourceTest::testIsCached
 ok 469 - FileResourceTest::testForceCache
@@ -729,22 +657,8 @@ ok 494 - IndexedFileResourceTest::testFetch
 ok 495 - IndexedFileResourceTest::testFetchNumber
 ok 496 - IndexedFileResourceTest::testFetchNumeric
 ok 497 - IndexedFileResourceTest::testFetchName
-not ok 498 - Failure: IndexedFileResourceTest::testGetCompiledFilepath
-  ---
-  message: 'Failed asserting that two strings are equal.'
-  severity: fail
-  data:
-      got: ./templates_c/b480c19040446ff73bf99552ed532091997e19be_0.file.dirname.tpl.php
-      expected: ./templates_c/33b75378ec4cc31b390c4989f14454d21f544375.file.dirname.tpl.php
-  ...
-not ok 499 - Failure: IndexedFileResourceTest::testGetCachedFilepath
-  ---
-  message: 'Failed asserting that two strings are equal.'
-  severity: fail
-  data:
-      got: ./cache/b480c19040446ff73bf99552ed532091997e19be.dirname.tpl.php
-      expected: ./cache/33b75378ec4cc31b390c4989f14454d21f544375.dirname.tpl.php
-  ...
+ok 498 - IndexedFileResourceTest::testGetCompiledFilepath
+ok 499 - IndexedFileResourceTest::testGetCachedFilepath
 ok 500 - PhpResourceTest::testGetTemplateFilepath
 ok 501 - PhpResourceTest::testGetTemplateTimestamp
 ok 502 - PhpResourceTest::testUsesCompiler
@@ -774,11 +688,39 @@ ok 525 - ResourcePluginTest::testResourcePluginRecompiledCompiledFilepath
 ok 526 - ResourcePluginTest::testResourcePluginMysql
 ok 527 - ResourcePluginTest::testResourcePluginMysqlTimestamp
 ok 528 - ResourcePluginTest::testResourcePluginMysqlTimestampWithoutFetchTimestamp
-ok 529 - ResourcePluginTest::testResourcePluginMysqlCompiledFilepath
-ok 530 - ResourcePluginTest::testResourcePluginMysqlCompiledFilepathCache
+not ok 529 - Failure: ResourcePluginTest::testResourcePluginMysqlCompiledFilepath
+  ---
+  message: 'Failed asserting that ''C:\wamp\www\Smarty3.1-test-release\vendor\smarty\smarty-phpunit\UnitTests\ResourceTests\Plugin\templates_c\647cc67112410df246da12386c05d0ef094a40d8.mysqltest.test.tpl.php'' matches expected false.'
+  severity: fail
+  data:
+      got: 'C:\wamp\www\Smarty3.1-test-release\vendor\smarty\smarty-phpunit\UnitTests\ResourceTests\Plugin\templates_c\647cc67112410df246da12386c05d0ef094a40d8.mysqltest.test.tpl.php'
+      expected: false
+  ...
+not ok 530 - Failure: ResourcePluginTest::testResourcePluginMysqlCompiledFilepathCache
+  ---
+  message: 'Failed asserting that ''C:\wamp\www\Smarty3.1-test-release\vendor\smarty\smarty-phpunit\UnitTests\ResourceTests\Plugin\templates_c\647cc67112410df246da12386c05d0ef094a40d8.mysqltest.test.tpl.cache.php'' matches expected false.'
+  severity: fail
+  data:
+      got: 'C:\wamp\www\Smarty3.1-test-release\vendor\smarty\smarty-phpunit\UnitTests\ResourceTests\Plugin\templates_c\647cc67112410df246da12386c05d0ef094a40d8.mysqltest.test.tpl.cache.php'
+      expected: false
+  ...
 ok 531 - ResourcePluginTest::testResourcePluginTimestamp
-ok 532 - ResourcePluginTest::testResourcePluginExtendsall
-ok 533 - ResourcePluginTest::testResourcePluginExtendsallOne
+not ok 532 - Failure: ResourcePluginTest::testResourcePluginExtendsall
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "templates\r\n\r\ntemplates_3\r\ntemplates\r\n\r\ntemplates_4"
+      expected: "templates\n\ntemplates_3\ntemplates\n\ntemplates_4"
+  ...
+not ok 533 - Failure: ResourcePluginTest::testResourcePluginExtendsallOne
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "templates\r\ntemplates"
+      expected: "templates\ntemplates"
+  ...
 ok 534 - RegisteredResourceTest::testResourcePlugin
 ok 535 - RegisteredResourceTest::testClearCompiledResourcePlugin
 ok 536 - RegisteredResourceTest::testResourcePluginTimestamp
@@ -809,14 +751,7 @@ ok 560 - StringResourceTest::testGetTemplateSource
 ok 561 - StringResourceTest::testUsesCompiler
 ok 562 - StringResourceTest::testIsEvaluated
 ok 563 - StringResourceTest::testMustCompile
-not ok 564 - Failure: StringResourceTest::testGetCompiledFilepath
-  ---
-  message: 'Failed asserting that two strings are equal.'
-  severity: fail
-  data:
-      got: ./templates_c/2aae6c35c94fcfb415dbe95f408b9ce91ee846ed_0.string.php
-      expected: ./templates_c/2aae6c35c94fcfb415dbe95f408b9ce91ee846ed.string.php
-  ...
+ok 564 - StringResourceTest::testGetCompiledFilepath
 ok 565 - StringResourceTest::testGetCompiledTimestamp
 ok 566 - StringResourceTest::testGetCachedTimestamp
 ok 567 - StringResourceTest::testWriteCachedContent
@@ -899,7 +834,7 @@ ok 643 - LoadPluginTest::testLoadPluginSmartyInternalDebug
 ok 644 - LoadPluginTest::testLoadPluginSmartyTemplateClass
 ok 645 - LoadPluginTest::testLoadPluginSmartyPluginCounter
 ok 646 - MuteExpectedErrorsTest::testMuted
-not ok 647 - Error: MuteExpectedErrorsTest::testUnmuted
+ok 647 - MuteExpectedErrorsTest::testUnmuted
 ok 648 - MuteExpectedErrorsTest::testMutedCaching
 ok 649 - MuteExpectedErrorsTest::testUnmutedCaching
 ok 650 - SmartyBcTest::testSmartyPhpTag
@@ -1106,11 +1041,7 @@ ok 850 - CompileBlockExtendsTest::testCompileBlockGrandChildNested_016
 ok 851 - CompileBlockExtendsTest::testCompileBlockGrandChildNested_017
 ok 852 - CompileBlockExtendsTest::testCompileBlockChildNestedHide_018
 ok 853 - CompileBlockExtendsTest::testCompileBlockChildNestedHideAutoLiteralFalse_019
-not ok 854 - Failure: CompileBlockExtendsTest::testCompileBlockStartSubTemplates_020
-  ---
-  message: 'Failed asserting that ''block 1<br>'
-  severity: fail
-  ...
+ok 854 - CompileBlockExtendsTest::testCompileBlockStartSubTemplates_020
 ok 855 - CompileBlockExtendsTest::testCompileBlockGrandChildMustCompile_021_1
 ok 856 - CompileBlockExtendsTest::testCompileBlockGrandChildMustCompile_021_2
 ok 857 - CompileBlockExtendsTest::testCompileBlockGrandChildMustCompile_021_3
@@ -1123,16 +1054,8 @@ ok 863 - CompileBlockExtendsTest::testSmartyBlockParentOutsideBlock_026
 ok 864 - CompileBlockExtendsTest::testSmartyBlockParentInParent_027
 ok 865 - CompileBlockExtendsTest::testVariableExtends_028
 ok 866 - CompileBlockExtendsTest::testVariableExtends_029
-not ok 867 - Failure: CompileBlockExtendsTest::testNocacheBlock_030_1
-  ---
-  message: 'Failed asserting that ''grandchild b6 b6_1*'' contains "parent b1 b1_1*parent b2*grandchild b3 b3_1*include b3 b6_1*grandchild b6 b6_1*".'
-  severity: fail
-  ...
-not ok 868 - Failure: CompileBlockExtendsTest::testNocacheBlock_030_2
-  ---
-  message: 'Failed asserting that ''grandchild b6 b6_2*'' contains "parent b1 b1_2*parent b2*grandchild b3 b3_2*include b3 b6_2*grandchild b6 b6_2*".'
-  severity: fail
-  ...
+ok 867 - CompileBlockExtendsTest::testNocacheBlock_030_1
+ok 868 - CompileBlockExtendsTest::testNocacheBlock_030_2
 ok 869 - CompileCaptureTest::testCapture1
 ok 870 - CompileCaptureTest::testCapture2
 ok 871 - CompileCaptureTest::testCapture3
@@ -1144,325 +1067,319 @@ ok 876 - CompileCaptureTest::testCapture8
 ok 877 - CompileCaptureTest::testCompileCaptureNocache1
 ok 878 - CompileCaptureTest::testCompileCaptureNocache2
 ok 879 - CompilerPluginTest::testCompilerPlugin
-ok 880 - CompileDebugTest::testDebugTag
-ok 881 - CompileDebugTest::testDebugProperty
-ok 882 - CompileDelimiterTest::testLeftDelimiter
-ok 883 - CompileDelimiterTest::testRightDelimiter
-ok 884 - CompileEvalTest::testEval1
-ok 885 - CompileEvalTest::testEval2
-ok 886 - CompileEvalTest::testEval3
-ok 887 - CompileForTest::testFor1
-ok 888 - CompileForTest::testFor2
-ok 889 - CompileForTest::testFor3
-ok 890 - CompileForTest::testFor4
-ok 891 - CompileForTest::testFor5
-ok 892 - CompileForTest::testFor6
-ok 893 - CompileForTest::testFor7
-ok 894 - CompileForTest::testFor8
-ok 895 - CompileForTest::testFor9
-ok 896 - CompileForTest::testFor10
-ok 897 - CompileForTest::testFor11
-ok 898 - CompileForTest::testFor12
-ok 899 - CompileForTest::testFor13
-ok 900 - CompileForTest::testFor14
-ok 901 - CompileForTest::testForNocacheVar1
-ok 902 - CompileForTest::testForNocacheVar2
-ok 903 - CompileForTest::testForNocacheTag1
-ok 904 - CompileForTest::testForNocacheTag2
-ok 905 - CompileForTest::testForCache1
-ok 906 - CompileForTest::testForCache2
-ok 907 - CompileForeachTest::testForeach
-ok 908 - CompileForeachTest::testForeachBreak
-ok 909 - CompileForeachTest::testForeachContinue
-ok 910 - CompileForeachTest::testForeachNotElse
-ok 911 - CompileForeachTest::testForeachElse
-ok 912 - CompileForeachTest::testForeachKey
-ok 913 - CompileForeachTest::testForeachKeyProperty
-ok 914 - CompileForeachTest::testForeachTotal
-ok 915 - CompileForeachTest::testForeachTotalProperty
-ok 916 - CompileForeachTest::testForeachIndexIteration
-ok 917 - CompileForeachTest::testForeachIndexIterationProperty
-ok 918 - CompileForeachTest::testForeachFirstLast
-ok 919 - CompileForeachTest::testForeachFirstLastProperty
-ok 920 - CompileForeachTest::testForeachShowTrue
-ok 921 - CompileForeachTest::testForeachShowTrueProperty
-ok 922 - CompileForeachTest::testForeachShowFalse
-ok 923 - CompileForeachTest::testForeachShowFalseProperty
-ok 924 - CompileForeachTest::testForeachShorttags
-ok 925 - CompileForeachTest::testNewForeach
-ok 926 - CompileForeachTest::testNewForeachNotElse
-ok 927 - CompileForeachTest::testNewForeachElse
-ok 928 - CompileForeachTest::testNewForeachKey
-ok 929 - CompileForeachTest::testNewForeachKeyProperty
-ok 930 - CompileForeachTest::testForeachNocacheVar1
-ok 931 - CompileForeachTest::testForeachNocacheVar2
-ok 932 - CompileForeachTest::testForeachNocacheTag1
-ok 933 - CompileForeachTest::testForeachNocacheTag2
-ok 934 - CompileForeachTest::testForeachCache1
-ok 935 - CompileForeachTest::testForeachCache2
-ok 936 - CompileFunctionPluginTest::testFunctionPluginFromTemplateFile
-ok 937 - CompileFunctionPluginTest::testFunctionPluginFromCompiledTemplateFile
-ok 938 - CompileFunctionPluginTest::testFunctionPluginRegisteredFunction
-ok 939 - CompileFunctionPluginTest::testMultiLineTags
-ok 940 - CompileIfTest::testIf1
-ok 941 - CompileIfTest::testElseif1
-ok 942 - CompileIfTest::testIf2
-ok 943 - CompileIfTest::testIf3
-ok 944 - CompileIfTest::testIf4
-ok 945 - CompileIfTest::testIfTrue
-ok 946 - CompileIfTest::testIfFalse
-ok 947 - CompileIfTest::testIfNot1
-ok 948 - CompileIfTest::testIfNot2
-ok 949 - CompileIfTest::testIfEQ1
-ok 950 - CompileIfTest::testIfEQ2
-ok 951 - CompileIfTest::testIfEQ3
-ok 952 - CompileIfTest::testIfEQ4
-ok 953 - CompileIfTest::testIfIdentity1
-ok 954 - CompileIfTest::testIfIdentity2
-ok 955 - CompileIfTest::testIfNotIdentity1
-ok 956 - CompileIfTest::testIfNotIdentity2
-ok 957 - CompileIfTest::testIfGT1
-ok 958 - CompileIfTest::testIfGT2
-ok 959 - CompileIfTest::testIfGT3
-ok 960 - CompileIfTest::testIfGT4
-ok 961 - CompileIfTest::testIfGE1
-ok 962 - CompileIfTest::testIfGE2
-ok 963 - CompileIfTest::testIfGE3
-ok 964 - CompileIfTest::testIfGE4
-ok 965 - CompileIfTest::testIfLT1
-ok 966 - CompileIfTest::testIfLT2
-ok 967 - CompileIfTest::testIfLT3
-ok 968 - CompileIfTest::testIfLT4
-ok 969 - CompileIfTest::testIfLE1
-ok 970 - CompileIfTest::testIfLE2
-ok 971 - CompileIfTest::testIfLE3
-ok 972 - CompileIfTest::testIfLE4
-ok 973 - CompileIfTest::testIfNE1
-ok 974 - CompileIfTest::testIfNE2
-ok 975 - CompileIfTest::testIfNE3
-ok 976 - CompileIfTest::testIfNE4
-ok 977 - CompileIfTest::testIfIdent1
-ok 978 - CompileIfTest::testIfIdent2
-ok 979 - CompileIfTest::testIfAnd1
-ok 980 - CompileIfTest::testIfAnd2
-ok 981 - CompileIfTest::testIfAnd3
-ok 982 - CompileIfTest::testIfAnd4
-ok 983 - CompileIfTest::testIfOr1
-ok 984 - CompileIfTest::testIfOr2
-ok 985 - CompileIfTest::testIfOr3
-ok 986 - CompileIfTest::testIfOr4
-ok 987 - CompileIfTest::testIfAndOR4
-ok 988 - CompileIfTest::testIfIsDivBy
-ok 989 - CompileIfTest::testIfIsNotDivBy
-ok 990 - CompileIfTest::testIfIsEven
-ok 991 - CompileIfTest::testIfIsNotEven
-ok 992 - CompileIfTest::testIfIsOdd
-ok 993 - CompileIfTest::testIfIsNotOdd
-ok 994 - CompileIfTest::testIfIsOddBy
-ok 995 - CompileIfTest::testIfIsNotOddBy
-ok 996 - CompileIfTest::testIfIsEvenBy
-ok 997 - CompileIfTest::testIfIsNotEvenBy
-ok 998 - CompileIfTest::testIfFunc1
-ok 999 - CompileIfTest::testIfFunc2
-ok 1000 - CompileIfTest::testIfFunc3
-ok 1001 - CompileIfTest::testIfFunc4
-ok 1002 - CompileIfTest::testIfStatement1
-ok 1003 - CompileIfTest::testIfStatement2
-ok 1004 - CompileIfTest::testIfVariable1
-ok 1005 - CompileIfTest::testIfVariable2
-ok 1006 - CompileIfTest::testIfVariableInc1
-ok 1007 - CompileIncludePhpTest::testIncludePhpStringFileName
-ok 1008 - CompileIncludePhpTest::testIncludePhpVariableFileName
-ok 1009 - CompileIncludePhpTest::testIncludePhpVariableFileNameShortag
-ok 1010 - CompileIncludeTest::testIncludeStandard
-ok 1011 - CompileIncludeTest::testIncludeAssign1
-ok 1012 - CompileIncludeTest::testIncludeAssign2
-ok 1013 - CompileIncludeTest::testIncludePassVars
-ok 1014 - CompileIncludeTest::testIncludeLocalScope
-ok 1015 - CompileIncludeTest::testIncludeParentScope
-ok 1016 - CompileIncludeTest::testIncludeRootScope
-ok 1017 - CompileIncludeTest::testIncludeRootScope2
-ok 1018 - CompileIncludeTest::testRecursiveIncludes1
-ok 1019 - CompileIncludeTest::testRecursiveIncludes2
-ok 1020 - CompileInsertTest::testInsertFunctionSingle
-ok 1021 - CompileInsertTest::testInsertFunctionDouble
-ok 1022 - CompileInsertTest::testInsertFunctionVariableName
-ok 1023 - CompileInsertTest::testInsertPlugin
-ok 1024 - CompileInsertTest::testInsertPluginCaching1
-ok 1025 - CompileInsertTest::testInsertPluginCaching2
-ok 1026 - CompileInsertTest::testInsertPluginCaching3
-ok 1027 - CompileInsertTest::testInsertPluginCaching4
-ok 1028 - CompileInsertTest::testInsertFunctionAssign
-ok 1029 - CompileInsertTest::testInsertFunctionAssignNoOutput
-ok 1030 - CompileInsertTest::testInsertPluginAssign
-ok 1031 - CompileInsertTest::testInsertFunctionNoneExistingFunction
-ok 1032 - CompileInsertTest::testInsertFunctionNoneExistingScript
-ok 1033 - LiteralTest::testLiteralTag
-ok 1034 - LiteralTest::testAutoLiteralSpace
-ok 1035 - LiteralTest::testAutoLiteralLineBreak
-ok 1036 - LiteralTest::testAutoLiteralDisabled
-ok 1037 - CompileNocacheTest::testNocacheCachingNo
-ok 1038 - CompileNocacheTest::testNocacheCachingYes1
-ok 1039 - CompileNocacheTest::testNocacheCachingYes2
-ok 1040 - CompilePhpTest::testPhpTag
-ok 1041 - CompilePhpTest::testPhpTagAllow
-ok 1042 - CompilePhpTest::testShortTag
-ok 1043 - CompilePhpTest::testEndTagInStrings1
-ok 1044 - CompilePhpTest::testEndTagInStrings2
-ok 1045 - CompilePhpTest::testEndTagInStrings3
-ok 1046 - CompilePhpTest::testEndTagInStrings4
-ok 1047 - CompilePhpTest::testEndTagInHEREDOC
-ok 1048 - CompilePhpTest::testEmbeddingsInHEREDOC1
-ok 1049 - CompilePhpTest::testEmbeddingsInHEREDOC2
-ok 1050 - CompilePhpTest::testEmbeddedHEREDOC
-ok 1051 - CompilePhpTest::testEmbeddedNOWDOC
-ok 1052 - CompilePhpTest::testEndTagInNOWDOC
-ok 1053 - CompilePhpTest::testNewlineHEREDOC
-ok 1054 - CompilePhpTest::testNewlineNOWDOC
-ok 1055 - CompilePhpTest::testEndTagInComment
-ok 1056 - CompileSectionTest::testSection1
-ok 1057 - CompileSectionTest::testSection2
-ok 1058 - CompileSectionTest::testSection3
-ok 1059 - CompileSectionTest::testSection4
-ok 1060 - CompileSectionTest::testSection6
-ok 1061 - CompileSectionTest::testSection7
-ok 1062 - CompileSetfilterTest::testNestedSetfilter
-ok 1063 - CompileStripTest::testStrip
-ok 1064 - CompileFunctionTest::testSimpleFunction
-ok 1065 - CompileFunctionTest::testSimpleFunction2
-ok 1066 - CompileFunctionTest::testOverwriteDefaultFunction
-ok 1067 - CompileFunctionTest::testRecursiveFunction
-ok 1068 - CompileFunctionTest::testInheritedFunction
-ok 1069 - CompileFunctionTest::testDefineFunctionInclude
-ok 1070 - CompileFunctionTest::testExternalDefinedFunction
-ok 1071 - CompileFunctionTest::testExternalDefinedFunctionCached1
-ok 1072 - CompileFunctionTest::testExternalDefinedFunctionCached2
-ok 1073 - CompileFunctionTest::testExternalDefinedFunctionNocachedCall1
-ok 1074 - CompileFunctionTest::testExternalDefinedFunctionNocachedCall2
-ok 1075 - CompileWhileTest::testWhileCondition
-ok 1076 - CompileWhileTest::testWhileStatement
-ok 1077 - AttributeTest::testRequiredAttributeVar
-ok 1078 - AttributeTest::testUnexpectedAttribute
-ok 1079 - AttributeTest::testIllegalOptionValue
-ok 1080 - AttributeTest::testTooManyShorthands
-ok 1081 - CompileErrorTest::testNoneExistingTemplateError
-ok 1082 - CompileErrorTest::testUnknownTagError
-ok 1083 - CompileErrorTest::testUnclosedTagError
-not ok 1084 - Failure: CompileErrorTest::testSyntaxError
-  ---
-  message: 'Failed asserting that ''Syntax error in template "599a9cf0e3623a3206bd02a0f5c151d5f5f3f69e"  on line 1 "{assign var=}"  - Unexpected "}"'' contains "Syntax Error in template "599a9cf0e3623a3206bd02a0f5c151d5f5f3f69e"".'
-  severity: fail
-  ...
-ok 1085 - CompileErrorTest::testEmptyTemplate
-ok 1086 - PrintNocacheTest::testPrintNocacheCachingNo1
-ok 1087 - PrintNocacheTest::testPrintNocacheCachingNo2
-ok 1088 - PrintNocacheTest::testPrintNocacheCachingYes1
-ok 1089 - PrintNocacheTest::testPrintNocacheCachingYes2
-ok 1090 - ArrayTest::testSimpleArrayDefinition
-ok 1091 - ArrayTest::testSmarty2ArrayAccess
-ok 1092 - ArrayTest::testSmarty3ArrayAccess
-ok 1093 - ArrayTest::testIndexedArrayDefinition
-ok 1094 - ArrayTest::testNestedArray
-ok 1095 - ArrayTest::testArrayMath1
-ok 1096 - ArrayTest::testArrayMath2
-ok 1097 - ArrayTest::testArrayMath3
-ok 1098 - ArrayTest::testArrayMath4
-ok 1099 - ArrayTest::testArrayMath5
-ok 1100 - ArrayTest::testArrayMath6
-ok 1101 - ArrayTest::testArrayVariableIndex1
-ok 1102 - ArrayTest::testArrayVariableIndex2
-ok 1103 - ArrayTest::testArrayVariableIndex3
-ok 1104 - ArrayTest::testArrayVariableIndex4
-ok 1105 - ConstantsTest::testConstants
-ok 1106 - ConstantsTest::testConstants2
-ok 1107 - ConstantsTest::testConstants3
-ok 1108 - ConstantsTest::testConstants4
-ok 1109 - ConstantsTest::testConstants5
-ok 1110 - ConstantsTest::testConstants6
-ok 1111 - ConstantsTest::testConstants7
-ok 1112 - DoubleQuotedStringTest::testSimpleDoubleQuotedString
-ok 1113 - DoubleQuotedStringTest::testTagsInDoubleQuotedString
-ok 1114 - DoubleQuotedStringTest::testVarsInDoubleQuotedString1
-ok 1115 - DoubleQuotedStringTest::testVarsInDoubleQuotedString2
-ok 1116 - DoubleQuotedStringTest::testVarsBacktickInDoubleQuotedString1
-ok 1117 - DoubleQuotedStringTest::testVarsBacktickInDoubleQuotedString2
-ok 1118 - DoubleQuotedStringTest::testVariableVarsBacktickInDoubleQuotedString
-ok 1119 - DoubleQuotedStringTest::testArrayVarsBacktickInDoubleQuotedString1
-ok 1120 - DoubleQuotedStringTest::testArrayVarsBacktickInDoubleQuotedString2
-ok 1121 - DoubleQuotedStringTest::testExpressionBacktickInDoubleQuotedString
-ok 1122 - DoubleQuotedStringTest::testSmartytagInDoubleQuotedString1
-ok 1123 - DoubleQuotedStringTest::testSmartytagInDoubleQuotedString2
-ok 1124 - DoubleQuotedStringTest::testSmartyBlockTagInDoubleQuotedString1
-ok 1125 - DoubleQuotedStringTest::testVarsDelimiterInDoubleQuotedString
-ok 1126 - DoubleQuotedStringTest::testEscapedQuotesInDoubleQuotedString
-ok 1127 - DoubleQuotedStringTest::testSingleQuotesInDoubleQuotedString
-ok 1128 - DoubleQuotedStringTest::testSingleQuoteTagsInDoubleQuotedString
-ok 1129 - DoubleQuotedStringTest::testEmptyDoubleQuotedString
-ok 1130 - MathTest::testSyntax
-ok 1131 - MathTest::testFunction
-ok 1132 - MathTest::testSyntaxSin
-ok 1133 - MathTest::testFunctionSin
-ok 1134 - MathTest::testSyntaxFloat
-ok 1135 - MathTest::testFunctionFloat
-ok 1136 - MathTest::testSyntaxFormat
-ok 1137 - MathTest::testFunctionFormat
-ok 1138 - MathTest::testSyntaxString
-ok 1139 - MathTest::testFunctionString
-ok 1140 - ModifierTest::testPHPFunctionModifier
-ok 1141 - ModifierTest::testPHPFunctionModifier2
-ok 1142 - ModifierTest::testPluginModifier
-ok 1143 - ModifierTest::testPluginModifierVar
-ok 1144 - ModifierTest::testPluginModifierVar2
-ok 1145 - ModifierTest::testPluginModifierVar3
-ok 1146 - ModifierTest::testModifierChaining
-ok 1147 - ModifierTest::testModifierInsideIf
-ok 1148 - ModifierTest::testModifierInsideExpression
-ok 1149 - ModifierTest::testModifierInsideExpression2
-ok 1150 - ModifierTest::testModifierAtPluginResult
-ok 1151 - ModifierTest::testModifierUnqoutedString
-ok 1152 - ModifierTest::testModifierRegisteredFunction
-ok 1153 - ModifierTest::testModifierRegisteredStaticClass
-ok 1154 - ModifierTest::testModifierRegisteredMethodCall
-ok 1155 - ModifierTest::testUnknownModifier
-ok 1156 - ModifierTest::testDefaultModifier
-ok 1157 - ObjectVariableTest::testObjectVariableOutput
-ok 1158 - ObjectVariableTest::testObjectVariableOutputVariableProperty
-ok 1159 - ObjectVariableTest::testObjectVariableOutputMethod
-ok 1160 - ObjectVariableTest::testObjectVariableOutputVariableMethod
-ok 1161 - ObjectVariableTest::testObjectVariableOutputDoubleQuotes
-ok 1162 - ObjectVariableTest::testObjectVariableOutputDoubleQuotesInclude
-ok 1163 - SingleQuotedStringTest::testSimpleSingleQuotedString
-ok 1164 - SingleQuotedStringTest::testTagsInSingleQuotedString
-ok 1165 - SingleQuotedStringTest::testVarsInSingleQuotedString
-ok 1166 - SingleQuotedStringTest::testDoubleQuotesInSingleQuotedString
-ok 1167 - SingleQuotedStringTest::testEscapedSingleQuotesInSingleQuotedString
-ok 1168 - SingleQuotedStringTest::testEmptySingleQuotedString
-ok 1169 - StreamVariableTest::testStreamVariable1
-ok 1170 - VariableScopeTest::testVariableScope1
-ok 1171 - VariableScopeTest::testVariableScope12
-ok 1172 - VariableScopeTest::testVariableScope13
-ok 1173 - VariableScopeTest::testVariableScope2
-ok 1174 - VariableScopeTest::testVariableScope22
-ok 1175 - VariableScopeTest::testVariableScope23
-ok 1176 - VariableScopeTest::testVariableScope3
-ok 1177 - VariableScopeTest::testVariableScope32
-ok 1178 - VariableScopeTest::testVariableScope4
-ok 1179 - VariableScopeTest::testVariableScope42
-ok 1180 - VariableScopeTest::testVariableScope5
-ok 1181 - VariableScopeTest::testVariableScope52
-ok 1182 - VariableScopeTest::testVariableScope6
-ok 1183 - VariableScopeTest::testVariableScope62
-ok 1184 - VariableScopeTest::testDataArray
-ok 1185 - VariableScopeTest::testDataArray2
-ok 1186 - VariableScopeTest::testAssigns
-ok 1187 - VariableVariableTest::testVariableVariable1
-ok 1188 - VariableVariableTest::testVariableVariable2
-ok 1189 - VariableVariableTest::testVariableVariable3
-ok 1190 - VariableVariableTest::testVariableVariable4
-ok 1191 - XmlTest::testXml
-ok 1192 - XmlTest::testXmlPhpQuote
-ok 1193 - XmlTest::testXmlPhpAllow
-ok 1194 - XmlTest::testXmlCaching
-ok 1195 - XmlTest::testXmlCachingPhpQuote
-ok 1196 - XmlTest::testXmlCachingPhpAllow
-1..1196
+ok 880 - CompileDelimiterTest::testLeftDelimiter
+ok 881 - CompileDelimiterTest::testRightDelimiter
+ok 882 - CompileEvalTest::testEval1
+ok 883 - CompileEvalTest::testEval2
+ok 884 - CompileEvalTest::testEval3
+ok 885 - CompileForTest::testFor1
+ok 886 - CompileForTest::testFor2
+ok 887 - CompileForTest::testFor3
+ok 888 - CompileForTest::testFor4
+ok 889 - CompileForTest::testFor5
+ok 890 - CompileForTest::testFor6
+ok 891 - CompileForTest::testFor7
+ok 892 - CompileForTest::testFor8
+ok 893 - CompileForTest::testFor9
+ok 894 - CompileForTest::testFor10
+ok 895 - CompileForTest::testFor11
+ok 896 - CompileForTest::testFor12
+ok 897 - CompileForTest::testFor13
+ok 898 - CompileForTest::testFor14
+ok 899 - CompileForTest::testForNocacheVar1
+ok 900 - CompileForTest::testForNocacheVar2
+ok 901 - CompileForTest::testForNocacheTag1
+ok 902 - CompileForTest::testForNocacheTag2
+ok 903 - CompileForTest::testForCache1
+ok 904 - CompileForTest::testForCache2
+ok 905 - CompileForeachTest::testForeach
+ok 906 - CompileForeachTest::testForeachBreak
+ok 907 - CompileForeachTest::testForeachContinue
+ok 908 - CompileForeachTest::testForeachNotElse
+ok 909 - CompileForeachTest::testForeachElse
+ok 910 - CompileForeachTest::testForeachKey
+ok 911 - CompileForeachTest::testForeachKeyProperty
+ok 912 - CompileForeachTest::testForeachTotal
+ok 913 - CompileForeachTest::testForeachTotalProperty
+ok 914 - CompileForeachTest::testForeachIndexIteration
+ok 915 - CompileForeachTest::testForeachIndexIterationProperty
+ok 916 - CompileForeachTest::testForeachFirstLast
+ok 917 - CompileForeachTest::testForeachFirstLastProperty
+ok 918 - CompileForeachTest::testForeachShowTrue
+ok 919 - CompileForeachTest::testForeachShowTrueProperty
+ok 920 - CompileForeachTest::testForeachShowFalse
+ok 921 - CompileForeachTest::testForeachShowFalseProperty
+ok 922 - CompileForeachTest::testForeachShorttags
+ok 923 - CompileForeachTest::testNewForeach
+ok 924 - CompileForeachTest::testNewForeachNotElse
+ok 925 - CompileForeachTest::testNewForeachElse
+ok 926 - CompileForeachTest::testNewForeachKey
+ok 927 - CompileForeachTest::testNewForeachKeyProperty
+ok 928 - CompileForeachTest::testForeachNocacheVar1
+ok 929 - CompileForeachTest::testForeachNocacheVar2
+ok 930 - CompileForeachTest::testForeachNocacheTag1
+ok 931 - CompileForeachTest::testForeachNocacheTag2
+ok 932 - CompileForeachTest::testForeachCache1
+ok 933 - CompileForeachTest::testForeachCache2
+ok 934 - CompileFunctionPluginTest::testFunctionPluginFromTemplateFile
+ok 935 - CompileFunctionPluginTest::testFunctionPluginFromCompiledTemplateFile
+ok 936 - CompileFunctionPluginTest::testFunctionPluginRegisteredFunction
+ok 937 - CompileFunctionPluginTest::testMultiLineTags
+ok 938 - CompileIfTest::testIf1
+ok 939 - CompileIfTest::testElseif1
+ok 940 - CompileIfTest::testIf2
+ok 941 - CompileIfTest::testIf3
+ok 942 - CompileIfTest::testIf4
+ok 943 - CompileIfTest::testIfTrue
+ok 944 - CompileIfTest::testIfFalse
+ok 945 - CompileIfTest::testIfNot1
+ok 946 - CompileIfTest::testIfNot2
+ok 947 - CompileIfTest::testIfEQ1
+ok 948 - CompileIfTest::testIfEQ2
+ok 949 - CompileIfTest::testIfEQ3
+ok 950 - CompileIfTest::testIfEQ4
+ok 951 - CompileIfTest::testIfIdentity1
+ok 952 - CompileIfTest::testIfIdentity2
+ok 953 - CompileIfTest::testIfNotIdentity1
+ok 954 - CompileIfTest::testIfNotIdentity2
+ok 955 - CompileIfTest::testIfGT1
+ok 956 - CompileIfTest::testIfGT2
+ok 957 - CompileIfTest::testIfGT3
+ok 958 - CompileIfTest::testIfGT4
+ok 959 - CompileIfTest::testIfGE1
+ok 960 - CompileIfTest::testIfGE2
+ok 961 - CompileIfTest::testIfGE3
+ok 962 - CompileIfTest::testIfGE4
+ok 963 - CompileIfTest::testIfLT1
+ok 964 - CompileIfTest::testIfLT2
+ok 965 - CompileIfTest::testIfLT3
+ok 966 - CompileIfTest::testIfLT4
+ok 967 - CompileIfTest::testIfLE1
+ok 968 - CompileIfTest::testIfLE2
+ok 969 - CompileIfTest::testIfLE3
+ok 970 - CompileIfTest::testIfLE4
+ok 971 - CompileIfTest::testIfNE1
+ok 972 - CompileIfTest::testIfNE2
+ok 973 - CompileIfTest::testIfNE3
+ok 974 - CompileIfTest::testIfNE4
+ok 975 - CompileIfTest::testIfIdent1
+ok 976 - CompileIfTest::testIfIdent2
+ok 977 - CompileIfTest::testIfAnd1
+ok 978 - CompileIfTest::testIfAnd2
+ok 979 - CompileIfTest::testIfAnd3
+ok 980 - CompileIfTest::testIfAnd4
+ok 981 - CompileIfTest::testIfOr1
+ok 982 - CompileIfTest::testIfOr2
+ok 983 - CompileIfTest::testIfOr3
+ok 984 - CompileIfTest::testIfOr4
+ok 985 - CompileIfTest::testIfAndOR4
+ok 986 - CompileIfTest::testIfIsDivBy
+ok 987 - CompileIfTest::testIfIsNotDivBy
+ok 988 - CompileIfTest::testIfIsEven
+ok 989 - CompileIfTest::testIfIsNotEven
+ok 990 - CompileIfTest::testIfIsOdd
+ok 991 - CompileIfTest::testIfIsNotOdd
+ok 992 - CompileIfTest::testIfIsOddBy
+ok 993 - CompileIfTest::testIfIsNotOddBy
+ok 994 - CompileIfTest::testIfIsEvenBy
+ok 995 - CompileIfTest::testIfIsNotEvenBy
+ok 996 - CompileIfTest::testIfFunc1
+ok 997 - CompileIfTest::testIfFunc2
+ok 998 - CompileIfTest::testIfFunc3
+ok 999 - CompileIfTest::testIfFunc4
+ok 1000 - CompileIfTest::testIfStatement1
+ok 1001 - CompileIfTest::testIfStatement2
+ok 1002 - CompileIfTest::testIfVariable1
+ok 1003 - CompileIfTest::testIfVariable2
+ok 1004 - CompileIfTest::testIfVariableInc1
+ok 1005 - CompileIncludePhpTest::testIncludePhpStringFileName
+ok 1006 - CompileIncludePhpTest::testIncludePhpVariableFileName
+ok 1007 - CompileIncludePhpTest::testIncludePhpVariableFileNameShortag
+ok 1008 - CompileIncludeTest::testIncludeStandard
+ok 1009 - CompileIncludeTest::testIncludeAssign1
+ok 1010 - CompileIncludeTest::testIncludeAssign2
+ok 1011 - CompileIncludeTest::testIncludePassVars
+ok 1012 - CompileIncludeTest::testIncludeLocalScope
+ok 1013 - CompileIncludeTest::testIncludeParentScope
+ok 1014 - CompileIncludeTest::testIncludeRootScope
+ok 1015 - CompileIncludeTest::testIncludeRootScope2
+ok 1016 - CompileIncludeTest::testRecursiveIncludes1
+ok 1017 - CompileIncludeTest::testRecursiveIncludes2
+ok 1018 - CompileInsertTest::testInsertFunctionSingle
+ok 1019 - CompileInsertTest::testInsertFunctionDouble
+ok 1020 - CompileInsertTest::testInsertFunctionVariableName
+ok 1021 - CompileInsertTest::testInsertPlugin
+ok 1022 - CompileInsertTest::testInsertPluginCaching1
+ok 1023 - CompileInsertTest::testInsertPluginCaching2
+ok 1024 - CompileInsertTest::testInsertPluginCaching3
+ok 1025 - CompileInsertTest::testInsertPluginCaching4
+ok 1026 - CompileInsertTest::testInsertFunctionAssign
+ok 1027 - CompileInsertTest::testInsertFunctionAssignNoOutput
+ok 1028 - CompileInsertTest::testInsertPluginAssign
+ok 1029 - CompileInsertTest::testInsertFunctionNoneExistingFunction
+ok 1030 - CompileInsertTest::testInsertFunctionNoneExistingScript
+ok 1031 - LiteralTest::testLiteralTag
+ok 1032 - LiteralTest::testAutoLiteralSpace
+ok 1033 - LiteralTest::testAutoLiteralLineBreak
+ok 1034 - LiteralTest::testAutoLiteralDisabled
+ok 1035 - CompileNocacheTest::testNocacheCachingNo
+ok 1036 - CompileNocacheTest::testNocacheCachingYes1
+ok 1037 - CompileNocacheTest::testNocacheCachingYes2
+ok 1038 - CompilePhpTest::testPhpTag
+ok 1039 - CompilePhpTest::testPhpTagAllow
+ok 1040 - CompilePhpTest::testShortTag
+ok 1041 - CompilePhpTest::testEndTagInStrings1
+ok 1042 - CompilePhpTest::testEndTagInStrings2
+ok 1043 - CompilePhpTest::testEndTagInStrings3
+ok 1044 - CompilePhpTest::testEndTagInStrings4
+ok 1045 - CompilePhpTest::testEndTagInHEREDOC
+ok 1046 - CompilePhpTest::testEmbeddingsInHEREDOC1
+ok 1047 - CompilePhpTest::testEmbeddingsInHEREDOC2
+ok 1048 - CompilePhpTest::testEmbeddedHEREDOC
+ok 1049 - CompilePhpTest::testEmbeddedNOWDOC
+ok 1050 - CompilePhpTest::testEndTagInNOWDOC
+ok 1051 - CompilePhpTest::testNewlineHEREDOC
+ok 1052 - CompilePhpTest::testNewlineNOWDOC
+ok 1053 - CompilePhpTest::testEndTagInComment
+ok 1054 - CompileSectionTest::testSection1
+ok 1055 - CompileSectionTest::testSection2
+ok 1056 - CompileSectionTest::testSection3
+ok 1057 - CompileSectionTest::testSection4
+ok 1058 - CompileSectionTest::testSection6
+ok 1059 - CompileSectionTest::testSection7
+ok 1060 - CompileSetfilterTest::testNestedSetfilter
+ok 1061 - CompileStripTest::testStrip
+ok 1062 - CompileFunctionTest::testSimpleFunction
+ok 1063 - CompileFunctionTest::testSimpleFunction2
+ok 1064 - CompileFunctionTest::testOverwriteDefaultFunction
+ok 1065 - CompileFunctionTest::testRecursiveFunction
+ok 1066 - CompileFunctionTest::testInheritedFunction
+ok 1067 - CompileFunctionTest::testDefineFunctionInclude
+ok 1068 - CompileFunctionTest::testExternalDefinedFunction
+ok 1069 - CompileFunctionTest::testExternalDefinedFunctionCached1
+ok 1070 - CompileFunctionTest::testExternalDefinedFunctionCached2
+ok 1071 - CompileFunctionTest::testExternalDefinedFunctionNocachedCall1
+ok 1072 - CompileFunctionTest::testExternalDefinedFunctionNocachedCall2
+ok 1073 - CompileWhileTest::testWhileCondition
+ok 1074 - CompileWhileTest::testWhileStatement
+ok 1075 - AttributeTest::testRequiredAttributeVar
+ok 1076 - AttributeTest::testUnexpectedAttribute
+ok 1077 - AttributeTest::testIllegalOptionValue
+ok 1078 - AttributeTest::testTooManyShorthands
+ok 1079 - CompileErrorTest::testNoneExistingTemplateError
+ok 1080 - CompileErrorTest::testUnknownTagError
+ok 1081 - CompileErrorTest::testUnclosedTagError
+ok 1082 - CompileErrorTest::testSyntaxError
+ok 1083 - CompileErrorTest::testEmptyTemplate
+ok 1084 - PrintNocacheTest::testPrintNocacheCachingNo1
+ok 1085 - PrintNocacheTest::testPrintNocacheCachingNo2
+ok 1086 - PrintNocacheTest::testPrintNocacheCachingYes1
+ok 1087 - PrintNocacheTest::testPrintNocacheCachingYes2
+ok 1088 - ArrayTest::testSimpleArrayDefinition
+ok 1089 - ArrayTest::testSmarty2ArrayAccess
+ok 1090 - ArrayTest::testSmarty3ArrayAccess
+ok 1091 - ArrayTest::testIndexedArrayDefinition
+ok 1092 - ArrayTest::testNestedArray
+ok 1093 - ArrayTest::testArrayMath1
+ok 1094 - ArrayTest::testArrayMath2
+ok 1095 - ArrayTest::testArrayMath3
+ok 1096 - ArrayTest::testArrayMath4
+ok 1097 - ArrayTest::testArrayMath5
+ok 1098 - ArrayTest::testArrayMath6
+ok 1099 - ArrayTest::testArrayVariableIndex1
+ok 1100 - ArrayTest::testArrayVariableIndex2
+ok 1101 - ArrayTest::testArrayVariableIndex3
+ok 1102 - ArrayTest::testArrayVariableIndex4
+ok 1103 - ConstantsTest::testConstants
+ok 1104 - ConstantsTest::testConstants2
+ok 1105 - ConstantsTest::testConstants3
+ok 1106 - ConstantsTest::testConstants4
+ok 1107 - ConstantsTest::testConstants5
+ok 1108 - ConstantsTest::testConstants6
+ok 1109 - ConstantsTest::testConstants7
+ok 1110 - DoubleQuotedStringTest::testSimpleDoubleQuotedString
+ok 1111 - DoubleQuotedStringTest::testTagsInDoubleQuotedString
+ok 1112 - DoubleQuotedStringTest::testVarsInDoubleQuotedString1
+ok 1113 - DoubleQuotedStringTest::testVarsInDoubleQuotedString2
+ok 1114 - DoubleQuotedStringTest::testVarsBacktickInDoubleQuotedString1
+ok 1115 - DoubleQuotedStringTest::testVarsBacktickInDoubleQuotedString2
+ok 1116 - DoubleQuotedStringTest::testVariableVarsBacktickInDoubleQuotedString
+ok 1117 - DoubleQuotedStringTest::testArrayVarsBacktickInDoubleQuotedString1
+ok 1118 - DoubleQuotedStringTest::testArrayVarsBacktickInDoubleQuotedString2
+ok 1119 - DoubleQuotedStringTest::testExpressionBacktickInDoubleQuotedString
+ok 1120 - DoubleQuotedStringTest::testSmartytagInDoubleQuotedString1
+ok 1121 - DoubleQuotedStringTest::testSmartytagInDoubleQuotedString2
+ok 1122 - DoubleQuotedStringTest::testSmartyBlockTagInDoubleQuotedString1
+ok 1123 - DoubleQuotedStringTest::testVarsDelimiterInDoubleQuotedString
+ok 1124 - DoubleQuotedStringTest::testEscapedQuotesInDoubleQuotedString
+ok 1125 - DoubleQuotedStringTest::testSingleQuotesInDoubleQuotedString
+ok 1126 - DoubleQuotedStringTest::testSingleQuoteTagsInDoubleQuotedString
+ok 1127 - DoubleQuotedStringTest::testEmptyDoubleQuotedString
+ok 1128 - MathTest::testSyntax
+ok 1129 - MathTest::testFunction
+ok 1130 - MathTest::testSyntaxSin
+ok 1131 - MathTest::testFunctionSin
+ok 1132 - MathTest::testSyntaxFloat
+ok 1133 - MathTest::testFunctionFloat
+ok 1134 - MathTest::testSyntaxFormat
+ok 1135 - MathTest::testFunctionFormat
+ok 1136 - MathTest::testSyntaxString
+ok 1137 - MathTest::testFunctionString
+ok 1138 - ModifierTest::testPHPFunctionModifier
+ok 1139 - ModifierTest::testPHPFunctionModifier2
+ok 1140 - ModifierTest::testPluginModifier
+ok 1141 - ModifierTest::testPluginModifierVar
+ok 1142 - ModifierTest::testPluginModifierVar2
+ok 1143 - ModifierTest::testPluginModifierVar3
+ok 1144 - ModifierTest::testModifierChaining
+ok 1145 - ModifierTest::testModifierInsideIf
+ok 1146 - ModifierTest::testModifierInsideExpression
+ok 1147 - ModifierTest::testModifierInsideExpression2
+ok 1148 - ModifierTest::testModifierAtPluginResult
+ok 1149 - ModifierTest::testModifierUnqoutedString
+ok 1150 - ModifierTest::testModifierRegisteredFunction
+ok 1151 - ModifierTest::testModifierRegisteredStaticClass
+ok 1152 - ModifierTest::testModifierRegisteredMethodCall
+ok 1153 - ModifierTest::testUnknownModifier
+ok 1154 - ModifierTest::testDefaultModifier
+ok 1155 - ObjectVariableTest::testObjectVariableOutput
+ok 1156 - ObjectVariableTest::testObjectVariableOutputVariableProperty
+ok 1157 - ObjectVariableTest::testObjectVariableOutputMethod
+ok 1158 - ObjectVariableTest::testObjectVariableOutputVariableMethod
+ok 1159 - ObjectVariableTest::testObjectVariableOutputDoubleQuotes
+ok 1160 - ObjectVariableTest::testObjectVariableOutputDoubleQuotesInclude
+ok 1161 - SingleQuotedStringTest::testSimpleSingleQuotedString
+ok 1162 - SingleQuotedStringTest::testTagsInSingleQuotedString
+ok 1163 - SingleQuotedStringTest::testVarsInSingleQuotedString
+ok 1164 - SingleQuotedStringTest::testDoubleQuotesInSingleQuotedString
+ok 1165 - SingleQuotedStringTest::testEscapedSingleQuotesInSingleQuotedString
+ok 1166 - SingleQuotedStringTest::testEmptySingleQuotedString
+ok 1167 - StreamVariableTest::testStreamVariable1
+ok 1168 - VariableScopeTest::testVariableScope1
+ok 1169 - VariableScopeTest::testVariableScope12
+ok 1170 - VariableScopeTest::testVariableScope13
+ok 1171 - VariableScopeTest::testVariableScope2
+ok 1172 - VariableScopeTest::testVariableScope22
+ok 1173 - VariableScopeTest::testVariableScope23
+ok 1174 - VariableScopeTest::testVariableScope3
+ok 1175 - VariableScopeTest::testVariableScope32
+ok 1176 - VariableScopeTest::testVariableScope4
+ok 1177 - VariableScopeTest::testVariableScope42
+ok 1178 - VariableScopeTest::testVariableScope5
+ok 1179 - VariableScopeTest::testVariableScope52
+ok 1180 - VariableScopeTest::testVariableScope6
+ok 1181 - VariableScopeTest::testVariableScope62
+ok 1182 - VariableScopeTest::testDataArray
+ok 1183 - VariableScopeTest::testDataArray2
+ok 1184 - VariableScopeTest::testAssigns
+ok 1185 - VariableVariableTest::testVariableVariable1
+ok 1186 - VariableVariableTest::testVariableVariable2
+ok 1187 - VariableVariableTest::testVariableVariable3
+ok 1188 - VariableVariableTest::testVariableVariable4
+ok 1189 - XmlTest::testXml
+ok 1190 - XmlTest::testXmlPhpQuote
+ok 1191 - XmlTest::testXmlPhpAllow
+ok 1192 - XmlTest::testXmlCaching
+ok 1193 - XmlTest::testXmlCachingPhpQuote
+ok 1194 - XmlTest::testXmlCachingPhpAllow
+1..1194

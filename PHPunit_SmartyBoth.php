@@ -13,6 +13,18 @@ class PHPUnit_SmartyBoth extends PHPUnit_Smarty
 {
     public function setUp($dir = null)
     {
+        if (!is_dir($dir . '/templates_c')) {
+            mkdir($dir . '/templates_c');
+        }
+        if (!is_dir($dir . '/templates')) {
+            mkdir($dir . '/templates');
+        }
+        if (!is_dir($dir . '/cache')) {
+            mkdir($dir . '/cache');
+        }
+        if (!is_dir($dir . '/config')) {
+            mkdir($dir . '/config');
+        }
         chdir($dir);
         $this->smarty = new Smarty;
         $this->smartyBC = new SmartyBC;

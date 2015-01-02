@@ -5,6 +5,7 @@
  * @package PHPunit
  * @author  Uwe Tews
  */
+include_once 'UnitTests/CacheResourceTests/CacheResourceTestCommon.php';
 
 
 /**
@@ -16,7 +17,7 @@ class CacheResourceCustomRegisteredTest extends CacheResourceTestCommon
     {
         parent::setUp(__DIR__);
         $this->smarty->addPluginsDir(SMARTY_DIR . '../demo/plugins/');
-        $this->smarty->addPluginsDir('./PHPunitplaugins');
+        $this->smarty->addPluginsDir('./PHPunitplugins');
         if (!class_exists('Smarty_CacheResource_Mysqltest', false)) {
             require_once(dirname(__FILE__) . "/PHPunitplugins/cacheresource.mysqltest.php");
         }

@@ -43,7 +43,8 @@ class DefaultTemplateHandlerTest extends PHPUnit_Smarty
             $this->smarty->registerDefaultTemplateHandler('foo');
         }
         catch (Exception $e) {
-            $this->assertContains("Default template handler not callable", $e->getMessage());
+            $this->assertContains("Default template handler", $e->getMessage());
+            $this->assertContains("not callable", $e->getMessage());
 
             return;
         }

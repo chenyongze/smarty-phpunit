@@ -73,7 +73,7 @@ class CompileErrorTest extends PHPUnit_Smarty
             $this->smarty->fetch('eval:{assign var=}');
         }
         catch (Exception $e) {
-            $this->assertContains('Syntax Error in template "599a9cf0e3623a3206bd02a0f5c151d5f5f3f69e"', $e->getMessage());
+            $this->assertContains('Syntax error in template "599a9cf0e3623a3206bd02a0f5c151d5f5f3f69e"', $e->getMessage());
             $this->assertContains('Unexpected "}"', $e->getMessage());
 
             return;

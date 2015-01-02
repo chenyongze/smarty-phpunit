@@ -6,7 +6,7 @@
  * @author  Uwe Tews
  */
 
-include_once 'CacheResourceTestCommon.php';
+include_once 'UnitTests/CacheResourceTests/CacheResourceTestCommon.php';
 
 /**
  * class for cache resource file tests
@@ -18,6 +18,6 @@ class CacheResourceCustomMysqlTest extends CacheResourceTestCommon
         parent::setUp(__DIR__);
         $this->smarty->setCachingType('mysqltest');
         $this->smarty->addPluginsDir(SMARTY_DIR . '../demo/plugins/');
-        $this->smarty->addPluginsDir('./PHPunitplaugins');
+        $this->smarty->addPluginsDir('./PHPunitplugins');
     }
 }
