@@ -219,4 +219,5 @@ pip-log.txt
 #Smarty
 *.tpl.php
 *.tpl.cache.php
+*.conf.php
 .coverage/
