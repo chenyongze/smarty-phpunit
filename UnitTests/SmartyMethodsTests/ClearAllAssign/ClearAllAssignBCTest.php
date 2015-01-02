@@ -1,0 +1,34 @@
+<?php
+/**
+ * Smarty PHPunit tests clearing all assigned variables
+ *
+ * @package PHPunit
+ * @author  Uwe Tews
+ */
+
+/**
+ * class for clearing all assigned variables tests
+ */
+class ClearAllAssignBCTest extends PHPUnit_SmartyBC
+{
+    protected $_dataBC = null;
+    protected $_tplBC = null;
+
+    public function setUp($dir = null)
+    {
+        parent::setUp(__DIR__);
+
+        $this->smartyBC->assign('foo', 'foo');
+        $this->_dataBC = new Smarty_Data($this->smartyBC);
+        $this->_dataBC->assign('bar', 'bar');
+        $this->_tplBC = $this->smartyBC->createTemplate('eval:{$foo}{$bar}{$blar}', null, null, $this->_dataBC);
+        $this->_tplBC->assign('blar', 'blar');
+    }
+
+    public function testSmarty2ClearAllAssignInSmarty()
+    {
+        error_reporting((error_reporting() & ~(E_NOTICE | E_USER_NOTICE)));
+        $this->smartyBC->clear_all_assign();
+        $this->assertEquals('barblar', $this->smartyBC->fetch($this->_tplBC));
+    }
+}

@@ -1,0 +1,1468 @@
+TAP version 13
+ok 1 - # SKIP
+ok 2 - # SKIP
+ok 3 - # SKIP
+ok 4 - # SKIP
+ok 5 - # SKIP
+ok 6 - # SKIP
+ok 7 - # SKIP
+ok 8 - # SKIP
+ok 9 - # SKIP
+ok 10 - # SKIP
+ok 11 - # SKIP
+ok 12 - # SKIP
+ok 13 - # SKIP
+ok 14 - # SKIP
+ok 15 - # SKIP
+ok 16 - # SKIP
+ok 17 - # SKIP
+ok 18 - CacheResourceCustomMemcacheTest::testGetCachedFilepathSubDirs
+ok 19 - CacheResourceCustomMemcacheTest::testGetCachedFilepathCacheId
+ok 20 - CacheResourceCustomMemcacheTest::testGetCachedFilepathCompileId
+ok 21 - CacheResourceCustomMemcacheTest::testGetCachedFilepathCacheIdCompileId
+ok 22 - CacheResourceCustomMemcacheTest::testClearCacheAllCacheIdCompileId
+ok 23 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId
+ok 24 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId2
+ok 25 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId2Sub
+ok 26 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId3
+ok 27 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId3Sub
+ok 28 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId4
+ok 29 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId4Sub
+ok 30 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId5
+ok 31 - CacheResourceCustomMemcacheTest::testClearCacheCacheIdCompileId5Sub
+ok 32 - CacheResourceCustomMemcacheTest::testClearCacheCacheFile
+ok 33 - CacheResourceCustomMemcacheTest::testClearCacheCacheFileSub
+ok 34 - CacheResourceCustomMemcacheTest::testFinalCleanup2
+ok 35 - CacheResourceCustomMysqlTest::testGetCachedFilepathSubDirs
+ok 36 - CacheResourceCustomMysqlTest::testGetCachedFilepathCacheId
+ok 37 - CacheResourceCustomMysqlTest::testGetCachedFilepathCompileId
+ok 38 - CacheResourceCustomMysqlTest::testGetCachedFilepathCacheIdCompileId
+ok 39 - CacheResourceCustomMysqlTest::testClearCacheAllCacheIdCompileId
+ok 40 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId
+ok 41 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId2
+ok 42 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId2Sub
+ok 43 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId3
+ok 44 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId3Sub
+ok 45 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId4
+ok 46 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId4Sub
+ok 47 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId5
+ok 48 - CacheResourceCustomMysqlTest::testClearCacheCacheIdCompileId5Sub
+ok 49 - CacheResourceCustomMysqlTest::testClearCacheCacheFile
+ok 50 - CacheResourceCustomMysqlTest::testClearCacheCacheFileSub
+ok 51 - CacheResourceCustomMysqlTest::testFinalCleanup2
+ok 52 - CacheResourceCustomPDOGzipTest::testGetCachedFilepathSubDirs
+ok 53 - CacheResourceCustomPDOGzipTest::testGetCachedFilepathCacheId
+ok 54 - CacheResourceCustomPDOGzipTest::testGetCachedFilepathCompileId
+ok 55 - CacheResourceCustomPDOGzipTest::testGetCachedFilepathCacheIdCompileId
+ok 56 - CacheResourceCustomPDOGzipTest::testClearCacheAllCacheIdCompileId
+ok 57 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId
+ok 58 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId2
+ok 59 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId2Sub
+ok 60 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId3
+ok 61 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId3Sub
+ok 62 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId4
+ok 63 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId4Sub
+ok 64 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId5
+ok 65 - CacheResourceCustomPDOGzipTest::testClearCacheCacheIdCompileId5Sub
+ok 66 - CacheResourceCustomPDOGzipTest::testClearCacheCacheFile
+ok 67 - CacheResourceCustomPDOGzipTest::testClearCacheCacheFileSub
+ok 68 - CacheResourceCustomPDOGzipTest::testFinalCleanup2
+ok 69 - CacheResourceCustomPDOTest::testGetCachedFilepathSubDirs
+ok 70 - CacheResourceCustomPDOTest::testGetCachedFilepathCacheId
+ok 71 - CacheResourceCustomPDOTest::testGetCachedFilepathCompileId
+ok 72 - CacheResourceCustomPDOTest::testGetCachedFilepathCacheIdCompileId
+ok 73 - CacheResourceCustomPDOTest::testClearCacheAllCacheIdCompileId
+ok 74 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId
+ok 75 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId2
+ok 76 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId2Sub
+ok 77 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId3
+ok 78 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId3Sub
+ok 79 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId4
+ok 80 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId4Sub
+ok 81 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId5
+ok 82 - CacheResourceCustomPDOTest::testClearCacheCacheIdCompileId5Sub
+ok 83 - CacheResourceCustomPDOTest::testClearCacheCacheFile
+ok 84 - CacheResourceCustomPDOTest::testClearCacheCacheFileSub
+ok 85 - CacheResourceCustomPDOTest::testFinalCleanup2
+ok 86 - CacheResourceCustomRegisteredTest::testGetCachedFilepathSubDirs
+ok 87 - CacheResourceCustomRegisteredTest::testGetCachedFilepathCacheId
+ok 88 - CacheResourceCustomRegisteredTest::testGetCachedFilepathCompileId
+ok 89 - CacheResourceCustomRegisteredTest::testGetCachedFilepathCacheIdCompileId
+ok 90 - CacheResourceCustomRegisteredTest::testClearCacheAllCacheIdCompileId
+ok 91 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId
+ok 92 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId2
+ok 93 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId2Sub
+ok 94 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId3
+ok 95 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId3Sub
+ok 96 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId4
+ok 97 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId4Sub
+ok 98 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId5
+ok 99 - CacheResourceCustomRegisteredTest::testClearCacheCacheIdCompileId5Sub
+ok 100 - CacheResourceCustomRegisteredTest::testClearCacheCacheFile
+ok 101 - CacheResourceCustomRegisteredTest::testClearCacheCacheFileSub
+ok 102 - CacheResourceCustomRegisteredTest::testFinalCleanup2
+not ok 103 - Failure: CacheResourceFileTest::testGetCachedFilepathSubDirs
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: ./cache/ef/c6/01/efc6014d06e2f5b5b2a0fed465f85ad9eefd71d6.helloworld.tpl.php
+      expected: ./cache/ab/32/a6/ab32a66c7ebf631108b700b8933d55a65bde4c4e.helloworld.tpl.php
+  ...
+not ok 104 - Failure: CacheResourceFileTest::testGetCachedFilepathCacheId
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: ./cache/foo/bar/ef/c6/01/efc6014d06e2f5b5b2a0fed465f85ad9eefd71d6.helloworld.tpl.php
+      expected: ./cache/foo/bar/ab/32/a6/ab32a66c7ebf631108b700b8933d55a65bde4c4e.helloworld.tpl.php
+  ...
+not ok 105 - Failure: CacheResourceFileTest::testGetCachedFilepathCompileId
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: ./cache/blar/ef/c6/01/efc6014d06e2f5b5b2a0fed465f85ad9eefd71d6.helloworld.tpl.php
+      expected: ./cache/blar/ab/32/a6/ab32a66c7ebf631108b700b8933d55a65bde4c4e.helloworld.tpl.php
+  ...
+not ok 106 - Failure: CacheResourceFileTest::testGetCachedFilepathCacheIdCompileId
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: ./cache/foo/bar/blar/ef/c6/01/efc6014d06e2f5b5b2a0fed465f85ad9eefd71d6.helloworld.tpl.php
+      expected: ./cache/foo/bar/blar/ab/32/a6/ab32a66c7ebf631108b700b8933d55a65bde4c4e.helloworld.tpl.php
+  ...
+ok 107 - CacheResourceFileTest::testClearCacheAllCacheIdCompileId
+ok 108 - CacheResourceFileTest::testClearCacheCacheIdCompileId
+ok 109 - CacheResourceFileTest::testClearCacheCacheIdCompileId2
+ok 110 - CacheResourceFileTest::testClearCacheCacheIdCompileId2Sub
+ok 111 - CacheResourceFileTest::testClearCacheCacheIdCompileId3
+ok 112 - CacheResourceFileTest::testClearCacheCacheIdCompileId3Sub
+ok 113 - CacheResourceFileTest::testClearCacheCacheIdCompileId4
+ok 114 - CacheResourceFileTest::testClearCacheCacheIdCompileId4Sub
+ok 115 - CacheResourceFileTest::testClearCacheCacheIdCompileId5
+ok 116 - CacheResourceFileTest::testClearCacheCacheIdCompileId5Sub
+ok 117 - CacheResourceFileTest::testClearCacheCacheFile
+ok 118 - CacheResourceFileTest::testClearCacheCacheFileSub
+ok 119 - CacheResourceFileTest::testClearCacheAll
+ok 120 - CacheResourceFileTest::testClearCacheAllNotExpired
+ok 121 - CacheResourceFileTest::testClearCacheAllExpired
+ok 122 - CacheResourceFileTest::testFinalCleanup2
+ok 123 - HttpModifiedSinceTest::testDisabled
+ok 124 - HttpModifiedSinceTest::testEnabledUncached
+ok 125 - HttpModifiedSinceTest::testEnabledCached
+ok 126 - CompileCompilerPluginTest::testCompilerPluginFromTemplateFile
+ok 127 - CompileCompilerPluginTest::testCompilerPluginFromCompiledTemplateFile
+ok 128 - DelimiterTest::testDelimiter1
+ok 129 - DelimiterTest::testDelimiter2
+ok 130 - DelimiterTest::testDelimiter3
+ok 131 - DelimiterTest::testDelimiter4
+ok 132 - DelimiterTest::testDelimiter5
+ok 133 - ConfigVarTest::testConfigNumber
+ok 134 - ConfigVarTest::testConfigText
+ok 135 - ConfigVarTest::testConfigLine
+ok 136 - ConfigVarTest::testConfigVariableGlobalSections
+ok 137 - ConfigVarTest::testConfigVariableSection2
+ok 138 - ConfigVarTest::testConfigVariableSectionSpecialChar
+ok 139 - ConfigVarTest::testConfigVariableSectionFooBar
+ok 140 - ConfigVarTest::testConfigVariableScope
+ok 141 - ConfigVarTest::testConfigVariableSection2Template
+ok 142 - ConfigVarTest::testConfigVariableSection2TemplateShorttags
+ok 143 - ConfigVarTest::testConfigVariableLocal
+ok 144 - ConfigVarTest::testConfigVariableParent
+ok 145 - ConfigVarTest::testConfigVariableGlobal
+ok 146 - ConfigVarTest::testConfigVariableHidden
+ok 147 - ConfigVarTest::testConfigVariableHiddenDisable
+ok 148 - ConfigVarTest::testConfigVariableAllSectionsTemplate
+ok 149 - ConfigVarTest::testConfigVariableOverwrite
+ok 150 - ConfigVarTest::testConfigVariableOverwrite2
+ok 151 - ConfigVarTest::testConfigVariableOverwriteFalse
+ok 152 - ConfigVarTest::testConfigVariableArray1
+ok 153 - ConfigVarTest::testConfigVariableArray2
+ok 154 - ConfigVarTest::testConfigVariableBooleanizeOn
+ok 155 - ConfigVarTest::testConfigVariableBooleanizeOff
+ok 156 - ConfigVarTest::testConfigSyntaxError
+ok 157 - ConfigVarTest::testConfigGetSingleConfigVar
+ok 158 - ConfigVarTest::testConfigGetAllConfigVars
+ok 159 - ConfigVarTest::testConfigClearSingleConfigVar
+ok 160 - ConfigVarTest::testConfigClearConfigAll
+ok 161 - ConfigVarTest::testConfigTextData
+ok 162 - ConfigVarTest::testConfigGetSingleConfigVarData
+ok 163 - ConfigVarTest::testConfigGetAllConfigVarsData
+ok 164 - ConfigVarTest::testConfigClearSingleConfigVarData
+ok 165 - ConfigVarTest::testConfigClearConfigAllData
+ok 166 - ConfigVarTest::testConfigTextTemplate
+ok 167 - ConfigVarTest::testConfigGetSingleConfigVarTemplate
+ok 168 - ConfigVarTest::testConfigGetAllConfigVarsTemplate
+ok 169 - ConfigVarTest::testConfigClearSingleConfigVarTemplate
+ok 170 - ConfigVarTest::testConfigClearConfigAllTemplate
+ok 171 - ConfigVarTest::testConfigAbsolutePath
+ok 172 - DefaultConfigHandlerTest::testUnknownConfig
+not ok 173 - Failure: DefaultConfigHandlerTest::testRegisterNoneExistentHandlerFunction
+  ---
+  message: 'Failed asserting that ''Default config handler not callable'' contains "Default config handler ''foo'' not callable".'
+  severity: fail
+  ...
+ok 174 - DefaultConfigHandlerTest::testDefaultConfigHandlerReplacement
+ok 175 - DefaultConfigHandlerTest::testDefaultConfigHandlerReplacementByConfigFile
+ok 176 - DefaultConfigHandlerTest::testDefaultConfigHandlerReturningFalse
+not ok 177 - Error: DefaultConfigHandlerTest::testConfigResourceDb4
+ok 178 - OutputFilterTrimWhitespaceTest::testWhitespace
+ok 179 - PluginBlockTextformatTest::testDefault
+ok 180 - PluginBlockTextformatTest::testDefaultWithoutMbstring
+ok 181 - PluginBlockTextformatTest::testIndent
+ok 182 - PluginBlockTextformatTest::testIndentWithoutMbstring
+ok 183 - PluginBlockTextformatTest::testIndentFirst
+ok 184 - PluginBlockTextformatTest::testIndentFirstWithoutMbstring
+ok 185 - PluginBlockTextformatTest::testIndentchar
+ok 186 - PluginBlockTextformatTest::testIndentcharWithoutMbstring
+ok 187 - PluginBlockTextformatTest::testIndentcharFirst
+ok 188 - PluginBlockTextformatTest::testIndentcharFirstWithoutMbstring
+ok 189 - PluginBlockTextformatTest::testWrapchar
+ok 190 - PluginBlockTextformatTest::testWrapcharWithoutMbstring
+ok 191 - PluginBlockTextformatTest::testStyleEmail
+ok 192 - PluginBlockTextformatTest::testStyleEmailWithoutMbstring
+ok 193 - PluginChainedLoadTest::testPluginChainedLoad
+ok 194 - PluginFunctionFetchTest::testTodo
+ok 195 - PluginFunctionHtmlCheckboxesTest::testAssociativeArray
+ok 196 - PluginFunctionHtmlCheckboxesTest::testSeparateArrays
+ok 197 - PluginFunctionHtmlCheckboxesTest::testIterator
+ok 198 - PluginFunctionHtmlCheckboxesTest::testNoLabels
+ok 199 - PluginFunctionHtmlCheckboxesTest::testWithId
+ok 200 - PluginFunctionHtmlCheckboxesTest::testNullString
+ok 201 - PluginFunctionHtmlCheckboxesTest::testNullValue
+ok 202 - PluginFunctionHtmlCheckboxesTest::testZeroValue
+ok 203 - PluginFunctionHtmlCheckboxesTest::testZeroStringValue
+ok 204 - PluginFunctionHtmlCheckboxesTest::testEmptyStringValue
+ok 205 - PluginFunctionHtmlCheckboxesTest::testObject
+ok 206 - PluginFunctionHtmlCheckboxesTest::testObjectList
+ok 207 - PluginFunctionHtmlCheckboxesTest::testObjectNoString
+ok 208 - PluginFunctionHtmlCheckboxesTest::testObjectListNoString
+ok 209 - PluginFunctionHtmlCheckboxesTest::testDisabled
+ok 210 - PluginFunctionHtmlCheckboxesTest::testDisabledStrict
+ok 211 - PluginFunctionHtmlImageTest::testFoo
+ok 212 - PluginFunctionHtmlOptionsTest::testAssociativeArray
+ok 213 - PluginFunctionHtmlOptionsTest::testSeparateArrays
+ok 214 - PluginFunctionHtmlOptionsTest::testIterator
+ok 215 - PluginFunctionHtmlOptionsTest::testOptgroup
+ok 216 - PluginFunctionHtmlOptionsTest::testNullString
+ok 217 - PluginFunctionHtmlOptionsTest::testNullValue
+ok 218 - PluginFunctionHtmlOptionsTest::testZeroValue
+ok 219 - PluginFunctionHtmlOptionsTest::testZeroStringValue
+ok 220 - PluginFunctionHtmlOptionsTest::testEmptyStringValue
+ok 221 - PluginFunctionHtmlOptionsTest::testEmptyStringValues
+ok 222 - PluginFunctionHtmlOptionsTest::testObject
+ok 223 - PluginFunctionHtmlOptionsTest::testObjectList
+ok 224 - PluginFunctionHtmlOptionsTest::testObjectNoString
+ok 225 - PluginFunctionHtmlOptionsTest::testObjectListNoString
+ok 226 - PluginFunctionHtmlOptionsTest::testDisabled
+ok 227 - PluginFunctionHtmlOptionsTest::testDisabledStrict
+ok 228 - PluginFunctionHtmlRadiosTest::testAssociativeArray
+ok 229 - PluginFunctionHtmlRadiosTest::testSeparateArrays
+ok 230 - PluginFunctionHtmlRadiosTest::testIterator
+ok 231 - PluginFunctionHtmlRadiosTest::testNoLabels
+ok 232 - PluginFunctionHtmlRadiosTest::testWithId
+ok 233 - PluginFunctionHtmlRadiosTest::testNullString
+ok 234 - PluginFunctionHtmlRadiosTest::testNullValue
+ok 235 - PluginFunctionHtmlRadiosTest::testZeroValue
+ok 236 - PluginFunctionHtmlRadiosTest::testZeroStringValue
+ok 237 - PluginFunctionHtmlRadiosTest::testEmptyStringValue
+ok 238 - PluginFunctionHtmlRadiosTest::testObject
+ok 239 - PluginFunctionHtmlRadiosTest::testObjectList
+ok 240 - PluginFunctionHtmlRadiosTest::testObjectNoString
+ok 241 - PluginFunctionHtmlRadiosTest::testObjectListNoString
+ok 242 - PluginFunctionHtmlRadiosTest::testDisabled
+ok 243 - PluginFunctionHtmlRadiosTest::testDisabledStrict
+not ok 244 - Failure: PluginFunctionHtmlSelectDateTest::testDefault
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 245 - Failure: PluginFunctionHtmlSelectDateTest::testPrefix
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"foobar_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"foobar_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"foobar_Year\">\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"foobar_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"foobar_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"foobar_Year\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 246 - Failure: PluginFunctionHtmlSelectDateTest::testFieldArray
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"namorized[Date_Month]\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"namorized[Date_Day]\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"namorized[Date_Year]\">\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"namorized[Date_Month]\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"namorized[Date_Day]\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"namorized[Date_Year]\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 247 - Failure: PluginFunctionHtmlSelectDateTest::testExtra
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\" data-foo=\"xy\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\" data-foo=\"xy\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\" data-foo=\"xy\">\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\" data-foo=\"xy\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\" data-foo=\"xy\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\" data-foo=\"xy\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 248 - Failure: PluginFunctionHtmlSelectDateTest::testFieldOrder
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 249 - Failure: PluginFunctionHtmlSelectDateTest::testFieldSeparator
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select> - <select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select> - <select name=\"Date_Year\">\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select> - <select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select> - <select name=\"Date_Year\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 250 - Failure: PluginFunctionHtmlSelectDateTest::testEmpty
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"\"></option>\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"\"></option>\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"\"></option>\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"\"></option>\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"\"></option>\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"\"></option>\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 251 - Failure: PluginFunctionHtmlSelectDateTest::testEmptyUnset
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"\"></option>\n<option value=\"01\">January</option>\n<option value=\"02\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"\"></option>\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"\"></option>\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"\"></option>\n<option value=\"01\">January</option>\n<option value=\"02\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"\"></option>\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"\"></option>\n<option value=\"2014\">2014</option>\n</select>"
+  ...
+not ok 252 - Failure: PluginFunctionHtmlSelectDateTest::testId
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\" id=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\" id=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\" id=\"Date_Year\">\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\" id=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\" id=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\" id=\"Date_Year\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 253 - Failure: PluginFunctionHtmlSelectDateTest::testStartYearAbsolute
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2005\">2005</option>\n<option value=\"2006\">2006</option>\n<option value=\"2007\">2007</option>\n<option value=\"2008\">2008</option>\n<option value=\"2009\">2009</option>\n<option value=\"2010\">2010</option>\n<option value=\"2011\">2011</option>\n<option value=\"2012\">2012</option>\n<option value=\"2013\">2013</option>\n<option value=\"2014\" selected=\"selected\">2014</option>\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2005\">2005</option>\n<option value=\"2006\">2006</option>\n<option value=\"2007\">2007</option>\n<option value=\"2008\">2008</option>\n<option value=\"2009\">2009</option>\n<option value=\"2010\">2010</option>\n<option value=\"2011\">2011</option>\n<option value=\"2012\">2012</option>\n<option value=\"2013\">2013</option>\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 254 - Failure: PluginFunctionHtmlSelectDateTest::testStartYearRelative
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2015\">2015</option>\n<option value=\"2016\">2016</option>\n<option value=\"2017\">2017</option>\n<option value=\"2018\">2018</option>\n<option value=\"2019\">2019</option>\n<option value=\"2020\">2020</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n<option value=\"2015\">2015</option>\n<option value=\"2016\">2016</option>\n<option value=\"2017\">2017</option>\n<option value=\"2018\">2018</option>\n<option value=\"2019\">2019</option>\n</select>"
+  ...
+not ok 255 - Failure: PluginFunctionHtmlSelectDateTest::testStartYearRelativeNegative
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2010\">2010</option>\n<option value=\"2011\">2011</option>\n<option value=\"2012\">2012</option>\n<option value=\"2013\">2013</option>\n<option value=\"2014\" selected=\"selected\">2014</option>\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2009\">2009</option>\n<option value=\"2010\">2010</option>\n<option value=\"2011\">2011</option>\n<option value=\"2012\">2012</option>\n<option value=\"2013\">2013</option>\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 256 - Failure: PluginFunctionHtmlSelectDateTest::testEndYearAbsolute
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2005\">2005</option>\n<option value=\"2006\">2006</option>\n<option value=\"2007\">2007</option>\n<option value=\"2008\">2008</option>\n<option value=\"2009\">2009</option>\n<option value=\"2010\">2010</option>\n<option value=\"2011\">2011</option>\n<option value=\"2012\">2012</option>\n<option value=\"2013\">2013</option>\n<option value=\"2014\" selected=\"selected\">2014</option>\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2005\">2005</option>\n<option value=\"2006\">2006</option>\n<option value=\"2007\">2007</option>\n<option value=\"2008\">2008</option>\n<option value=\"2009\">2009</option>\n<option value=\"2010\">2010</option>\n<option value=\"2011\">2011</option>\n<option value=\"2012\">2012</option>\n<option value=\"2013\">2013</option>\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 257 - Failure: PluginFunctionHtmlSelectDateTest::testEndYearRelative
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2015\">2015</option>\n<option value=\"2016\">2016</option>\n<option value=\"2017\">2017</option>\n<option value=\"2018\">2018</option>\n<option value=\"2019\">2019</option>\n<option value=\"2020\">2020</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n<option value=\"2015\">2015</option>\n<option value=\"2016\">2016</option>\n<option value=\"2017\">2017</option>\n<option value=\"2018\">2018</option>\n<option value=\"2019\">2019</option>\n</select>"
+  ...
+not ok 258 - Failure: PluginFunctionHtmlSelectDateTest::testEndYearRelativeNegative
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2010\">2010</option>\n<option value=\"2011\">2011</option>\n<option value=\"2012\">2012</option>\n<option value=\"2013\">2013</option>\n<option value=\"2014\" selected=\"selected\">2014</option>\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2009\">2009</option>\n<option value=\"2010\">2010</option>\n<option value=\"2011\">2011</option>\n<option value=\"2012\">2012</option>\n<option value=\"2013\">2013</option>\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 259 - Failure: PluginFunctionHtmlSelectDateTest::testDisplayDaysMonthYear
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 260 - Failure: PluginFunctionHtmlSelectDateTest::testYearsReversed
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2015\">2015</option>\n<option value=\"2014\" selected=\"selected\">2014</option>\n<option value=\"2013\">2013</option>\n<option value=\"2012\">2012</option>\n<option value=\"2011\">2011</option>\n<option value=\"2010\">2010</option>\n<option value=\"2009\">2009</option>\n<option value=\"2008\">2008</option>\n<option value=\"2007\">2007</option>\n<option value=\"2006\">2006</option>\n<option value=\"2005\">2005</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n<option value=\"2013\">2013</option>\n<option value=\"2012\">2012</option>\n<option value=\"2011\">2011</option>\n<option value=\"2010\">2010</option>\n<option value=\"2009\">2009</option>\n<option value=\"2008\">2008</option>\n<option value=\"2007\">2007</option>\n<option value=\"2006\">2006</option>\n<option value=\"2005\">2005</option>\n</select>"
+  ...
+ok 261 - PluginFunctionHtmlSelectDateTest::testYearText
+not ok 262 - Failure: PluginFunctionHtmlSelectDateTest::testMonthFormat
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"01\">Jan</option>\n<option value=\"02\" selected=\"selected\">Feb</option>\n<option value=\"03\">Mar</option>\n<option value=\"04\">Apr</option>\n<option value=\"05\">May</option>\n<option value=\"06\">Jun</option>\n<option value=\"07\">Jul</option>\n<option value=\"08\">Aug</option>\n<option value=\"09\">Sep</option>\n<option value=\"10\">Oct</option>\n<option value=\"11\">Nov</option>\n<option value=\"12\">Dec</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"01\">Jan</option>\n<option value=\"02\" selected=\"selected\">Feb</option>\n<option value=\"03\">Mar</option>\n<option value=\"04\">Apr</option>\n<option value=\"05\">May</option>\n<option value=\"06\">Jun</option>\n<option value=\"07\">Jul</option>\n<option value=\"08\">Aug</option>\n<option value=\"09\">Sep</option>\n<option value=\"10\">Oct</option>\n<option value=\"11\">Nov</option>\n<option value=\"12\">Dec</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 263 - Failure: PluginFunctionHtmlSelectDateTest::testMonthFormatValue
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"Jan\">January</option>\n<option value=\"Feb\" selected=\"selected\">February</option>\n<option value=\"Mar\">March</option>\n<option value=\"Apr\">April</option>\n<option value=\"May\">May</option>\n<option value=\"Jun\">June</option>\n<option value=\"Jul\">July</option>\n<option value=\"Aug\">August</option>\n<option value=\"Sep\">September</option>\n<option value=\"Oct\">October</option>\n<option value=\"Nov\">November</option>\n<option value=\"Dec\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"Jan\">January</option>\n<option value=\"Feb\" selected=\"selected\">February</option>\n<option value=\"Mar\">March</option>\n<option value=\"Apr\">April</option>\n<option value=\"May\">May</option>\n<option value=\"Jun\">June</option>\n<option value=\"Jul\">July</option>\n<option value=\"Aug\">August</option>\n<option value=\"Sep\">September</option>\n<option value=\"Oct\">October</option>\n<option value=\"Nov\">November</option>\n<option value=\"Dec\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 264 - Failure: PluginFunctionHtmlSelectDateTest::testMonthNames
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"01\">alpha</option>\n<option value=\"02\" selected=\"selected\">bravo</option>\n<option value=\"03\">charlie</option>\n<option value=\"04\">delta</option>\n<option value=\"05\">echo</option>\n<option value=\"06\">foxtrot</option>\n<option value=\"07\">golf</option>\n<option value=\"08\">hotel</option>\n<option value=\"09\">india</option>\n<option value=\"10\">juliet</option>\n<option value=\"11\">kilo</option>\n<option value=\"12\">lima</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"01\">alpha</option>\n<option value=\"02\" selected=\"selected\">bravo</option>\n<option value=\"03\">charlie</option>\n<option value=\"04\">delta</option>\n<option value=\"05\">echo</option>\n<option value=\"06\">foxtrot</option>\n<option value=\"07\">golf</option>\n<option value=\"08\">hotel</option>\n<option value=\"09\">india</option>\n<option value=\"10\">juliet</option>\n<option value=\"11\">kilo</option>\n<option value=\"12\">lima</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 265 - Failure: PluginFunctionHtmlSelectDateTest::testDayFormat
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">001</option>\n<option value=\"2\">002</option>\n<option value=\"3\">003</option>\n<option value=\"4\">004</option>\n<option value=\"5\">005</option>\n<option value=\"6\">006</option>\n<option value=\"7\">007</option>\n<option value=\"8\">008</option>\n<option value=\"9\">009</option>\n<option value=\"10\">010</option>\n<option value=\"11\">011</option>\n<option value=\"12\">012</option>\n<option value=\"13\">013</option>\n<option value=\"14\">014</option>\n<option value=\"15\">015</option>\n<option value=\"16\">016</option>\n<option value=\"17\">017</option>\n<option value=\"18\">018</option>\n<option value=\"19\">019</option>\n<option value=\"20\" selected=\"selected\">020</option>\n<option value=\"21\">021</option>\n<option value=\"22\">022</option>\n<option value=\"23\">023</option>\n<option value=\"24\">024</option>\n<option value=\"25\">025</option>\n<option value=\"26\">026</option>\n<option value=\"27\">027</option>\n<option value=\"28\">028</option>\n<option value=\"29\">029</option>\n<option value=\"30\">030</option>\n<option value=\"31\">031</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"1\">001</option>\n<option value=\"2\">002</option>\n<option value=\"3\">003</option>\n<option value=\"4\">004</option>\n<option value=\"5\">005</option>\n<option value=\"6\">006</option>\n<option value=\"7\">007</option>\n<option value=\"8\">008</option>\n<option value=\"9\">009</option>\n<option value=\"10\">010</option>\n<option value=\"11\">011</option>\n<option value=\"12\">012</option>\n<option value=\"13\">013</option>\n<option value=\"14\">014</option>\n<option value=\"15\">015</option>\n<option value=\"16\">016</option>\n<option value=\"17\">017</option>\n<option value=\"18\">018</option>\n<option value=\"19\">019</option>\n<option value=\"20\" selected=\"selected\">020</option>\n<option value=\"21\">021</option>\n<option value=\"22\">022</option>\n<option value=\"23\">023</option>\n<option value=\"24\">024</option>\n<option value=\"25\">025</option>\n<option value=\"26\">026</option>\n<option value=\"27\">027</option>\n<option value=\"28\">028</option>\n<option value=\"29\">029</option>\n<option value=\"30\">030</option>\n<option value=\"31\">031</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 266 - Failure: PluginFunctionHtmlSelectDateTest::testDayFormatValue
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"001\">01</option>\n<option value=\"002\">02</option>\n<option value=\"003\">03</option>\n<option value=\"004\">04</option>\n<option value=\"005\">05</option>\n<option value=\"006\">06</option>\n<option value=\"007\">07</option>\n<option value=\"008\">08</option>\n<option value=\"009\">09</option>\n<option value=\"010\">10</option>\n<option value=\"011\">11</option>\n<option value=\"012\">12</option>\n<option value=\"013\">13</option>\n<option value=\"014\">14</option>\n<option value=\"015\">15</option>\n<option value=\"016\">16</option>\n<option value=\"017\">17</option>\n<option value=\"018\">18</option>\n<option value=\"019\">19</option>\n<option value=\"020\" selected=\"selected\">20</option>\n<option value=\"021\">21</option>\n<option value=\"022\">22</option>\n<option value=\"023\">23</option>\n<option value=\"024\">24</option>\n<option value=\"025\">25</option>\n<option value=\"026\">26</option>\n<option value=\"027\">27</option>\n<option value=\"028\">28</option>\n<option value=\"029\">29</option>\n<option value=\"030\">30</option>\n<option value=\"031\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"Date_Month\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"Date_Day\">\n<option value=\"001\">01</option>\n<option value=\"002\">02</option>\n<option value=\"003\">03</option>\n<option value=\"004\">04</option>\n<option value=\"005\">05</option>\n<option value=\"006\">06</option>\n<option value=\"007\">07</option>\n<option value=\"008\">08</option>\n<option value=\"009\">09</option>\n<option value=\"010\">10</option>\n<option value=\"011\">11</option>\n<option value=\"012\">12</option>\n<option value=\"013\">13</option>\n<option value=\"014\">14</option>\n<option value=\"015\">15</option>\n<option value=\"016\">16</option>\n<option value=\"017\">17</option>\n<option value=\"018\">18</option>\n<option value=\"019\">19</option>\n<option value=\"020\" selected=\"selected\">20</option>\n<option value=\"021\">21</option>\n<option value=\"022\">22</option>\n<option value=\"023\">23</option>\n<option value=\"024\">24</option>\n<option value=\"025\">25</option>\n<option value=\"026\">26</option>\n<option value=\"027\">27</option>\n<option value=\"028\">28</option>\n<option value=\"029\">29</option>\n<option value=\"030\">30</option>\n<option value=\"031\">31</option>\n</select>\n<select name=\"Date_Year\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+not ok 267 - Failure: PluginFunctionHtmlSelectDateTest::testTimeArray
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "<select name=\"namorized[foobar_Month]\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"namorized[foobar_Day]\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"namorized[foobar_Year]\">\n<option value=\"2015\">2015</option>\n</select>"
+      expected: "<select name=\"namorized[foobar_Month]\">\n<option value=\"01\">January</option>\n<option value=\"02\" selected=\"selected\">February</option>\n<option value=\"03\">March</option>\n<option value=\"04\">April</option>\n<option value=\"05\">May</option>\n<option value=\"06\">June</option>\n<option value=\"07\">July</option>\n<option value=\"08\">August</option>\n<option value=\"09\">September</option>\n<option value=\"10\">October</option>\n<option value=\"11\">November</option>\n<option value=\"12\">December</option>\n</select>\n<select name=\"namorized[foobar_Day]\">\n<option value=\"1\">01</option>\n<option value=\"2\">02</option>\n<option value=\"3\">03</option>\n<option value=\"4\">04</option>\n<option value=\"5\">05</option>\n<option value=\"6\">06</option>\n<option value=\"7\">07</option>\n<option value=\"8\">08</option>\n<option value=\"9\">09</option>\n<option value=\"10\">10</option>\n<option value=\"11\">11</option>\n<option value=\"12\">12</option>\n<option value=\"13\">13</option>\n<option value=\"14\">14</option>\n<option value=\"15\">15</option>\n<option value=\"16\">16</option>\n<option value=\"17\">17</option>\n<option value=\"18\">18</option>\n<option value=\"19\">19</option>\n<option value=\"20\" selected=\"selected\">20</option>\n<option value=\"21\">21</option>\n<option value=\"22\">22</option>\n<option value=\"23\">23</option>\n<option value=\"24\">24</option>\n<option value=\"25\">25</option>\n<option value=\"26\">26</option>\n<option value=\"27\">27</option>\n<option value=\"28\">28</option>\n<option value=\"29\">29</option>\n<option value=\"30\">30</option>\n<option value=\"31\">31</option>\n</select>\n<select name=\"namorized[foobar_Year]\">\n<option value=\"2014\" selected=\"selected\">2014</option>\n</select>"
+  ...
+ok 268 - PluginFunctionHtmlSelectTimeTest::testDefault
+ok 269 - PluginFunctionHtmlSelectTimeTest::testPrefix
+ok 270 - PluginFunctionHtmlSelectTimeTest::testFieldArray
+ok 271 - PluginFunctionHtmlSelectTimeTest::testExtra
+ok 272 - PluginFunctionHtmlSelectTimeTest::testFieldSeparator
+ok 273 - PluginFunctionHtmlSelectTimeTest::testEmpty
+ok 274 - PluginFunctionHtmlSelectTimeTest::testEmptyUnset
+ok 275 - PluginFunctionHtmlSelectTimeTest::testId
+ok 276 - PluginFunctionHtmlSelectTimeTest::testDisplay
+ok 277 - PluginFunctionHtmlSelectTimeTest::testMeridian
+ok 278 - PluginFunctionHtmlSelectTimeTest::testMinuteInterval
+ok 279 - PluginFunctionHtmlSelectTimeTest::testSecondInterval
+ok 280 - PluginFunctionHtmlSelectTimeTest::testFormat
+ok 281 - PluginFunctionHtmlSelectTimeTest::testValueFormat
+ok 282 - PluginFunctionHtmlSelectTimeTest::testTimeArray
+ok 283 - PluginFunctionHtmlSelectTimeTest::testTimeArrayMerdidian
+ok 284 - PluginFunctionMailtoTest::testDefault
+ok 285 - PluginFunctionMailtoTest::testDefaultWithoutMbstring
+ok 286 - PluginFunctionMailtoTest::testText
+ok 287 - PluginFunctionMailtoTest::testTextWithoutMbstring
+ok 288 - PluginFunctionMailtoTest::testEncodeJavascript
+ok 289 - PluginFunctionMailtoTest::testEncodeJavascriptWithoutMbstring
+ok 290 - PluginFunctionMailtoTest::testEncodeJavascriptCharcode
+ok 291 - PluginFunctionMailtoTest::testEncodeJavascriptCharcodeWithoutMbstring
+ok 292 - PluginFunctionMailtoTest::testEncodeHex
+ok 293 - PluginFunctionMailtoTest::testEncodeHexWithoutMbstring
+ok 294 - PluginFunctionMailtoTest::testSubject
+ok 295 - PluginFunctionMailtoTest::testSubjectWithoutMbstring
+ok 296 - PluginFunctionMailtoTest::testCc
+ok 297 - PluginFunctionMailtoTest::testCcWithoutMbstring
+ok 298 - PluginFunctionMailtoTest::testExtra
+ok 299 - PluginFunctionMailtoTest::testExtraWithoutMbstring
+ok 300 - PluginFunctionMailtoTest::testUmlauts
+ok 301 - PluginFunctionMailtoTest::testUmlautsWithoutMbstring
+ok 302 - PluginModifierCapitalizeTest::testDefault
+ok 303 - PluginModifierCapitalizeTest::testDigits
+ok 304 - PluginModifierCapitalizeTest::testTrueCaptials
+ok 305 - PluginModifierCapitalizeTest::testDefaultWithoutMbstring
+ok 306 - PluginModifierCapitalizeTest::testDigitsWithoutMbstring
+ok 307 - PluginModifierCapitalizeTest::testTrueCaptialsWithoutMbstring
+ok 308 - PluginModifierCapitalizeTest::testQuotes
+ok 309 - PluginModifierCapitalizeTest::testQuotesWithoutMbstring
+ok 310 - PluginModifierCapitalizeTest::testQuotesDigits
+ok 311 - PluginModifierCapitalizeTest::testQuotesDigitsWithoutMbstring
+ok 312 - PluginModifierCapitalizeTest::testQuotesTrueCapitals
+ok 313 - PluginModifierCapitalizeTest::testQuotesTrueCapitalsWithoutMbstring
+ok 314 - PluginModifierCapitalizeTest::testQuotesBeginning
+ok 315 - PluginModifierCapitalizeTest::testQuotesBeginningWithoutMbstring
+ok 316 - PluginModifierCharsetTest::testToLatin1
+ok 317 - PluginModifierCharsetTest::testToLatin1WithoutMbstring
+ok 318 - PluginModifierCharsetTest::testFromLatin1
+ok 319 - PluginModifierCharsetTest::testFromLatin1WithoutMbstring
+ok 320 - PluginModifierCharsetTest::testFromUtf32le
+ok 321 - PluginModifierCharsetTest::testFromUtf32leWithoutMbstring
+ok 322 - PluginModifierCharsetTest::testToUtf32le
+ok 323 - PluginModifierCharsetTest::testToUtf32leWithoutMbstring
+ok 324 - PluginModifierCountCharactersTest::testDefault
+ok 325 - PluginModifierCountCharactersTest::testDefaultWithoutMbstring
+ok 326 - PluginModifierCountCharactersTest::testSpaces
+ok 327 - PluginModifierCountCharactersTest::testSpacesWithoutMbstring
+ok 328 - PluginModifierCountCharactersTest::testUmlauts
+ok 329 - PluginModifierCountCharactersTest::testUmlautsWithoutMbstring
+ok 330 - PluginModifierCountCharactersTest::testUmlautsSpaces
+ok 331 - PluginModifierCountCharactersTest::testUmlautsSpacesWithoutMbstring
+ok 332 - PluginModifierCountSentencesTest::testDefault
+ok 333 - PluginModifierCountSentencesTest::testDefaultWithoutMbstring
+ok 334 - PluginModifierCountSentencesTest::testUmlauts
+ok 335 - PluginModifierCountWordsTest::testDefault
+ok 336 - PluginModifierCountWordsTest::testDefaultWithoutMbstring
+ok 337 - PluginModifierCountWordsTest::testDashes
+ok 338 - PluginModifierCountWordsTest::testDashesWithoutMbstring
+ok 339 - PluginModifierCountWordsTest::testUmlauts
+ok 340 - PluginModifierCountWordsTest::testUmlautsWithoutMbstring
+ok 341 - PluginModifierEscapeTest::testHtml
+ok 342 - PluginModifierEscapeTest::testHtmlWithoutMbstring
+ok 343 - PluginModifierEscapeTest::testHtmlDouble
+ok 344 - PluginModifierEscapeTest::testHtmlDoubleWithoutMbstring
+ok 345 - PluginModifierEscapeTest::testHtmlall
+ok 346 - PluginModifierEscapeTest::testHtmlallWithoutMbstring
+ok 347 - PluginModifierEscapeTest::testHtmlallDouble
+ok 348 - PluginModifierEscapeTest::testHtmlallDoubleWithoutMbstring
+ok 349 - PluginModifierEscapeTest::testUrl
+ok 350 - PluginModifierEscapeTest::testUrlWithoutMbstring
+ok 351 - PluginModifierEscapeTest::testUrlpathinfo
+ok 352 - PluginModifierEscapeTest::testUrlpathinfoWithoutMbstring
+ok 353 - PluginModifierEscapeTest::testHex
+ok 354 - PluginModifierEscapeTest::testHexWithoutMbstring
+ok 355 - PluginModifierEscapeTest::testHexentity
+ok 356 - PluginModifierEscapeTest::testHexentityWithoutMbstring
+ok 357 - PluginModifierEscapeTest::testDecentity
+ok 358 - PluginModifierEscapeTest::testDecentityWithoutMbstring
+ok 359 - PluginModifierEscapeTest::testJavascript
+ok 360 - PluginModifierEscapeTest::testJavascriptWithoutMbstring
+ok 361 - PluginModifierEscapeTest::testMail
+ok 362 - PluginModifierEscapeTest::testMailWithoutMbstring
+ok 363 - PluginModifierEscapeTest::testNonstd
+ok 364 - PluginModifierEscapeTest::testNonstdWithoutMbstring
+ok 365 - PluginModifierLowerTest::testDefault
+ok 366 - PluginModifierLowerTest::testDefaultWithoutMbstring
+ok 367 - PluginModifierLowerTest::testUmlauts
+ok 368 - PluginModifierLowerTest::testUmlautsWithoutMbstring
+ok 369 - PluginModifierRegexReplaceTest::testDefault
+ok 370 - PluginModifierRegexReplaceTest::testDefaultWithoutMbstring
+ok 371 - PluginModifierRegexReplaceTest::testUmlauts
+ok 372 - PluginModifierSpacifyTest::testDefault
+ok 373 - PluginModifierSpacifyTest::testCharacter
+ok 374 - PluginModifierStripTest::testDefault
+ok 375 - PluginModifierStripTest::testUnicodeSpaces
+ok 376 - PluginModifierStripTest::testLinebreak
+ok 377 - PluginModifierTruncateTest::testDefault
+ok 378 - PluginModifierTruncateTest::testDefaultWithoutMbstring
+ok 379 - PluginModifierTruncateTest::testLength
+ok 380 - PluginModifierTruncateTest::testLengthWithoutMbstring
+ok 381 - PluginModifierTruncateTest::testEtc
+ok 382 - PluginModifierTruncateTest::testEtcWithoutMbstring
+ok 383 - PluginModifierTruncateTest::testEtc2
+ok 384 - PluginModifierTruncateTest::testEtc2WithoutMbstring
+ok 385 - PluginModifierTruncateTest::testBreak
+ok 386 - PluginModifierTruncateTest::testBreakWithoutMbstring
+ok 387 - PluginModifierTruncateTest::testBreak2
+ok 388 - PluginModifierTruncateTest::testBreak2WithoutMbstring
+ok 389 - PluginModifierTruncateTest::testMiddle
+ok 390 - PluginModifierTruncateTest::testMiddleWithoutMbstring
+ok 391 - PluginModifierUnescapeTest::testHtml
+ok 392 - PluginModifierUnescapeTest::testHtmlWithoutMbstring
+ok 393 - PluginModifierUnescapeTest::testHtmlall
+ok 394 - PluginModifierUnescapeTest::testHtmlallWithoutMbstring
+ok 395 - PluginModifierUnescapeTest::testUrl
+ok 396 - PluginModifierUpperTest::testDefault
+ok 397 - PluginModifierUpperTest::testDefaultWithoutMbstring
+ok 398 - PluginModifierUpperTest::testUmlauts
+ok 399 - PluginModifierUpperTest::testUmlautsWithoutMbstring
+ok 400 - PluginModifierWordwrapTest::testDefault
+ok 401 - PluginModifierWordwrapTest::testDefaultWithoutMbstring
+ok 402 - PluginModifierWordwrapTest::testDefaultUmlauts
+ok 403 - PluginModifierWordwrapTest::testLength
+ok 404 - PluginModifierWordwrapTest::testLengthWithoutMbstring
+ok 405 - PluginModifierWordwrapTest::testBreak
+ok 406 - PluginModifierWordwrapTest::testBreakWithoutMbstring
+ok 407 - PluginModifierWordwrapTest::testLong
+ok 408 - PluginModifierWordwrapTest::testLongWithoutMbstring
+ok 409 - PluginModifierWordwrapTest::testLongUmlauts
+ok 410 - PluginModifierWordwrapTest::testLongCut
+ok 411 - PluginModifierWordwrapTest::testLongCutWithoutMbstring
+ok 412 - PluginModifierWordwrapTest::testLongCutUmlauts
+ok 413 - PluginModifierWordwrapTest::testLinebreaks
+ok 414 - PluginModifierWordwrapTest::testLinebreaksWithoutMbstring
+not ok 415 - Failure: PluginModifierWordwrapTest::testLinebreaks2
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "Blind woman\n            gets\n            new kidney from\ndad she hasn't seen in years."
+      expected: "Blind woman\r\n            gets\r\n            new kidney from\ndad she hasn't seen in years."
+  ...
+not ok 416 - Failure: PluginModifierWordwrapTest::testLinebreaks2WithoutMbstring
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: "Blind woman\n            gets\n            new kidney from\ndad she hasn't seen in years."
+      expected: "Blind woman\r\n            gets\r\n            new kidney from\ndad she hasn't seen in years."
+  ...
+ok 417 - SharedFunctionsTest::testEscapeSpecialChars
+ok 418 - CustomResourceAmbiguousTest::testNone
+ok 419 - CustomResourceAmbiguousTest::testCase1
+ok 420 - CustomResourceAmbiguousTest::testCase2
+ok 421 - CustomResourceAmbiguousTest::testCaseSwitching
+ok 422 - DefaultTemplateHandlerTest::testUnknownTemplate
+ok 423 - DefaultTemplateHandlerTest::testRegisterNoneExistentHandlerFunction
+ok 424 - DefaultTemplateHandlerTest::testDefaultTemplateHandlerReplacementByTemplateFile
+ok 425 - DefaultTemplateHandlerTest::testDefaultTemplateHandlerReturningFalse
+ok 426 - EvalResourceTest::testTemplateEvalExists1
+ok 427 - EvalResourceTest::testTemplateEvalExists2
+ok 428 - EvalResourceTest::testGetTemplateFilepath
+ok 429 - EvalResourceTest::testGetTemplateTimestamp
+ok 430 - EvalResourceTest::testGetTemplateSource
+ok 431 - EvalResourceTest::testUsesCompiler
+ok 432 - EvalResourceTest::testIsEvaluated
+ok 433 - EvalResourceTest::testMustCompile
+ok 434 - EvalResourceTest::testGetCompiledFilepath
+ok 435 - EvalResourceTest::testGetCompiledTimestamp
+ok 436 - EvalResourceTest::testWriteCachedContent
+ok 437 - EvalResourceTest::testIsCached
+ok 438 - EvalResourceTest::testGetRenderedTemplate
+ok 439 - EvalResourceTest::testNoFiles
+ok 440 - EvalResourceTest::testSmartyIsCached
+ok 441 - EvalResourceTest::testUrlencodeTemplate
+ok 442 - EvalResourceTest::testBase64Template
+ok 443 - ExtendsResourceTest::testCompileBlockChildPrepend_003
+ok 444 - ExtendsResourceTest::testCompileBlockChildAppend_004
+not ok 445 - Failure: ExtendsResourceTest::testNocacheBlock_030_1
+  ---
+  message: 'Failed asserting that ''grandchild b6 b6_1*'' contains "parent b1 b1_1*parent b2*grandchild b3 b3_1*include b3 b6_1*grandchild b6 b6_1*".'
+  severity: fail
+  ...
+not ok 446 - Failure: ExtendsResourceTest::testNocacheBlock_030_2
+  ---
+  message: 'Failed asserting that ''grandchild b6 b6_2*'' contains "parent b1 b1_2*parent b2*grandchild b3 b3_2*include b3 b6_2*grandchild b6 b6_2*".'
+  severity: fail
+  ...
+ok 447 - FileResourceTest::testGetTemplateFilepath
+ok 448 - FileResourceTest::testTemplateFileExists1
+ok 449 - FileResourceTest::testTemplateFileExists2
+ok 450 - FileResourceTest::testTemplateFileNotExists1
+ok 451 - FileResourceTest::testTemplateFileNotExists2
+ok 452 - FileResourceTest::testTemplateFileNotExists3
+ok 453 - FileResourceTest::testGetTemplateTimestamp
+ok 454 - FileResourceTest::testGetTemplateSource
+ok 455 - FileResourceTest::testUsesCompiler
+ok 456 - FileResourceTest::testIsEvaluated
+not ok 457 - Failure: FileResourceTest::testGetCompiledFilepath
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: ./templates_c/f0f9d1f1c2bdb992581f53efe011435f36188197_0.file.helloworld.tpl.php
+      expected: ./templates_c/bd9f7c32bb2db3a7dbdf7ea740432887f8c93c80.file.helloworld.tpl.php
+  ...
+ok 458 - FileResourceTest::testGetCompiledTimestampPrepare
+ok 459 - FileResourceTest::testGetCompiledTimestamp
+ok 460 - FileResourceTest::testMustCompileExisting
+ok 461 - FileResourceTest::testMustCompileAtForceCompile
+ok 462 - FileResourceTest::testMustCompileTouchedSource
+ok 463 - FileResourceTest::testCompileTemplateFile
+ok 464 - FileResourceTest::testCompiledTemplateFileExits
+not ok 465 - Failure: FileResourceTest::testGetCachedFilepath
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: ./cache/f0f9d1f1c2bdb992581f53efe011435f36188197.helloworld.tpl.php
+      expected: ./cache/bd9f7c32bb2db3a7dbdf7ea740432887f8c93c80.helloworld.tpl.php
+  ...
+not ok 466 - Failure: FileResourceTest::testGetCachedTimestamp
+  ---
+  message: 'Failed asserting that false is true.'
+  severity: fail
+  ...
+ok 467 - FileResourceTest::testIsCachedPrepare
+ok 468 - FileResourceTest::testIsCached
+ok 469 - FileResourceTest::testForceCache
+ok 470 - FileResourceTest::testIsCachedTouchedSourcePrepare
+ok 471 - FileResourceTest::testIsCachedTouchedSource
+ok 472 - FileResourceTest::testIsCachedCachingDisabled
+ok 473 - FileResourceTest::testIsCachedForceCompile
+ok 474 - FileResourceTest::testWriteCachedContent
+ok 475 - FileResourceTest::testGetRenderedTemplate
+ok 476 - FileResourceTest::testSmartyIsCachedPrepare
+ok 477 - FileResourceTest::testSmartyIsCached
+ok 478 - FileResourceTest::testSmartyIsCachedCachingDisabled
+ok 479 - FileResourceTest::testRelativeInclude
+ok 480 - FileResourceTest::testRelativeIncludeSub
+ok 481 - FileResourceTest::testRelativeIncludeFail
+ok 482 - FileResourceTest::testRelativeIncludeFailOtherDir
+ok 483 - FileResourceTest::testRelativeFetch
+ok 484 - FileResourceTest::testRelativeFetchCwd
+ok 485 - FileResourceTest::testRelativity
+ok 486 - FileResourceTest::testRelativityCwd
+ok 487 - FileResourceTest::testRelativityPrecedence
+ok 488 - FileResourceTest::testRelativityRelRel
+ok 489 - FileResourceTest::testRelativityRelRel1
+ok 490 - IndexedFileResourceTest::testGetTemplateFilepath
+ok 491 - IndexedFileResourceTest::testGetTemplateFilepathNumber
+ok 492 - IndexedFileResourceTest::testGetTemplateFilepathNumeric
+ok 493 - IndexedFileResourceTest::testGetTemplateFilepathName
+ok 494 - IndexedFileResourceTest::testFetch
+ok 495 - IndexedFileResourceTest::testFetchNumber
+ok 496 - IndexedFileResourceTest::testFetchNumeric
+ok 497 - IndexedFileResourceTest::testFetchName
+not ok 498 - Failure: IndexedFileResourceTest::testGetCompiledFilepath
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: ./templates_c/b480c19040446ff73bf99552ed532091997e19be_0.file.dirname.tpl.php
+      expected: ./templates_c/33b75378ec4cc31b390c4989f14454d21f544375.file.dirname.tpl.php
+  ...
+not ok 499 - Failure: IndexedFileResourceTest::testGetCachedFilepath
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: ./cache/b480c19040446ff73bf99552ed532091997e19be.dirname.tpl.php
+      expected: ./cache/33b75378ec4cc31b390c4989f14454d21f544375.dirname.tpl.php
+  ...
+ok 500 - PhpResourceTest::testGetTemplateFilepath
+ok 501 - PhpResourceTest::testGetTemplateTimestamp
+ok 502 - PhpResourceTest::testUsesCompiler
+ok 503 - PhpResourceTest::testIsEvaluated
+ok 504 - PhpResourceTest::testGetCompiledFilepath
+ok 505 - PhpResourceTest::testGetCompiledTimestamp
+ok 506 - PhpResourceTest::testMustCompile
+ok 507 - PhpResourceTest::testGetCachedFilepath
+ok 508 - PhpResourceTest::testCreateCacheFile
+ok 509 - PhpResourceTest::testGetCachedTimestamp
+ok 510 - PhpResourceTest::testIsCached
+ok 511 - PhpResourceTest::testIsCachedCachingDisabled
+ok 512 - PhpResourceTest::testIsCachedTouchedSourcePrepare
+ok 513 - PhpResourceTest::testIsCachedTouchedSource
+ok 514 - PhpResourceTest::testWriteCachedContent
+ok 515 - PhpResourceTest::testGetRenderedTemplate
+ok 516 - PhpResourceTest::testSmartyIsCachedPrepare
+ok 517 - PhpResourceTest::testSmartyIsCached
+ok 518 - PhpResourceTest::testSmartyIsCachedCachingDisabled
+ok 519 - PhpResourceTest::testGetTemplateFilepathName
+ok 520 - PhpResourceTest::testGetCachedFilepathName
+ok 521 - ResourcePluginTest::testResourcePlugin
+ok 522 - ResourcePluginTest::testResourcePluginObject
+ok 523 - ResourcePluginTest::testResourcePluginRegisteredInstance
+ok 524 - ResourcePluginTest::testResourcePluginRecompiled
+ok 525 - ResourcePluginTest::testResourcePluginRecompiledCompiledFilepath
+ok 526 - ResourcePluginTest::testResourcePluginMysql
+ok 527 - ResourcePluginTest::testResourcePluginMysqlTimestamp
+ok 528 - ResourcePluginTest::testResourcePluginMysqlTimestampWithoutFetchTimestamp
+ok 529 - ResourcePluginTest::testResourcePluginMysqlCompiledFilepath
+ok 530 - ResourcePluginTest::testResourcePluginMysqlCompiledFilepathCache
+ok 531 - ResourcePluginTest::testResourcePluginTimestamp
+ok 532 - ResourcePluginTest::testResourcePluginExtendsall
+ok 533 - ResourcePluginTest::testResourcePluginExtendsallOne
+ok 534 - RegisteredResourceTest::testResourcePlugin
+ok 535 - RegisteredResourceTest::testClearCompiledResourcePlugin
+ok 536 - RegisteredResourceTest::testResourcePluginTimestamp
+ok 537 - RegisteredResourceTest::testResourceCompileIdChange
+ok 538 - StreamResourceTest::testGetTemplateFilepath
+ok 539 - StreamResourceTest::testGetTemplateTimestamp
+ok 540 - StreamResourceTest::testGetTemplateSource
+ok 541 - StreamResourceTest::testUsesCompiler
+ok 542 - StreamResourceTest::testIsEvaluated
+ok 543 - StreamResourceTest::testMustCompile
+ok 544 - StreamResourceTest::testGetCompiledFilepath
+ok 545 - StreamResourceTest::testGetCompiledTimestamp
+ok 546 - StreamResourceTest::testTemplateStreamExists1
+ok 547 - StreamResourceTest::testTemplateStreamExists2
+ok 548 - StreamResourceTest::testTemplateStreamNotExists1
+ok 549 - StreamResourceTest::testTemplateStramNotExists2
+ok 550 - StreamResourceTest::testTemplateStramNotExists3
+ok 551 - StreamResourceTest::testWriteCachedContent
+ok 552 - StreamResourceTest::testIsCached
+ok 553 - StreamResourceTest::testGetRenderedTemplate
+ok 554 - StreamResourceTest::testNoFiles
+ok 555 - StreamResourceTest::testSmartyIsCached
+ok 556 - StringResourceTest::testTemplateStringExists1
+ok 557 - StringResourceTest::testTemplateStringExists2
+ok 558 - StringResourceTest::testGetTemplateFilepath
+ok 559 - StringResourceTest::testGetTemplateTimestamp
+ok 560 - StringResourceTest::testGetTemplateSource
+ok 561 - StringResourceTest::testUsesCompiler
+ok 562 - StringResourceTest::testIsEvaluated
+ok 563 - StringResourceTest::testMustCompile
+not ok 564 - Failure: StringResourceTest::testGetCompiledFilepath
+  ---
+  message: 'Failed asserting that two strings are equal.'
+  severity: fail
+  data:
+      got: ./templates_c/2aae6c35c94fcfb415dbe95f408b9ce91ee846ed_0.string.php
+      expected: ./templates_c/2aae6c35c94fcfb415dbe95f408b9ce91ee846ed.string.php
+  ...
+ok 565 - StringResourceTest::testGetCompiledTimestamp
+ok 566 - StringResourceTest::testGetCachedTimestamp
+ok 567 - StringResourceTest::testWriteCachedContent
+ok 568 - StringResourceTest::testIsCached
+ok 569 - StringResourceTest::testGetRenderedTemplate
+ok 570 - StringResourceTest::testSmartyIsCached
+ok 571 - StringResourceTest::testUrlencodeTemplate
+ok 572 - StringResourceTest::testBase64Template
+ok 573 - FunctionTest::testUnknownFunction
+ok 574 - SecurityTest::testSecurityLoaded
+ok 575 - SecurityTest::testTrustedPHPFunction
+ok 576 - SecurityTest::testNotTrustedPHPFunction
+ok 577 - SecurityTest::testDisabledTrustedPHPFunction
+ok 578 - SecurityTest::testTrustedModifier
+ok 579 - SecurityTest::testNotTrustedModifier
+ok 580 - SecurityTest::testDisabledTrustedModifier
+ok 581 - SecurityTest::testAllowedTags1
+ok 582 - SecurityTest::testNotAllowedTags2
+ok 583 - SecurityTest::testDisabledTags
+ok 584 - SecurityTest::testAllowedModifier1
+ok 585 - SecurityTest::testAllowedModifier2
+ok 586 - SecurityTest::testNotAllowedModifier
+ok 587 - SecurityTest::testDisabledModifier
+ok 588 - SecurityTest::testSmartyPhpQuote
+ok 589 - SecurityTest::testSmartyPhpQuoteAsp
+ok 590 - SecurityTest::testSmartyPhpRemove
+ok 591 - SecurityTest::testSmartyPhpRemoveAsp
+ok 592 - SecurityTest::testSmartyPhpAllow
+ok 593 - SecurityTest::testSmartyPhpAllowAsp
+ok 594 - SecurityTest::testStandardDirectory
+ok 595 - SecurityTest::testTrustedDirectory
+ok 596 - SecurityTest::testNotTrustedDirectory
+ok 597 - SecurityTest::testDisabledTrustedDirectory
+ok 598 - SecurityTest::testTrustedStaticClass
+ok 599 - SecurityTest::testNotTrustedStaticClass
+ok 600 - SecurityTest::testChangedTrustedDirectory
+ok 601 - SecurityTest::testTrustedUri
+ok 602 - AutoEscapeTest::testAutoEscape
+ok 603 - FilterTest::testAutoloadOutputFilter
+ok 604 - FilterTest::testAutoloadVariableFilter
+ok 605 - FilterTest::testLoadedOutputFilter
+ok 606 - FilterTest::testLoadedOutputFilterWrapper
+ok 607 - FilterTest::testRegisteredOutputFilter
+ok 608 - FilterTest::testRegisteredOutputFilterWrapper
+ok 609 - FilterTest::testRegisteredPreFilter
+ok 610 - FilterTest::testRegisteredPreFilterClass
+ok 611 - FilterTest::testRegisteredPostFilter
+ok 612 - FilterTest::testLoadedVariableFilter
+ok 613 - FilterTest::testRegisteredVariableFilter2
+ok 614 - LoadFilterTest::testLoadFilter
+ok 615 - RegisterFilterTest::testRegisterPrefilterFunction
+ok 616 - RegisterFilterTest::testRegisterPrefiltermethod
+ok 617 - RegisterFilterTest::testRegisterPrefilterObject
+ok 618 - RegisterFilterTest::testUnegisterPrefilterFunction
+ok 619 - RegisterFilterTest::testUnregisterPrefiltermethod
+ok 620 - RegisterFilterTest::testRegisterPostfilterFunction
+ok 621 - RegisterFilterTest::testRegisterPostfiltermethod
+ok 622 - RegisterFilterTest::testUnegisterPostfilterFunction
+ok 623 - RegisterFilterTest::testUnregisterPostfiltermethod
+ok 624 - RegisterFilterTest::testRegisterOutputfilterFunction
+ok 625 - RegisterFilterTest::testRegisterOutputfiltermethod
+ok 626 - RegisterFilterTest::testUnegisterOutputfilterFunction
+ok 627 - RegisterFilterTest::testUnregisterOutputfiltermethod
+ok 628 - GetterSetterTest::testSmartySetter
+ok 629 - GetterSetterTest::testSmartyGetter
+ok 630 - GetterSetterTest::testTemplateSetter
+ok 631 - GetterSetterTest::testTemplateGetter
+ok 632 - DefaultPluginHandlerTest::testDefaultFunctionScript
+ok 633 - DefaultPluginHandlerTest::testDefaultFunctionScriptNotCachable1
+ok 634 - DefaultPluginHandlerTest::testDefaultFunctionScriptNotCachable2
+ok 635 - DefaultPluginHandlerTest::testDefaultFunctionLocal
+ok 636 - DefaultPluginHandlerTest::testDefaultCompilerFunctionScript
+ok 637 - DefaultPluginHandlerTest::testDefaultBlockScript
+ok 638 - DefaultPluginHandlerTest::testDefaultModifierScript
+ok 639 - DefaultPluginHandlerTest::testDefaultModifier
+ok 640 - DefaultPluginHandlerTest::testDefaultModifierStaticClassMethodCaching1
+ok 641 - DefaultPluginHandlerTest::testDefaultModifierStaticClassMethodCaching2
+ok 642 - LoadPluginTest::testLoadPluginErrorReturn
+ok 643 - LoadPluginTest::testLoadPluginSmartyInternalDebug
+ok 644 - LoadPluginTest::testLoadPluginSmartyTemplateClass
+ok 645 - LoadPluginTest::testLoadPluginSmartyPluginCounter
+ok 646 - MuteExpectedErrorsTest::testMuted
+not ok 647 - Error: MuteExpectedErrorsTest::testUnmuted
+ok 648 - MuteExpectedErrorsTest::testMutedCaching
+ok 649 - MuteExpectedErrorsTest::testUnmutedCaching
+ok 650 - SmartyBcTest::testSmartyPhpTag
+ok 651 - AppendByRefBCTest::testSmarty2AppendByRef
+ok 652 - AppendByRefBCTest::testSmarty2AppendByRefUnassigned
+ok 653 - AppendByRefTest::testAppendByRef
+ok 654 - AppendByRefTest::testAppendByRefUnassigned
+ok 655 - AppendByRefTest::testAppendByRefMerge
+ok 656 - AppendTest::testAppend
+ok 657 - AppendTest::testAppendUnassigned
+ok 658 - AppendTest::testAppendMerge
+ok 659 - AppendTest::testAppendArrayMerge
+ok 660 - AppendTest::testArrayAppend
+ok 661 - AppendTest::testArrayAppendArrayMerge
+ok 662 - AssignByRefBCTest::testSmarty2AssignByRef
+ok 663 - AssignByRefBCTest::testSmarty2AssignByRef2
+ok 664 - AssignByRefTest::testSimpleAssignByRef
+ok 665 - AssignGlobalTest::testAssignGlobalGetGlobal
+ok 666 - AssignGlobalTest::testAssignGlobalGetGlobalArray
+ok 667 - AssignGlobalTest::testAssignGlobalTag
+ok 668 - AssignGlobalTest::testGlobalVarArrayTag
+ok 669 - AssignTest::testSimpleAssign
+ok 670 - AssignTest::testArrayAssign
+ok 671 - ClearAllAssignBCTest::testSmarty2ClearAllAssignInSmarty
+ok 672 - ClearAllAssignTest::testAllVariablesAccessable
+ok 673 - ClearAllAssignTest::testClearAllAssignInTemplate
+ok 674 - ClearAllAssignTest::testClearAllAssignInData
+ok 675 - ClearAllAssignTest::testClearAllAssignInSmarty
+ok 676 - ClearAssignBCTest::testSmarty2ClearAssign
+ok 677 - ClearAssignBCTest::testSmarty2ArrayClearAssign
+ok 678 - ClearAssignTest::testAllVariablesAccessable
+ok 679 - ClearAssignTest::testClearAssign
+ok 680 - ClearAssignTest::testArrayClearAssign
+ok 681 - ClearCompiledTest::testClearAll
+ok 682 - ClearCompiledTest::testSubsClearAll
+ok 683 - ClearCompiledTest::testClearTemplate
+ok 684 - ClearCompiledTest::testSubsClearTemplate
+ok 685 - ClearCompiledTest::testClearOtherTemplate
+ok 686 - ClearCompiledTest::testSubsClearOtherTemplate
+ok 687 - ClearCompiledTest::testClearCompileid
+ok 688 - ClearCompiledTest::testSubsClearCompileid
+ok 689 - ClearCompiledTest::testClearOtherCompileid
+ok 690 - ClearCompiledTest::testSubsClearOtherCompileid
+ok 691 - ClearCompiledTest::testClearExpired
+ok 692 - ClearCompiledTest::testSubsClearExpired
+ok 693 - ClearCompiledTest::testClearTemplateExpired
+ok 694 - ClearCompiledTest::testSubsClearTemplateExpired
+ok 695 - ClearCompiledTest::testClearTemplateCacheidExpired
+ok 696 - ClearCompiledTest::testSubsClearTemplateCacheidExpired
+ok 697 - ClearCompiledTest::testClearCacheidExpired
+ok 698 - ClearCompiledTest::testSubsClearCacheidExpired
+ok 699 - ClearCompiledTest::testClearTemplateCacheid
+ok 700 - ClearCompiledTest::testSubsClearTemplateCacheid
+ok 701 - ClearCompiledTest::testClearAmbiguousTemplate
+ok 702 - ClearCompiledTest::testSubsAmbiguousTemplate
+ok 703 - GetTemplateVarsTest::testGetSingleTemplateVarScopeRoot
+ok 704 - GetTemplateVarsTest::testGetAllTemplateVarsScopeRoot
+ok 705 - GetTemplateVarsTest::testGetSingleTemplateVarScopeAll
+ok 706 - GetTemplateVarsTest::testGetAllTemplateVarsScopeAll
+ok 707 - GetTemplateVarsTest::testGetAllTemplateVarsScopeAllNoParents
+ok 708 - GetTemplateVarsTest::testGetSingleTemplateVarsScopeAllNoParents
+ok 709 - RegisterBlockTest::testRegisterBlockFunction
+ok 710 - RegisterBlockTest::testRegisterBlockFunctionModifier1
+ok 711 - RegisterBlockTest::testRegisterBlockFunctionModifier2
+ok 712 - RegisterBlockTest::testRegisterBlockFunctionWrapper
+ok 713 - RegisterBlockTest::testRegisterBlockClass
+ok 714 - RegisterBlockTest::testRegisterBlockClassWrapper
+ok 715 - RegisterBlockTest::testRegisterBlockObject
+ok 716 - RegisterBlockTest::testRegisterBlockObjectWrapper
+ok 717 - RegisterBlockTest::testRegisterBlockCaching1
+ok 718 - RegisterBlockTest::testRegisterBlockCaching2
+ok 719 - RegisterBlockTest::testRegisterBlockCaching3
+ok 720 - RegisterBlockTest::testRegisterBlockCaching4
+ok 721 - RegisterBlockTest::testRegisterBlockCaching1Wrapper
+ok 722 - RegisterBlockTest::testRegisterBlockCaching2Wrapper
+ok 723 - RegisterBlockTest::testRegisterBlockCaching3Wrapper
+ok 724 - RegisterBlockTest::testRegisterBlockCaching4Wrapper
+ok 725 - RegisterBlockTest::testUnregisterBlock
+ok 726 - RegisterBlockTest::testUnregisterBlockWrapper
+ok 727 - RegisterBlockTest::testUnregisterBlockNotRegistered
+ok 728 - RegisterCompilerFunctionTest::testRegisterCompilerFunction
+ok 729 - RegisterCompilerFunctionTest::testRegisterCompilerFunctionBlock
+ok 730 - RegisterCompilerFunctionTest::testRegisterCompilerFunctionClass
+ok 731 - RegisterCompilerFunctionTest::testRegisterCompilerFunctionObject
+ok 732 - RegisterCompilerFunctionTest::testUnregisterCompilerFunction
+ok 733 - RegisterCompilerFunctionTest::testUnregisterCompilerFunctionNotRegistered
+ok 734 - RegisterCompilerFunctionTest::testUnregisterCompilerFunctionOtherRegistered
+ok 735 - RegisterFunctionTest::testRegisterFunction
+ok 736 - RegisterFunctionTest::testRegisterFunctionWrapper
+ok 737 - RegisterFunctionTest::testRegisterFunctionClass
+ok 738 - RegisterFunctionTest::testRegisterFunctionObject
+ok 739 - RegisterFunctionTest::testRegisterFunctionCaching1
+ok 740 - RegisterFunctionTest::testRegisterFunctionCaching2
+ok 741 - RegisterFunctionTest::testRegisterFunctionCaching3
+ok 742 - RegisterFunctionTest::testRegisterFunctionCaching4
+ok 743 - RegisterFunctionTest::testUnregisterFunction
+ok 744 - RegisterFunctionTest::testUnregisterFunctionNotRegistered
+ok 745 - RegisterFunctionTest::testUnregisterFunctionOtherRegistered
+ok 746 - RegisterModifierTest::testRegisterModifier
+ok 747 - RegisterModifierTest::testRegisterModifierClass
+ok 748 - RegisterModifierTest::testRegisterModifierObject
+ok 749 - RegisterModifierTest::testUnregisterModifier
+ok 750 - RegisterModifierTest::testUnregisterModifierNotRegistered
+ok 751 - RegisterModifierTest::testUnregisterModifierOtherRegistered
+ok 752 - CompileRegisteredObjectFunctionTest::testRegisteredObjectFunction
+ok 753 - CompileRegisteredObjectFunctionTest::testRegisteredObjectFunctionModifier
+ok 754 - CompileRegisteredObjectFunctionTest::testRegisteredObjectBlockFunction
+ok 755 - CompileRegisteredObjectFunctionTest::testRegisteredObjectBlockFunctionModifier1
+ok 756 - CompileRegisteredObjectFunctionTest::testRegisteredObjectBlockFunctionModifier2
+ok 757 - # SKIP
+ok 758 - # SKIP
+ok 759 - TemplateExistsTest::testSmartyTemplateExists
+ok 760 - TemplateExistsTest::testSmartyTemplateNotExists
+ok 761 - CommentsTest::testSimpleComment1
+ok 762 - CommentsTest::testSimpleComment2
+ok 763 - CommentsTest::testSimpleComment3
+ok 764 - CommentsTest::testSimpleComment4
+ok 765 - CommentsTest::testSimpleComment5
+ok 766 - CommentsTest::testTextComment1
+ok 767 - CommentsTest::testTextComment2
+ok 768 - CommentsTest::testTextComment3
+ok 769 - CommentsTest::testTextComment4
+ok 770 - NamespaceTest::testConstant
+ok 771 - NamespaceTest::testFunction
+ok 772 - NamespaceTest::testClassConstant
+ok 773 - NamespaceTest::testClassStatic
+ok 774 - NamespaceTest::testClassFunction
+ok 775 - NamespaceTest::testInstanceof1
+ok 776 - NamespaceTest::testInstanceof2
+ok 777 - NamespaceTest::testInstanceof3
+ok 778 - SpacingTest::testVariableSpacing1
+ok 779 - SpacingTest::testVariableSpacing2
+ok 780 - SpacingTest::testVariableSpacing3
+ok 781 - SpacingTest::testVariableText1
+ok 782 - SpacingTest::testVariableText2
+ok 783 - SpacingTest::testVariableText3
+ok 784 - SpacingTest::testVariableText4
+ok 785 - SpacingTest::testVariableText5
+ok 786 - SpacingTest::testTagText1
+ok 787 - SpacingTest::testTagText2
+ok 788 - SpacingTest::testTagText3
+ok 789 - SpacingTest::testTagText4
+ok 790 - StaticClassAccessTest::testStaticClassVariable
+ok 791 - StaticClassAccessTest::testStaticRegisteredClassVariable
+ok 792 - StaticClassAccessTest::testStaticClassConstant
+ok 793 - StaticClassAccessTest::testRegisteredStaticClassConstant
+ok 794 - StaticClassAccessTest::testStaticClassmethod
+ok 795 - StaticClassAccessTest::testRegisteredStaticClassmethod
+ok 796 - StaticClassAccessTest::testStaticClassVariablemethod
+ok 797 - StaticClassAccessTest::testRegisteredStaticClassVariablemethod
+ok 798 - StaticClassAccessTest::testStaticClassVariablemethod2
+ok 799 - StaticClassAccessTest::testRegisteredStaticClassVariablemethod2
+ok 800 - CompileAppendTest::testAppend1
+ok 801 - CompileAppendTest::testAppend2
+ok 802 - CompileAssignTest::testAssignOld1
+ok 803 - CompileAssignTest::testAssignOld2
+ok 804 - CompileAssignTest::testAssignOld3
+ok 805 - CompileAssignTest::testAssignOld4
+ok 806 - CompileAssignTest::testAssignOld5
+ok 807 - CompileAssignTest::testAssignOld6
+ok 808 - CompileAssignTest::testAssignOld7
+ok 809 - CompileAssignTest::testAssignOld8
+ok 810 - CompileAssignTest::testAssignOld9
+ok 811 - CompileAssignTest::testAssignShort1
+ok 812 - CompileAssignTest::testAssignShort2
+ok 813 - CompileAssignTest::testAssignNew1
+ok 814 - CompileAssignTest::testAssignNew2
+ok 815 - CompileAssignTest::testAssignNew3
+ok 816 - CompileAssignTest::testAssignNew4
+ok 817 - CompileAssignTest::testAssignNew5
+ok 818 - CompileAssignTest::testAssignNew6
+ok 819 - CompileAssignTest::testAssignNew7
+ok 820 - CompileAssignTest::testAssignArrayAppend
+ok 821 - CompileAssignTest::testAssignArrayAppend2
+ok 822 - CompileAssignTest::testAssignArrayAppend3
+ok 823 - CompileAssignTest::testAssignNestedArray
+ok 824 - CompileBlockPluginTest::testBlockPluginNoAssign
+ok 825 - CompileBlockPluginTest::testBlockPluginAssign
+ok 826 - CompileBlockPluginTest::testBlockPluginFromTemplateFile
+ok 827 - CompileBlockPluginTest::testBlockPluginFromCompiledTemplateFile
+ok 828 - CompileBlockPluginTest::testBlockPluginFromTemplateFileCache
+ok 829 - CompileBlockPluginTest::testBlockPluginRegisteredFunction
+ok 830 - CompileBlockPluginTest::testBlockPluginRepeat
+ok 831 - CompileBlockPluginTest::testBlockPluginRepeatModidier1
+ok 832 - CompileBlockPluginTest::testBlockPluginRepeatModidier2
+ok 833 - CompileBlockExtendsTest::testBlockDefault_000_1
+ok 834 - CompileBlockExtendsTest::testBlockDefault_000_2
+ok 835 - CompileBlockExtendsTest::testCompileBlockParent_001
+ok 836 - CompileBlockExtendsTest::testCompileBlockChild_002
+ok 837 - CompileBlockExtendsTest::testCompileBlockChildPrepend_003
+ok 838 - CompileBlockExtendsTest::testCompileBlockChildAppend_004
+ok 839 - CompileBlockExtendsTest::testCompileBlockChildAppendShortag_005
+ok 840 - CompileBlockExtendsTest::testCompileBlockChildSmartyChild_006
+ok 841 - CompileBlockExtendsTest::testCompileBlockChildSmartyParent_007
+ok 842 - CompileBlockExtendsTest::testCompileBlockChildPlugin_008
+ok 843 - CompileBlockExtendsTest::testCompileBlockParentNested_009
+ok 844 - CompileBlockExtendsTest::testCompileBlockChildNested_010
+ok 845 - CompileBlockExtendsTest::testCompileBlockChildNestedInclude_011
+ok 846 - CompileBlockExtendsTest::testCompileBlockGrandChild_012
+ok 847 - CompileBlockExtendsTest::testCompileBlockGrandChildPrepend_013
+ok 848 - CompileBlockExtendsTest::testCompileBlockGrandChildSmartyChild_014
+ok 849 - CompileBlockExtendsTest::testCompileBlockGrandChildAppend_015
+ok 850 - CompileBlockExtendsTest::testCompileBlockGrandChildNested_016
+ok 851 - CompileBlockExtendsTest::testCompileBlockGrandChildNested_017
+ok 852 - CompileBlockExtendsTest::testCompileBlockChildNestedHide_018
+ok 853 - CompileBlockExtendsTest::testCompileBlockChildNestedHideAutoLiteralFalse_019
+not ok 854 - Failure: CompileBlockExtendsTest::testCompileBlockStartSubTemplates_020
+  ---
+  message: 'Failed asserting that ''block 1<br>'
+  severity: fail
+  ...
+ok 855 - CompileBlockExtendsTest::testCompileBlockGrandChildMustCompile_021_1
+ok 856 - CompileBlockExtendsTest::testCompileBlockGrandChildMustCompile_021_2
+ok 857 - CompileBlockExtendsTest::testCompileBlockGrandChildMustCompile_021_3
+ok 858 - CompileBlockExtendsTest::testCompileBlockGrandChildMustCompile_021_4
+ok 859 - CompileBlockExtendsTest::testDirt_022
+ok 860 - CompileBlockExtendsTest::testChildStrip_023
+ok 861 - CompileBlockExtendsTest::testNotExistingChildBlock_024
+ok 862 - CompileBlockExtendsTest::testSmartyBlockChildOutsideBlock_025
+ok 863 - CompileBlockExtendsTest::testSmartyBlockParentOutsideBlock_026
+ok 864 - CompileBlockExtendsTest::testSmartyBlockParentInParent_027
+ok 865 - CompileBlockExtendsTest::testVariableExtends_028
+ok 866 - CompileBlockExtendsTest::testVariableExtends_029
+not ok 867 - Failure: CompileBlockExtendsTest::testNocacheBlock_030_1
+  ---
+  message: 'Failed asserting that ''grandchild b6 b6_1*'' contains "parent b1 b1_1*parent b2*grandchild b3 b3_1*include b3 b6_1*grandchild b6 b6_1*".'
+  severity: fail
+  ...
+not ok 868 - Failure: CompileBlockExtendsTest::testNocacheBlock_030_2
+  ---
+  message: 'Failed asserting that ''grandchild b6 b6_2*'' contains "parent b1 b1_2*parent b2*grandchild b3 b3_2*include b3 b6_2*grandchild b6 b6_2*".'
+  severity: fail
+  ...
+ok 869 - CompileCaptureTest::testCapture1
+ok 870 - CompileCaptureTest::testCapture2
+ok 871 - CompileCaptureTest::testCapture3
+ok 872 - CompileCaptureTest::testCapture4
+ok 873 - CompileCaptureTest::testCapture5
+ok 874 - CompileCaptureTest::testCapture6
+ok 875 - CompileCaptureTest::testCapture7
+ok 876 - CompileCaptureTest::testCapture8
+ok 877 - CompileCaptureTest::testCompileCaptureNocache1
+ok 878 - CompileCaptureTest::testCompileCaptureNocache2
+ok 879 - CompilerPluginTest::testCompilerPlugin
+ok 880 - CompileDebugTest::testDebugTag
+ok 881 - CompileDebugTest::testDebugProperty
+ok 882 - CompileDelimiterTest::testLeftDelimiter
+ok 883 - CompileDelimiterTest::testRightDelimiter
+ok 884 - CompileEvalTest::testEval1
+ok 885 - CompileEvalTest::testEval2
+ok 886 - CompileEvalTest::testEval3
+ok 887 - CompileForTest::testFor1
+ok 888 - CompileForTest::testFor2
+ok 889 - CompileForTest::testFor3
+ok 890 - CompileForTest::testFor4
+ok 891 - CompileForTest::testFor5
+ok 892 - CompileForTest::testFor6
+ok 893 - CompileForTest::testFor7
+ok 894 - CompileForTest::testFor8
+ok 895 - CompileForTest::testFor9
+ok 896 - CompileForTest::testFor10
+ok 897 - CompileForTest::testFor11
+ok 898 - CompileForTest::testFor12
+ok 899 - CompileForTest::testFor13
+ok 900 - CompileForTest::testFor14
+ok 901 - CompileForTest::testForNocacheVar1
+ok 902 - CompileForTest::testForNocacheVar2
+ok 903 - CompileForTest::testForNocacheTag1
+ok 904 - CompileForTest::testForNocacheTag2
+ok 905 - CompileForTest::testForCache1
+ok 906 - CompileForTest::testForCache2
+ok 907 - CompileForeachTest::testForeach
+ok 908 - CompileForeachTest::testForeachBreak
+ok 909 - CompileForeachTest::testForeachContinue
+ok 910 - CompileForeachTest::testForeachNotElse
+ok 911 - CompileForeachTest::testForeachElse
+ok 912 - CompileForeachTest::testForeachKey
+ok 913 - CompileForeachTest::testForeachKeyProperty
+ok 914 - CompileForeachTest::testForeachTotal
+ok 915 - CompileForeachTest::testForeachTotalProperty
+ok 916 - CompileForeachTest::testForeachIndexIteration
+ok 917 - CompileForeachTest::testForeachIndexIterationProperty
+ok 918 - CompileForeachTest::testForeachFirstLast
+ok 919 - CompileForeachTest::testForeachFirstLastProperty
+ok 920 - CompileForeachTest::testForeachShowTrue
+ok 921 - CompileForeachTest::testForeachShowTrueProperty
+ok 922 - CompileForeachTest::testForeachShowFalse
+ok 923 - CompileForeachTest::testForeachShowFalseProperty
+ok 924 - CompileForeachTest::testForeachShorttags
+ok 925 - CompileForeachTest::testNewForeach
+ok 926 - CompileForeachTest::testNewForeachNotElse
+ok 927 - CompileForeachTest::testNewForeachElse
+ok 928 - CompileForeachTest::testNewForeachKey
+ok 929 - CompileForeachTest::testNewForeachKeyProperty
+ok 930 - CompileForeachTest::testForeachNocacheVar1
+ok 931 - CompileForeachTest::testForeachNocacheVar2
+ok 932 - CompileForeachTest::testForeachNocacheTag1
+ok 933 - CompileForeachTest::testForeachNocacheTag2
+ok 934 - CompileForeachTest::testForeachCache1
+ok 935 - CompileForeachTest::testForeachCache2
+ok 936 - CompileFunctionPluginTest::testFunctionPluginFromTemplateFile
+ok 937 - CompileFunctionPluginTest::testFunctionPluginFromCompiledTemplateFile
+ok 938 - CompileFunctionPluginTest::testFunctionPluginRegisteredFunction
+ok 939 - CompileFunctionPluginTest::testMultiLineTags
+ok 940 - CompileIfTest::testIf1
+ok 941 - CompileIfTest::testElseif1
+ok 942 - CompileIfTest::testIf2
+ok 943 - CompileIfTest::testIf3
+ok 944 - CompileIfTest::testIf4
+ok 945 - CompileIfTest::testIfTrue
+ok 946 - CompileIfTest::testIfFalse
+ok 947 - CompileIfTest::testIfNot1
+ok 948 - CompileIfTest::testIfNot2
+ok 949 - CompileIfTest::testIfEQ1
+ok 950 - CompileIfTest::testIfEQ2
+ok 951 - CompileIfTest::testIfEQ3
+ok 952 - CompileIfTest::testIfEQ4
+ok 953 - CompileIfTest::testIfIdentity1
+ok 954 - CompileIfTest::testIfIdentity2
+ok 955 - CompileIfTest::testIfNotIdentity1
+ok 956 - CompileIfTest::testIfNotIdentity2
+ok 957 - CompileIfTest::testIfGT1
+ok 958 - CompileIfTest::testIfGT2
+ok 959 - CompileIfTest::testIfGT3
+ok 960 - CompileIfTest::testIfGT4
+ok 961 - CompileIfTest::testIfGE1
+ok 962 - CompileIfTest::testIfGE2
+ok 963 - CompileIfTest::testIfGE3
+ok 964 - CompileIfTest::testIfGE4
+ok 965 - CompileIfTest::testIfLT1
+ok 966 - CompileIfTest::testIfLT2
+ok 967 - CompileIfTest::testIfLT3
+ok 968 - CompileIfTest::testIfLT4
+ok 969 - CompileIfTest::testIfLE1
+ok 970 - CompileIfTest::testIfLE2
+ok 971 - CompileIfTest::testIfLE3
+ok 972 - CompileIfTest::testIfLE4
+ok 973 - CompileIfTest::testIfNE1
+ok 974 - CompileIfTest::testIfNE2
+ok 975 - CompileIfTest::testIfNE3
+ok 976 - CompileIfTest::testIfNE4
+ok 977 - CompileIfTest::testIfIdent1
+ok 978 - CompileIfTest::testIfIdent2
+ok 979 - CompileIfTest::testIfAnd1
+ok 980 - CompileIfTest::testIfAnd2
+ok 981 - CompileIfTest::testIfAnd3
+ok 982 - CompileIfTest::testIfAnd4
+ok 983 - CompileIfTest::testIfOr1
+ok 984 - CompileIfTest::testIfOr2
+ok 985 - CompileIfTest::testIfOr3
+ok 986 - CompileIfTest::testIfOr4
+ok 987 - CompileIfTest::testIfAndOR4
+ok 988 - CompileIfTest::testIfIsDivBy
+ok 989 - CompileIfTest::testIfIsNotDivBy
+ok 990 - CompileIfTest::testIfIsEven
+ok 991 - CompileIfTest::testIfIsNotEven
+ok 992 - CompileIfTest::testIfIsOdd
+ok 993 - CompileIfTest::testIfIsNotOdd
+ok 994 - CompileIfTest::testIfIsOddBy
+ok 995 - CompileIfTest::testIfIsNotOddBy
+ok 996 - CompileIfTest::testIfIsEvenBy
+ok 997 - CompileIfTest::testIfIsNotEvenBy
+ok 998 - CompileIfTest::testIfFunc1
+ok 999 - CompileIfTest::testIfFunc2
+ok 1000 - CompileIfTest::testIfFunc3
+ok 1001 - CompileIfTest::testIfFunc4
+ok 1002 - CompileIfTest::testIfStatement1
+ok 1003 - CompileIfTest::testIfStatement2
+ok 1004 - CompileIfTest::testIfVariable1
+ok 1005 - CompileIfTest::testIfVariable2
+ok 1006 - CompileIfTest::testIfVariableInc1
+ok 1007 - CompileIncludePhpTest::testIncludePhpStringFileName
+ok 1008 - CompileIncludePhpTest::testIncludePhpVariableFileName
+ok 1009 - CompileIncludePhpTest::testIncludePhpVariableFileNameShortag
+ok 1010 - CompileIncludeTest::testIncludeStandard
+ok 1011 - CompileIncludeTest::testIncludeAssign1
+ok 1012 - CompileIncludeTest::testIncludeAssign2
+ok 1013 - CompileIncludeTest::testIncludePassVars
+ok 1014 - CompileIncludeTest::testIncludeLocalScope
+ok 1015 - CompileIncludeTest::testIncludeParentScope
+ok 1016 - CompileIncludeTest::testIncludeRootScope
+ok 1017 - CompileIncludeTest::testIncludeRootScope2
+ok 1018 - CompileIncludeTest::testRecursiveIncludes1
+ok 1019 - CompileIncludeTest::testRecursiveIncludes2
+ok 1020 - CompileInsertTest::testInsertFunctionSingle
+ok 1021 - CompileInsertTest::testInsertFunctionDouble
+ok 1022 - CompileInsertTest::testInsertFunctionVariableName
+ok 1023 - CompileInsertTest::testInsertPlugin
+ok 1024 - CompileInsertTest::testInsertPluginCaching1
+ok 1025 - CompileInsertTest::testInsertPluginCaching2
+ok 1026 - CompileInsertTest::testInsertPluginCaching3
+ok 1027 - CompileInsertTest::testInsertPluginCaching4
+ok 1028 - CompileInsertTest::testInsertFunctionAssign
+ok 1029 - CompileInsertTest::testInsertFunctionAssignNoOutput
+ok 1030 - CompileInsertTest::testInsertPluginAssign
+ok 1031 - CompileInsertTest::testInsertFunctionNoneExistingFunction
+ok 1032 - CompileInsertTest::testInsertFunctionNoneExistingScript
+ok 1033 - LiteralTest::testLiteralTag
+ok 1034 - LiteralTest::testAutoLiteralSpace
+ok 1035 - LiteralTest::testAutoLiteralLineBreak
+ok 1036 - LiteralTest::testAutoLiteralDisabled
+ok 1037 - CompileNocacheTest::testNocacheCachingNo
+ok 1038 - CompileNocacheTest::testNocacheCachingYes1
+ok 1039 - CompileNocacheTest::testNocacheCachingYes2
+ok 1040 - CompilePhpTest::testPhpTag
+ok 1041 - CompilePhpTest::testPhpTagAllow
+ok 1042 - CompilePhpTest::testShortTag
+ok 1043 - CompilePhpTest::testEndTagInStrings1
+ok 1044 - CompilePhpTest::testEndTagInStrings2
+ok 1045 - CompilePhpTest::testEndTagInStrings3
+ok 1046 - CompilePhpTest::testEndTagInStrings4
+ok 1047 - CompilePhpTest::testEndTagInHEREDOC
+ok 1048 - CompilePhpTest::testEmbeddingsInHEREDOC1
+ok 1049 - CompilePhpTest::testEmbeddingsInHEREDOC2
+ok 1050 - CompilePhpTest::testEmbeddedHEREDOC
+ok 1051 - CompilePhpTest::testEmbeddedNOWDOC
+ok 1052 - CompilePhpTest::testEndTagInNOWDOC
+ok 1053 - CompilePhpTest::testNewlineHEREDOC
+ok 1054 - CompilePhpTest::testNewlineNOWDOC
+ok 1055 - CompilePhpTest::testEndTagInComment
+ok 1056 - CompileSectionTest::testSection1
+ok 1057 - CompileSectionTest::testSection2
+ok 1058 - CompileSectionTest::testSection3
+ok 1059 - CompileSectionTest::testSection4
+ok 1060 - CompileSectionTest::testSection6
+ok 1061 - CompileSectionTest::testSection7
+ok 1062 - CompileSetfilterTest::testNestedSetfilter
+ok 1063 - CompileStripTest::testStrip
+ok 1064 - CompileFunctionTest::testSimpleFunction
+ok 1065 - CompileFunctionTest::testSimpleFunction2
+ok 1066 - CompileFunctionTest::testOverwriteDefaultFunction
+ok 1067 - CompileFunctionTest::testRecursiveFunction
+ok 1068 - CompileFunctionTest::testInheritedFunction
+ok 1069 - CompileFunctionTest::testDefineFunctionInclude
+ok 1070 - CompileFunctionTest::testExternalDefinedFunction
+ok 1071 - CompileFunctionTest::testExternalDefinedFunctionCached1
+ok 1072 - CompileFunctionTest::testExternalDefinedFunctionCached2
+ok 1073 - CompileFunctionTest::testExternalDefinedFunctionNocachedCall1
+ok 1074 - CompileFunctionTest::testExternalDefinedFunctionNocachedCall2
+ok 1075 - CompileWhileTest::testWhileCondition
+ok 1076 - CompileWhileTest::testWhileStatement
+ok 1077 - AttributeTest::testRequiredAttributeVar
+ok 1078 - AttributeTest::testUnexpectedAttribute
+ok 1079 - AttributeTest::testIllegalOptionValue
+ok 1080 - AttributeTest::testTooManyShorthands
+ok 1081 - CompileErrorTest::testNoneExistingTemplateError
+ok 1082 - CompileErrorTest::testUnknownTagError
+ok 1083 - CompileErrorTest::testUnclosedTagError
+not ok 1084 - Failure: CompileErrorTest::testSyntaxError
+  ---
+  message: 'Failed asserting that ''Syntax error in template "599a9cf0e3623a3206bd02a0f5c151d5f5f3f69e"  on line 1 "{assign var=}"  - Unexpected "}"'' contains "Syntax Error in template "599a9cf0e3623a3206bd02a0f5c151d5f5f3f69e"".'
+  severity: fail
+  ...
+ok 1085 - CompileErrorTest::testEmptyTemplate
+ok 1086 - PrintNocacheTest::testPrintNocacheCachingNo1
+ok 1087 - PrintNocacheTest::testPrintNocacheCachingNo2
+ok 1088 - PrintNocacheTest::testPrintNocacheCachingYes1
+ok 1089 - PrintNocacheTest::testPrintNocacheCachingYes2
+ok 1090 - ArrayTest::testSimpleArrayDefinition
+ok 1091 - ArrayTest::testSmarty2ArrayAccess
+ok 1092 - ArrayTest::testSmarty3ArrayAccess
+ok 1093 - ArrayTest::testIndexedArrayDefinition
+ok 1094 - ArrayTest::testNestedArray
+ok 1095 - ArrayTest::testArrayMath1
+ok 1096 - ArrayTest::testArrayMath2
+ok 1097 - ArrayTest::testArrayMath3
+ok 1098 - ArrayTest::testArrayMath4
+ok 1099 - ArrayTest::testArrayMath5
+ok 1100 - ArrayTest::testArrayMath6
+ok 1101 - ArrayTest::testArrayVariableIndex1
+ok 1102 - ArrayTest::testArrayVariableIndex2
+ok 1103 - ArrayTest::testArrayVariableIndex3
+ok 1104 - ArrayTest::testArrayVariableIndex4
+ok 1105 - ConstantsTest::testConstants
+ok 1106 - ConstantsTest::testConstants2
+ok 1107 - ConstantsTest::testConstants3
+ok 1108 - ConstantsTest::testConstants4
+ok 1109 - ConstantsTest::testConstants5
+ok 1110 - ConstantsTest::testConstants6
+ok 1111 - ConstantsTest::testConstants7
+ok 1112 - DoubleQuotedStringTest::testSimpleDoubleQuotedString
+ok 1113 - DoubleQuotedStringTest::testTagsInDoubleQuotedString
+ok 1114 - DoubleQuotedStringTest::testVarsInDoubleQuotedString1
+ok 1115 - DoubleQuotedStringTest::testVarsInDoubleQuotedString2
+ok 1116 - DoubleQuotedStringTest::testVarsBacktickInDoubleQuotedString1
+ok 1117 - DoubleQuotedStringTest::testVarsBacktickInDoubleQuotedString2
+ok 1118 - DoubleQuotedStringTest::testVariableVarsBacktickInDoubleQuotedString
+ok 1119 - DoubleQuotedStringTest::testArrayVarsBacktickInDoubleQuotedString1
+ok 1120 - DoubleQuotedStringTest::testArrayVarsBacktickInDoubleQuotedString2
+ok 1121 - DoubleQuotedStringTest::testExpressionBacktickInDoubleQuotedString
+ok 1122 - DoubleQuotedStringTest::testSmartytagInDoubleQuotedString1
+ok 1123 - DoubleQuotedStringTest::testSmartytagInDoubleQuotedString2
+ok 1124 - DoubleQuotedStringTest::testSmartyBlockTagInDoubleQuotedString1
+ok 1125 - DoubleQuotedStringTest::testVarsDelimiterInDoubleQuotedString
+ok 1126 - DoubleQuotedStringTest::testEscapedQuotesInDoubleQuotedString
+ok 1127 - DoubleQuotedStringTest::testSingleQuotesInDoubleQuotedString
+ok 1128 - DoubleQuotedStringTest::testSingleQuoteTagsInDoubleQuotedString
+ok 1129 - DoubleQuotedStringTest::testEmptyDoubleQuotedString
+ok 1130 - MathTest::testSyntax
+ok 1131 - MathTest::testFunction
+ok 1132 - MathTest::testSyntaxSin
+ok 1133 - MathTest::testFunctionSin
+ok 1134 - MathTest::testSyntaxFloat
+ok 1135 - MathTest::testFunctionFloat
+ok 1136 - MathTest::testSyntaxFormat
+ok 1137 - MathTest::testFunctionFormat
+ok 1138 - MathTest::testSyntaxString
+ok 1139 - MathTest::testFunctionString
+ok 1140 - ModifierTest::testPHPFunctionModifier
+ok 1141 - ModifierTest::testPHPFunctionModifier2
+ok 1142 - ModifierTest::testPluginModifier
+ok 1143 - ModifierTest::testPluginModifierVar
+ok 1144 - ModifierTest::testPluginModifierVar2
+ok 1145 - ModifierTest::testPluginModifierVar3
+ok 1146 - ModifierTest::testModifierChaining
+ok 1147 - ModifierTest::testModifierInsideIf
+ok 1148 - ModifierTest::testModifierInsideExpression
+ok 1149 - ModifierTest::testModifierInsideExpression2
+ok 1150 - ModifierTest::testModifierAtPluginResult
+ok 1151 - ModifierTest::testModifierUnqoutedString
+ok 1152 - ModifierTest::testModifierRegisteredFunction
+ok 1153 - ModifierTest::testModifierRegisteredStaticClass
+ok 1154 - ModifierTest::testModifierRegisteredMethodCall
+ok 1155 - ModifierTest::testUnknownModifier
+ok 1156 - ModifierTest::testDefaultModifier
+ok 1157 - ObjectVariableTest::testObjectVariableOutput
+ok 1158 - ObjectVariableTest::testObjectVariableOutputVariableProperty
+ok 1159 - ObjectVariableTest::testObjectVariableOutputMethod
+ok 1160 - ObjectVariableTest::testObjectVariableOutputVariableMethod
+ok 1161 - ObjectVariableTest::testObjectVariableOutputDoubleQuotes
+ok 1162 - ObjectVariableTest::testObjectVariableOutputDoubleQuotesInclude
+ok 1163 - SingleQuotedStringTest::testSimpleSingleQuotedString
+ok 1164 - SingleQuotedStringTest::testTagsInSingleQuotedString
+ok 1165 - SingleQuotedStringTest::testVarsInSingleQuotedString
+ok 1166 - SingleQuotedStringTest::testDoubleQuotesInSingleQuotedString
+ok 1167 - SingleQuotedStringTest::testEscapedSingleQuotesInSingleQuotedString
+ok 1168 - SingleQuotedStringTest::testEmptySingleQuotedString
+ok 1169 - StreamVariableTest::testStreamVariable1
+ok 1170 - VariableScopeTest::testVariableScope1
+ok 1171 - VariableScopeTest::testVariableScope12
+ok 1172 - VariableScopeTest::testVariableScope13
+ok 1173 - VariableScopeTest::testVariableScope2
+ok 1174 - VariableScopeTest::testVariableScope22
+ok 1175 - VariableScopeTest::testVariableScope23
+ok 1176 - VariableScopeTest::testVariableScope3
+ok 1177 - VariableScopeTest::testVariableScope32
+ok 1178 - VariableScopeTest::testVariableScope4
+ok 1179 - VariableScopeTest::testVariableScope42
+ok 1180 - VariableScopeTest::testVariableScope5
+ok 1181 - VariableScopeTest::testVariableScope52
+ok 1182 - VariableScopeTest::testVariableScope6
+ok 1183 - VariableScopeTest::testVariableScope62
+ok 1184 - VariableScopeTest::testDataArray
+ok 1185 - VariableScopeTest::testDataArray2
+ok 1186 - VariableScopeTest::testAssigns
+ok 1187 - VariableVariableTest::testVariableVariable1
+ok 1188 - VariableVariableTest::testVariableVariable2
+ok 1189 - VariableVariableTest::testVariableVariable3
+ok 1190 - VariableVariableTest::testVariableVariable4
+ok 1191 - XmlTest::testXml
+ok 1192 - XmlTest::testXmlPhpQuote
+ok 1193 - XmlTest::testXmlPhpAllow
+ok 1194 - XmlTest::testXmlCaching
+ok 1195 - XmlTest::testXmlCachingPhpQuote
+ok 1196 - XmlTest::testXmlCachingPhpAllow
+1..1196
