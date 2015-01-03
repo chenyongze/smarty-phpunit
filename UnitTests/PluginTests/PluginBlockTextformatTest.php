@@ -22,7 +22,7 @@ class PluginBlockTextformatTest extends PHPUnit_Smarty
     {
         $result = "\n\nThis is foo. This is foo. This is foo.\nThis is foo. This is foo. This is foo.\n\nThis is bar.\n\nbar foo bar foo foo. bar foo bar foo\nfoo. bar foo bar foo foo. bar foo bar\nfoo foo. bar foo bar foo foo. bar foo\nbar foo foo. bar foo bar foo foo.\n\n";
         $tpl = $this->smarty->createTemplate('eval:{textformat wrap=40}' . $this->string . '{/textformat}');
-        $this->assertEquals(str_replace("\r", '',$result), $this->smarty->fetch($tpl));
+        $this->assertEquals($this->cleanNewline($result), $this->cleanNewline($this->smarty->fetch($tpl)));
     }
 
     public function testDefaultWithoutMbstring()
@@ -30,7 +30,7 @@ class PluginBlockTextformatTest extends PHPUnit_Smarty
         Smarty::$_MBSTRING = false;
         $result = "\n\nThis is foo. This is foo. This is foo.\nThis is foo. This is foo. This is foo.\n\nThis is bar.\n\nbar foo bar foo foo. bar foo bar foo\nfoo. bar foo bar foo foo. bar foo bar\nfoo foo. bar foo bar foo foo. bar foo\nbar foo foo. bar foo bar foo foo.\n\n";
         $tpl = $this->smarty->createTemplate('eval:{textformat wrap=40}' . $this->string . '{/textformat}');
-        $this->assertEquals(str_replace("\r", '',$result), $this->smarty->fetch($tpl));
+        $this->assertEquals($this->cleanNewline($result), $this->cleanNewline($this->smarty->fetch($tpl)));
         Smarty::$_MBSTRING = true;
     }
 
@@ -38,7 +38,7 @@ class PluginBlockTextformatTest extends PHPUnit_Smarty
     {
         $result = "\n\n    This is foo. This is foo. This is\n    foo. This is foo. This is foo. This\n    is foo.\n\n    This is bar.\n\n    bar foo bar foo foo. bar foo bar foo\n    foo. bar foo bar foo foo. bar foo\n    bar foo foo. bar foo bar foo foo.\n    bar foo bar foo foo. bar foo bar foo\n    foo.\n\n";
         $tpl = $this->smarty->createTemplate('eval:{textformat wrap=40 indent=4}' . $this->string . '{/textformat}');
-        $this->assertEquals(str_replace("\r", '',$result), $this->smarty->fetch($tpl));
+        $this->assertEquals($this->cleanNewline($result), $this->cleanNewline($this->smarty->fetch($tpl)));
     }
 
     public function testIndentWithoutMbstring()
@@ -46,7 +46,7 @@ class PluginBlockTextformatTest extends PHPUnit_Smarty
         Smarty::$_MBSTRING = false;
         $result = "\n\n    This is foo. This is foo. This is\n    foo. This is foo. This is foo. This\n    is foo.\n\n    This is bar.\n\n    bar foo bar foo foo. bar foo bar foo\n    foo. bar foo bar foo foo. bar foo\n    bar foo foo. bar foo bar foo foo.\n    bar foo bar foo foo. bar foo bar foo\n    foo.\n\n";
         $tpl = $this->smarty->createTemplate('eval:{textformat wrap=40 indent=4}' . $this->string . '{/textformat}');
-        $this->assertEquals(str_replace("\r", '',$result), $this->smarty->fetch($tpl));
+        $this->assertEquals($this->cleanNewline($result), $this->cleanNewline($this->smarty->fetch($tpl)));
         Smarty::$_MBSTRING = true;
     }
 
@@ -54,7 +54,7 @@ class PluginBlockTextformatTest extends PHPUnit_Smarty
     {
         $result = "\n\n        This is foo. This is foo. This\n    is foo. This is foo. This is foo.\n    This is foo.\n\n        This is bar.\n\n        bar foo bar foo foo. bar foo bar\n    foo foo. bar foo bar foo foo. bar\n    foo bar foo foo. bar foo bar foo\n    foo. bar foo bar foo foo. bar foo\n    bar foo foo.\n\n";
         $tpl = $this->smarty->createTemplate('eval:{textformat wrap=40 indent=4 indent_first=4}' . $this->string . '{/textformat}');
-        $this->assertEquals(str_replace("\r", '',$result), $this->smarty->fetch($tpl));
+        $this->assertEquals($this->cleanNewline($result), $this->cleanNewline($this->smarty->fetch($tpl)));
     }
 
     public function testIndentFirstWithoutMbstring()
@@ -62,7 +62,7 @@ class PluginBlockTextformatTest extends PHPUnit_Smarty
         Smarty::$_MBSTRING = false;
         $result = "\n\n        This is foo. This is foo. This\n    is foo. This is foo. This is foo.\n    This is foo.\n\n        This is bar.\n\n        bar foo bar foo foo. bar foo bar\n    foo foo. bar foo bar foo foo. bar\n    foo bar foo foo. bar foo bar foo\n    foo. bar foo bar foo foo. bar foo\n    bar foo foo.\n\n";
         $tpl = $this->smarty->createTemplate('eval:{textformat wrap=40 indent=4 indent_first=4}' . $this->string . '{/textformat}');
-        $this->assertEquals(str_replace("\r", '',$result), $this->smarty->fetch($tpl));
+        $this->assertEquals($this->cleanNewline($result), $this->cleanNewline($this->smarty->fetch($tpl)));
         Smarty::$_MBSTRING = true;
     }
 
@@ -70,7 +70,7 @@ class PluginBlockTextformatTest extends PHPUnit_Smarty
     {
         $result = "\n\n####This is foo. This is foo. This is\n####foo. This is foo. This is foo. This\n####is foo.\n\n####This is bar.\n\n####bar foo bar foo foo. bar foo bar foo\n####foo. bar foo bar foo foo. bar foo\n####bar foo foo. bar foo bar foo foo.\n####bar foo bar foo foo. bar foo bar foo\n####foo.\n\n";
         $tpl = $this->smarty->createTemplate('eval:{textformat wrap=40 indent=4 indent_char="#"}' . $this->string . '{/textformat}');
-        $this->assertEquals(str_replace("\r", '',$result), $this->smarty->fetch($tpl));
+        $this->assertEquals($this->cleanNewline($result), $this->cleanNewline($this->smarty->fetch($tpl)));
     }
 
     public function testIndentcharWithoutMbstring()
@@ -78,7 +78,7 @@ class PluginBlockTextformatTest extends PHPUnit_Smarty
         Smarty::$_MBSTRING = false;
         $result = "\n\n####This is foo. This is foo. This is\n####foo. This is foo. This is foo. This\n####is foo.\n\n####This is bar.\n\n####bar foo bar foo foo. bar foo bar foo\n####foo. bar foo bar foo foo. bar foo\n####bar foo foo. bar foo bar foo foo.\n####bar foo bar foo foo. bar foo bar foo\n####foo.\n\n";
         $tpl = $this->smarty->createTemplate('eval:{textformat wrap=40 indent=4 indent_char="#"}' . $this->string . '{/textformat}');
-        $this->assertEquals(str_replace("\r", '',$result), $this->smarty->fetch($tpl));
+        $this->assertEquals($this->cleanNewline($result), $this->cleanNewline($this->smarty->fetch($tpl)));
         Smarty::$_MBSTRING = true;
     }
 
@@ -86,7 +86,7 @@ class PluginBlockTextformatTest extends PHPUnit_Smarty
     {
         $result = "\n\n########This is foo. This is foo. This\n####is foo. This is foo. This is foo.\n####This is foo.\n\n########This is bar.\n\n########bar foo bar foo foo. bar foo bar\n####foo foo. bar foo bar foo foo. bar\n####foo bar foo foo. bar foo bar foo\n####foo. bar foo bar foo foo. bar foo\n####bar foo foo.\n\n";
         $tpl = $this->smarty->createTemplate('eval:{textformat wrap=40 indent=4 indent_first=4 indent_char="#"}' . $this->string . '{/textformat}');
-        $this->assertEquals(str_replace("\r", '',$result), $this->smarty->fetch($tpl));
+        $this->assertEquals($this->cleanNewline($result), $this->cleanNewline($this->smarty->fetch($tpl)));
     }
 
     public function testIndentcharFirstWithoutMbstring()
@@ -94,7 +94,7 @@ class PluginBlockTextformatTest extends PHPUnit_Smarty
         Smarty::$_MBSTRING = false;
         $result = "\n\n########This is foo. This is foo. This\n####is foo. This is foo. This is foo.\n####This is foo.\n\n########This is bar.\n\n########bar foo bar foo foo. bar foo bar\n####foo foo. bar foo bar foo foo. bar\n####foo bar foo foo. bar foo bar foo\n####foo. bar foo bar foo foo. bar foo\n####bar foo foo.\n\n";
         $tpl = $this->smarty->createTemplate('eval:{textformat wrap=40 indent=4 indent_first=4 indent_char="#"}' . $this->string . '{/textformat}');
-        $this->assertEquals(str_replace("\r", '',$result), $this->smarty->fetch($tpl));
+        $this->assertEquals($this->cleanNewline($result), $this->cleanNewline($this->smarty->fetch($tpl)));
         Smarty::$_MBSTRING = true;
     }
 
@@ -102,7 +102,7 @@ class PluginBlockTextformatTest extends PHPUnit_Smarty
     {
         $result = "##    This is foo. This is foo. This is#foo. This is foo. This is foo. This#is foo.##    This is bar.##    bar foo bar foo foo. bar foo bar foo#foo. bar foo bar foo foo. bar foo#bar foo foo. bar foo bar foo foo.#bar foo bar foo foo. bar foo bar foo#foo.##";
         $tpl = $this->smarty->createTemplate('eval:{textformat wrap=40 indent=4 wrap_char="#"}' . $this->string . '{/textformat}');
-        $this->assertEquals(str_replace("\r", '',$result), $this->smarty->fetch($tpl));
+        $this->assertEquals($this->cleanNewline($result), $this->cleanNewline($this->smarty->fetch($tpl)));
     }
 
     public function testWrapcharWithoutMbstring()
@@ -110,7 +110,7 @@ class PluginBlockTextformatTest extends PHPUnit_Smarty
         Smarty::$_MBSTRING = false;
         $result = "##    This is foo. This is foo. This is#foo. This is foo. This is foo. This#is foo.##    This is bar.##    bar foo bar foo foo. bar foo bar foo#foo. bar foo bar foo foo. bar foo#bar foo foo. bar foo bar foo foo.#bar foo bar foo foo. bar foo bar foo#foo.##";
         $tpl = $this->smarty->createTemplate('eval:{textformat wrap=40 indent=4 wrap_char="#"}' . $this->string . '{/textformat}');
-        $this->assertEquals(str_replace("\r", '',$result), $this->smarty->fetch($tpl));
+        $this->assertEquals($this->cleanNewline($result), $this->cleanNewline($this->smarty->fetch($tpl)));
         Smarty::$_MBSTRING = true;
     }
 
@@ -118,7 +118,7 @@ class PluginBlockTextformatTest extends PHPUnit_Smarty
     {
         $result = "\n\nThis is foo. This is foo. This is foo. This is foo. This is foo. This is\nfoo.\n\nThis is bar.\n\nbar foo bar foo foo. bar foo bar foo foo. bar foo bar foo foo. bar foo\nbar foo foo. bar foo bar foo foo. bar foo bar foo foo. bar foo bar foo\nfoo.\n\n";
         $tpl = $this->smarty->createTemplate('eval:{textformat style="email"}' . $this->string . '{/textformat}');
-        $this->assertEquals(str_replace("\r", '',$result), $this->smarty->fetch($tpl));
+        $this->assertEquals($this->cleanNewline($result), $this->cleanNewline($this->smarty->fetch($tpl)));
     }
 
     public function testStyleEmailWithoutMbstring()
@@ -126,7 +126,7 @@ class PluginBlockTextformatTest extends PHPUnit_Smarty
         Smarty::$_MBSTRING = false;
         $result = "\n\nThis is foo. This is foo. This is foo. This is foo. This is foo. This is\nfoo.\n\nThis is bar.\n\nbar foo bar foo foo. bar foo bar foo foo. bar foo bar foo foo. bar foo\nbar foo foo. bar foo bar foo foo. bar foo bar foo foo. bar foo bar foo\nfoo.\n\n";
         $tpl = $this->smarty->createTemplate('eval:{textformat style="email"}' . $this->string . '{/textformat}');
-        $this->assertEquals(str_replace("\r", '',$result), $this->smarty->fetch($tpl));
+        $this->assertEquals($this->cleanNewline($result), $this->cleanNewline($this->smarty->fetch($tpl)));
         Smarty::$_MBSTRING = true;
     }
 }

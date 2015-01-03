@@ -17,12 +17,12 @@ class CacheResourceCustomMemcacheTest extends CacheResourceTestCommon
     {
         parent::setUp(__DIR__);
         if (!class_exists('Memcache')) {
-            $this->markTestSkipped();
+            $this->markTestSkipped('Memcache not available');
         }
         $this->smarty->setCachingType('memcachetest');
         $this->smarty->addPluginsDir(SMARTY_DIR . '../demo/plugins/');
-        $this->smarty->addPluginsDir('./PHPunitplugins');
-   }
+        $this->smarty->addPluginsDir(__DIR__ . '/../PHPunitplugins');
+    }
 
     protected function doClearCacheAssertion($a, $b)
     {

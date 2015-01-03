@@ -35,7 +35,7 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             2003 => 'Charlie Brown',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testSeparateArrays()
@@ -56,7 +56,7 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             'Charlie Brown',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testIterator()
@@ -76,7 +76,7 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
                                                         2003 => 'Charlie Brown',
                                                     )));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testOptgroup()
@@ -108,7 +108,7 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             ),
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testNullString()
@@ -142,7 +142,7 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             ),
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testNullValue()
@@ -180,8 +180,8 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             ),
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
-    }
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
+   }
 
     public function testZeroValue()
     {
@@ -214,7 +214,7 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             ),
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testZeroStringValue()
@@ -248,7 +248,7 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             ),
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testEmptyStringValue()
@@ -282,7 +282,7 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             ),
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testEmptyStringValues()
@@ -320,7 +320,7 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             ),
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testObject()
@@ -340,8 +340,8 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             2003 => 'Charlie Brown',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
-    }
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
+   }
 
     public function testObjectList()
     {
@@ -360,7 +360,7 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             2003 => new _object_toString('Charlie Brown'),
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     protected $_errors = array();
@@ -439,7 +439,7 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             2003 => 'Charlie Brown',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testDisabledStrict()
@@ -459,7 +459,7 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             2003 => 'Charlie Brown',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
 
         $n = "\n";
         $expected = '<select name="foo" disabled="disabled">'
@@ -476,7 +476,7 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             2003 => 'Charlie Brown',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
 
         $n = "\n";
         $expected = '<select name="foo" disabled="disabled">'
@@ -493,6 +493,6 @@ class PluginFunctionHtmlOptionsTest extends PHPUnit_Smarty
             2003 => 'Charlie Brown',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 }

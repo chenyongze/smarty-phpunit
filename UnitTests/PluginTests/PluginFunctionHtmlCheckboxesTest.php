@@ -34,8 +34,7 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
             1002 => 'Jane Johnson',
             1003 => 'Charlie Brown',
         ));
-
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testSeparateArrays()
@@ -56,7 +55,7 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
             'Charlie Brown',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testIterator()
@@ -77,7 +76,7 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
                                                          'Charlie Brown',
                                                      )));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testNoLabels()
@@ -97,7 +96,7 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
             1003 => 'Charlie Brown',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testWithId()
@@ -117,7 +116,7 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
             'work s ä' => 'Charlie Brown',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testNullString()
@@ -139,7 +138,7 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
             2      => 'two',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testNullValue()
@@ -161,8 +160,8 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
             2      => 'two',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
-    }
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
+   }
 
     public function testZeroValue()
     {
@@ -183,7 +182,7 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
             2      => 'two',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testZeroStringValue()
@@ -205,7 +204,7 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
             2      => 'two',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testEmptyStringValue()
@@ -227,7 +226,7 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
             2      => 'two',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testObject()
@@ -247,7 +246,7 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
             1003 => 'Charlie Brown',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testObjectList()
@@ -267,7 +266,7 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
             1003 => new _object_toString('Charlie Brown'),
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     protected $_errors = array();
@@ -348,7 +347,7 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
             1003 => 'Charlie Brown',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
     }
 
     public function testDisabledStrict()
@@ -368,7 +367,7 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
             1003 => 'Charlie Brown',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
 
         $n = "\n";
         $expected = '<label><input type="checkbox" name="id[]" value="1000" />Joe Schmoe</label><br />'
@@ -402,6 +401,6 @@ class PluginFunctionHtmlCheckboxesTest extends PHPUnit_Smarty
             1003 => 'Charlie Brown',
         ));
 
-        $this->assertEquals($expected, $tpl->fetch());
-    }
+        $this->assertEquals($this->cleanNewline($expected), $this->cleanNewline($tpl->fetch()));
+   }
 }

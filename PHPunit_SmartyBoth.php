@@ -42,14 +42,14 @@ class PHPUnit_SmartyBoth extends PHPUnit_Smarty
      */
     protected function tearDown()
     {
+        $this->clearResourceCache();
         if (isset($this->smartyBC)) {
             $this->smartyBC->smarty = null;
-            unset($this->smartyBC);
+            $this->smartyBC = null;
         }
         if (isset($this->smarty)) {
             $this->smarty->smarty = null;
-            unset($this->smarty);
+            $this->smarty = null;
         }
-        $this->clearResourceCache();
     }
 }

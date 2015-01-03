@@ -17,10 +17,10 @@ class CacheResourceCustomApcTest extends CacheResourceCustomMemcacheTest
     {
         parent::setUp(__DIR__);
         if (!function_exists('apc_cache_info') || ini_get('apc.enable_cli')) {
-            $this->markTestSkipped();
+            $this->markTestSkipped('APC cache not available');
         }
         $this->smarty->setCachingType('apctest');
         $this->smarty->addPluginsDir(SMARTY_DIR . '../demo/plugins/');
-        $this->smarty->addPluginsDir('./PHPunitplugins');
+        $this->smarty->addPluginsDir(__DIR__ . '/../PHPunitplugins');
     }
 }

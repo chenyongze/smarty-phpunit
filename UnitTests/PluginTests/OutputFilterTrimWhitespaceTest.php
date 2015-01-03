@@ -33,6 +33,6 @@ class OutputFilterTrimWhitespaceTest extends PHPUnit_Smarty
     </textarea> </p> </body> </html>
 EOT;
 
-        $this->assertEquals(str_replace(array("\t","\r"), array('    ', ''), $expected), str_replace("\t", '    ', $this->smarty->fetch('whitespace.tpl')));
+        $this->assertEquals($this->cleanNewline($expected) , $this->cleanNewline($this->smarty->fetch('whitespace.tpl')));
     }
 }

@@ -18,6 +18,6 @@ class CacheResourceCustomMysqlTest extends CacheResourceTestCommon
         parent::setUp(__DIR__);
         $this->smarty->setCachingType('mysqltest');
         $this->smarty->addPluginsDir(SMARTY_DIR . '../demo/plugins/');
-        $this->smarty->addPluginsDir('./PHPunitplugins');
+        $this->smarty->addPluginsDir(__DIR__ . '/../PHPunitplugins');
     }
 }

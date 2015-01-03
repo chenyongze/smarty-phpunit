@@ -355,12 +355,4 @@ class CacheResourceTestCommon extends PHPUnit_SmartyDB
         $this->assertEquals('hello world', $tpl->cached->handler->getCachedContent($tpl4));
     }
 
-    /**
-     * final cleanup
-     */
-    public function testFinalCleanup2()
-    {
-        $this->smarty->clearCompiledTemplate();
-        $this->smarty->clearAllCache();
-    }
 }

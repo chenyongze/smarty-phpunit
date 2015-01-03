@@ -219,6 +219,6 @@ pip-log.txt
 #Smarty
 testdox.html
 TestResults.tap
-*/template_c/*.php
-*/cache/*.php
+./template_c/*.php
+./cache/*.php
 .coverage/

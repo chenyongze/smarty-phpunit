@@ -19,8 +19,8 @@ class CacheResourceCustomPDOTest extends CacheResourceTestCommon
        // $this->markTestSkipped();
         $this->smarty->setCachingType('pdo');
         $this->smarty->addPluginsDir(SMARTY_DIR . '../demo/plugins/');
-        $this->smarty->addPluginsDir('./PHPunitplugins');
-        $this->smarty->loadPlugin('Smarty_CacheResource_Pdo');
+        $this->smarty->addPluginsDir(__DIR__ . '/../PHPunitplugins');
+        $this->assertTrue($this->smarty->loadPlugin('Smarty_CacheResource_Pdo'), 'loadPlugin() could not load PDO cache resource');
         $this->smarty->registerCacheResource('pdo', new Smarty_CacheResource_Pdo($this->getPDO(), 'smarty_cache'));
     }
 }

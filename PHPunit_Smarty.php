@@ -59,8 +59,8 @@ class PHPUnit_Smarty extends PHPUnit_Framework_TestCase
         if (!is_dir($dir . '/cache')) {
             mkdir($dir . '/cache');
         }
-        if (!is_dir($dir . '/config')) {
-            mkdir($dir . '/config');
+        if (!is_dir($dir . '/configs')) {
+            mkdir($dir . '/configs');
         }
         chdir($dir);
         self::$cwd = getcwd();
@@ -104,6 +104,13 @@ class PHPUnit_Smarty extends PHPUnit_Framework_TestCase
         }
     }
 
+    public function cleanNewline ($in) {
+        if (is_string($in)) {
+            return str_replace(array("\r", "\t" ), array('', '    '), $in);
+        } else {
+            return $in;
+        }
+    }
     public function buildInternalPath($path)
     {
         return realpath(str_replace('/', '\\', $path));
@@ -125,8 +132,7 @@ class PHPUnit_Smarty extends PHPUnit_Framework_TestCase
     {
         Smarty::$global_tpl_vars = array();
         Smarty::$_smarty_vars = array();
-        Smarty_Resource::$sources = array();
-        Smarty_Resource::$compileds = array();
+        Smarty::$_muted_directories = array();
         if (isset(SMARTY::$_is_file_cache)) {
             SMARTY::$_is_file_cache = array();
         }
@@ -173,11 +179,11 @@ class PHPUnit_Smarty extends PHPUnit_Framework_TestCase
      */
     protected function tearDown()
     {
+        $this->clearResourceCache();
         if (isset($this->smarty)) {
             $this->smarty->smarty = null;
-            unset($this->smarty);
+            $this->smarty = null;
         }
-        $this->clearResourceCache();
     }
 
     /**

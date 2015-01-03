@@ -17,9 +17,9 @@ class CacheResourceCustomRegisteredTest extends CacheResourceTestCommon
     {
         parent::setUp(__DIR__);
         $this->smarty->addPluginsDir(SMARTY_DIR . '../demo/plugins/');
-        $this->smarty->addPluginsDir('./PHPunitplugins');
+        $this->smarty->addPluginsDir(__DIR__ . '/../PHPunitplugins');
         if (!class_exists('Smarty_CacheResource_Mysqltest', false)) {
-            require_once(dirname(__FILE__) . "/PHPunitplugins/cacheresource.mysqltest.php");
+            require_once(__DIR__ . "/../PHPunitplugins/cacheresource.mysqltest.php");
         }
         $this->smarty->setCachingType('foobar');
         $this->smarty->registerCacheResource('foobar', new Smarty_CacheResource_Mysqltest());
