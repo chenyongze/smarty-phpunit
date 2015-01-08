@@ -1,6 +1,6 @@
 <?php
 //require '../Smarty/libs/Smarty.class.php';
-require_once '../Smarty/libs/SmartyBC.class.php';
+require_once __DIR__ . '/../Smarty/libs/SmartyBC.class.php';
 //Smarty_Autoloader::register();
 if (!defined('SMARTY_COMPOSER_INSTALL')) {
     foreach (array(__DIR__ . '/../../autoload.php', __DIR__ . '/../vendor/autoload.php', __DIR__ . '/vendor/autoload.php') as $file) {

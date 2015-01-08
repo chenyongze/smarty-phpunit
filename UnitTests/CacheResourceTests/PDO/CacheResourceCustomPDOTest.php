@@ -6,7 +6,7 @@
  * @author  Uwe Tews
  */
 
-include_once 'UnitTests/CacheResourceTests/CacheResourceTestCommon.php';
+include_once __DIR__ . '/../CacheResourceTestCommon.php';
 
 /**
  * class for cache resource file tests
@@ -20,7 +20,7 @@ class CacheResourceCustomPDOTest extends CacheResourceTestCommon
         $this->smarty->setCachingType('pdo');
         $this->smarty->addPluginsDir(SMARTY_DIR . '../demo/plugins/');
         $this->smarty->addPluginsDir(__DIR__ . '/../PHPunitplugins');
-        $this->assertTrue($this->smarty->loadPlugin('Smarty_CacheResource_Pdo'), 'loadPlugin() could not load PDO cache resource');
+        $this->assertTrue(false !== $this->smarty->loadPlugin('Smarty_CacheResource_Pdo'), 'loadPlugin() could not load PDO cache resource');
         $this->smarty->registerCacheResource('pdo', new Smarty_CacheResource_Pdo($this->getPDO(), 'smarty_cache'));
     }
 }

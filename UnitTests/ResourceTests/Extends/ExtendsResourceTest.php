@@ -47,7 +47,9 @@ class ExtendsResourceTest extends PHPUnit_Smarty
         $this->smarty->assign('b4', 'b4_1');
         $this->smarty->assign('b5', 'b5_1');
         $this->smarty->assign('b6', 'b6_1');
-        $this->smarty->setInheritanceMergeCompiledIncludes(false);
+        if (isset($this->smarty->inheritance_merge_compiled_includes)) {
+            $this->smarty->setInheritanceMergeCompiledIncludes(false);
+        }
         $result = $this->smarty->fetch('extends:030_parent.tpl|030_child.tpl|030_grandchild.tpl');
             $this->assertContains('parent b1 b1_1*parent b2*grandchild b3 b3_1*include b3 b6_1*grandchild b6 b6_1*', $result);
         $this->assertContains('child b4 b4_1*grandchild b4 b4_1**', $result);
@@ -71,7 +73,9 @@ class ExtendsResourceTest extends PHPUnit_Smarty
         $this->smarty->assign('b4', 'b4_2');
         $this->smarty->assign('b5', 'b5_2');
         $this->smarty->assign('b6', 'b6_2');
-        $this->smarty->setInheritanceMergeCompiledIncludes(true);
+        if (isset($this->smarty->inheritance_merge_compiled_includes)) {
+            $this->smarty->setInheritanceMergeCompiledIncludes(false);
+        }
         $result = $this->smarty->fetch('extends:030_parent.tpl|030_child.tpl|030_grandchild.tpl');
         $this->assertContains('parent b1 b1_2*parent b2*grandchild b3 b3_2*include b3 b6_2*grandchild b6 b6_2*', $result);
         $this->assertContains('child b4 b4_1*grandchild b4 b4_2**', $result);

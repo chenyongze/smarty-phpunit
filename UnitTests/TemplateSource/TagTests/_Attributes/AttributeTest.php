@@ -25,7 +25,7 @@ class AttributeTest extends PHPUnit_Smarty
             $this->smarty->fetch('string:{assign value=1}');
         }
         catch (Exception $e) {
-            $this->assertContains('missing "var" attribute', $e->getMessage());
+            $this->assertContains(htmlspecialchars('missing "var" attribute'), $e->getMessage());
 
             return;
         }
@@ -41,7 +41,7 @@ class AttributeTest extends PHPUnit_Smarty
             $this->smarty->fetch('string:{assign var=foo value=1 bar=2}');
         }
         catch (Exception $e) {
-            $this->assertContains('unexpected "bar" attribute', $e->getMessage());
+            $this->assertContains(htmlspecialchars('unexpected "bar" attribute'), $e->getMessage());
 
             return;
         }

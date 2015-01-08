@@ -25,8 +25,7 @@ class CacheResourceTestCommon extends PHPUnit_SmartyDB
         $this->smarty->caching = true;
         $this->smarty->cache_lifetime = 1000;
         $tpl = $this->smarty->createTemplate('helloworld.tpl');
-        $sha1 = sha1($tpl->source->filepath);
-        $this->assertEquals($sha1, $tpl->cached->filepath);
+       $this->assertEquals($this->buildCachedPath($tpl), $tpl->cached->filepath);
     }
 
     /**
@@ -37,8 +36,7 @@ class CacheResourceTestCommon extends PHPUnit_SmartyDB
         $this->smarty->caching = true;
         $this->smarty->cache_lifetime = 1000;
         $tpl = $this->smarty->createTemplate('helloworld.tpl', 'foo|bar');
-        $sha1 = sha1($tpl->source->filepath . 'foo|bar' . null);
-        $this->assertEquals($sha1, $tpl->cached->filepath);
+         $this->assertEquals($this->buildCachedPath($tpl, true, 'foo|bar'), $tpl->cached->filepath);
     }
 
     /**
@@ -49,8 +47,7 @@ class CacheResourceTestCommon extends PHPUnit_SmartyDB
         $this->smarty->caching = true;
         $this->smarty->cache_lifetime = 1000;
         $tpl = $this->smarty->createTemplate('helloworld.tpl', null, 'blar');
-        $sha1 = sha1($tpl->source->filepath . null . 'blar');
-        $this->assertEquals($sha1, $tpl->cached->filepath);
+        $this->assertEquals($this->buildCachedPath($tpl, true, null, 'blar'), $tpl->cached->filepath);
     }
 
     /**
@@ -61,8 +58,7 @@ class CacheResourceTestCommon extends PHPUnit_SmartyDB
         $this->smarty->caching = true;
         $this->smarty->cache_lifetime = 1000;
         $tpl = $this->smarty->createTemplate('helloworld.tpl', 'foo|bar', 'blar');
-        $sha1 = sha1($tpl->source->filepath . 'foo|bar' . 'blar');
-        $this->assertEquals($sha1, $tpl->cached->filepath);
+        $this->assertEquals($this->buildCachedPath($tpl, true, 'foo|bar', 'blar'), $tpl->cached->filepath);
     }
 
     /**

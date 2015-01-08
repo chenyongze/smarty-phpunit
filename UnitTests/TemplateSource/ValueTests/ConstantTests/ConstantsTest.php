@@ -52,7 +52,7 @@ class ConstantsTest extends PHPUnit_Smarty
     public function testConstants4()
     {
         if ($this->getVersion() < 22) {
-            $this->markTestSkipped();
+            $this->markTestSkipped('Static class constants added in 3.1.22');
         }
         $tpl = $this->smarty->createTemplate('eval:{TestConst::CONSTVAL}');
         $this->assertEquals("okay", $this->smarty->fetch($tpl));
@@ -61,7 +61,7 @@ class ConstantsTest extends PHPUnit_Smarty
     public function testConstants5()
     {
         if ($this->getVersion() < 22) {
-            $this->markTestSkipped();
+            $this->markTestSkipped('Static class constants added in 3.1.22');
         }
         $tpl = $this->smarty->createTemplate('eval:{if TestConst::CONSTVAL == "okay"}yes{/if}');
         $this->assertEquals("yes", $this->smarty->fetch($tpl));
@@ -70,7 +70,7 @@ class ConstantsTest extends PHPUnit_Smarty
     public function testConstants6()
     {
         if ($this->getVersion() < 22) {
-            $this->markTestSkipped();
+            $this->markTestSkipped('Static class constants added in 3.1.22');
         }
         $tpl = $this->smarty->createTemplate('eval:{$obj::CONSTVAL}');
         $tpl->assign('obj', new TestConst());
@@ -80,7 +80,7 @@ class ConstantsTest extends PHPUnit_Smarty
     public function testConstants7()
     {
         if ($this->getVersion() < 22) {
-            $this->markTestSkipped();
+            $this->markTestSkipped('Static class constants added in 3.1.22');
         }
         $tpl = $this->smarty->createTemplate('eval:{if $obj::CONSTVAL == "okay"}yes{/if}');
         $tpl->assign('obj', new TestConst());

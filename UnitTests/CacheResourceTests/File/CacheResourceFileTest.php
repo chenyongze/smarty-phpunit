@@ -6,7 +6,7 @@
  * @author  Uwe Tews
  */
 
-include_once 'UnitTests/CacheResourceTests/CacheResourceTestCommon.php';
+include_once __DIR__ . '/../CacheResourceTestCommon.php';
 
 /**
  * class for cache resource file tests
@@ -33,14 +33,8 @@ class CacheResourceFileTest extends CacheResourceTestCommon
         $this->smarty->cache_lifetime = 1000;
         $this->smarty->setUseSubDirs(true);
         $tpl = $this->smarty->createTemplate('helloworld.tpl');
-        $sha1 = sha1($this->buildInternalPath($this->smarty->getTemplateDir(0) . 'helloworld.tpl'));
-        $expected = sprintf("./cache/%s/%s/%s/%s.helloworld.tpl.php",
-                            substr($sha1, 0, 2),
-                            substr($sha1, 2, 2),
-                            substr($sha1, 4, 2),
-                            $sha1
-        );
-        $this->assertEquals($expected, $this->relative($tpl->cached->filepath));
+        $this->assertEquals($this->buildCachedPath($tpl, true, null, null, 'helloworld.tpl', $type = 'file', $this->smarty->getTemplateDir(0), 'file')
+            , $tpl->cached->filepath);
     }
 
     /**
@@ -52,14 +46,8 @@ class CacheResourceFileTest extends CacheResourceTestCommon
         $this->smarty->cache_lifetime = 1000;
         $this->smarty->setUseSubDirs(true);
         $tpl = $this->smarty->createTemplate('helloworld.tpl', 'foo|bar');
-        $sha1 = sha1($this->buildInternalPath($this->smarty->getTemplateDir(0) . 'helloworld.tpl'));
-        $expected = sprintf("./cache/foo/bar/%s/%s/%s/%s.helloworld.tpl.php",
-                            substr($sha1, 0, 2),
-                            substr($sha1, 2, 2),
-                            substr($sha1, 4, 2),
-                            $sha1
-        );
-        $this->assertEquals($expected, $this->relative($tpl->cached->filepath));
+        $this->assertEquals($this->buildCachedPath($tpl, true, 'foo|bar', null, 'helloworld.tpl', $type = 'file', $this->smarty->getTemplateDir(0), 'file')
+            , $tpl->cached->filepath);
     }
 
     /**
@@ -71,14 +59,8 @@ class CacheResourceFileTest extends CacheResourceTestCommon
         $this->smarty->cache_lifetime = 1000;
         $this->smarty->setUseSubDirs(true);
         $tpl = $this->smarty->createTemplate('helloworld.tpl', null, 'blar');
-        $sha1 = sha1($this->buildInternalPath($this->smarty->getTemplateDir(0) . 'helloworld.tpl'));
-        $expected = sprintf("./cache/blar/%s/%s/%s/%s.helloworld.tpl.php",
-                            substr($sha1, 0, 2),
-                            substr($sha1, 2, 2),
-                            substr($sha1, 4, 2),
-                            $sha1
-        );
-        $this->assertEquals($expected, $this->relative($tpl->cached->filepath));
+        $this->assertEquals($this->buildCachedPath($tpl, true, null, 'blar', 'helloworld.tpl', $type = 'file', $this->smarty->getTemplateDir(0), 'file')
+            , $tpl->cached->filepath);
     }
 
     /**
@@ -90,14 +72,8 @@ class CacheResourceFileTest extends CacheResourceTestCommon
         $this->smarty->cache_lifetime = 1000;
         $this->smarty->setUseSubDirs(true);
         $tpl = $this->smarty->createTemplate('helloworld.tpl', 'foo|bar', 'blar');
-        $sha1 = sha1($this->buildInternalPath($this->smarty->getTemplateDir(0) . 'helloworld.tpl'));
-        $expected = sprintf("./cache/foo/bar/blar/%s/%s/%s/%s.helloworld.tpl.php",
-                            substr($sha1, 0, 2),
-                            substr($sha1, 2, 2),
-                            substr($sha1, 4, 2),
-                            $sha1
-        );
-        $this->assertEquals($expected, $this->relative($tpl->cached->filepath));
+        $this->assertEquals($this->buildCachedPath($tpl, true, 'foo|bar', 'blar', 'helloworld.tpl', $type = 'file', $this->smarty->getTemplateDir(0), 'file')
+            , $tpl->cached->filepath);
     }
 
     /**

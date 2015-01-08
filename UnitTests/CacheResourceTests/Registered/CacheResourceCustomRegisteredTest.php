@@ -5,7 +5,7 @@
  * @package PHPunit
  * @author  Uwe Tews
  */
-include_once 'UnitTests/CacheResourceTests/CacheResourceTestCommon.php';
+include_once __DIR__ . '/../CacheResourceTestCommon.php';
 
 
 /**

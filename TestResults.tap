@@ -1,6 +1,0 @@
-TAP version 13
-ok 1 - ExtendsResourceTest::testCompileBlockChildPrepend_003
-ok 2 - ExtendsResourceTest::testCompileBlockChildAppend_004
-not ok 3 - Error: ExtendsResourceTest::testNocacheBlock_030_1
-not ok 4 - Error: ExtendsResourceTest::testNocacheBlock_030_2
-1..4

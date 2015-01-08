@@ -92,8 +92,9 @@ class FileResourceTest extends PHPUnit_Smarty
     public function testGetCompiledFilepath()
     {
         $tpl = $this->smarty->createTemplate('helloworld.tpl');
-        $expected = "./templates_c/" . sha1($this->buildInternalPath($this->smarty->getTemplateDir(0) . 'helloworld.tpl')) . '.file.helloworld.tpl.php';
-        $this->assertEquals($expected, $this->relative($tpl->compiled->filepath));
+        $this->assertEquals($this->buildCompiledPath($tpl, false, false, null, 'helloworld.tpl', 'file', $this->smarty->getTemplateDir(0))
+            , $tpl->compiled->filepath
+    );
     }
 
     public function testGetCompiledTimestampPrepare()
@@ -155,14 +156,19 @@ class FileResourceTest extends PHPUnit_Smarty
         $this->smarty->caching = true;
         $this->smarty->cache_lifetime = 1000;
         $tpl = $this->smarty->createTemplate('helloworld.tpl');
-        $expected = "./cache/" . sha1($this->buildInternalPath($this->smarty->getTemplateDir(0) . 'helloworld.tpl')) . '.helloworld.tpl.php';
-        $this->assertEquals($expected, $this->relative($tpl->cached->filepath));
+        $a = $this->buildCompiledPath($tpl, false, true, null, 'helloworld.tpl', 'file', $this->smarty->getTemplateDir(0));
+        $b = $tpl->compiled->filepath;
+        var_dump($a, $b);
+        $this->assertEquals($a = $this->buildCompiledPath($tpl, false, true, null, 'helloworld.tpl', 'file', $this->smarty->getTemplateDir(0))
+            , $b = $tpl->compiled->filepath
+        );
     }
 
     public function testGetCachedTimestamp()
     {
         // create dummy cache file for the following test
-        file_put_contents("./cache/" . sha1($this->buildInternalPath($this->smarty->getTemplateDir(0) . 'helloworld.tpl')) . '.helloworld.tpl.php', '<?php ?>');
+        file_put_contents($this->buildCachedPath($this->smarty, false, null, null, 'helloworld.tpl', 'file', $this->smarty->getTemplateDir(0), 'file')
+, '<?php ?>');
         $this->smarty->caching = true;
         $this->smarty->cache_lifetime = 1000;
         $tpl = $this->smarty->createTemplate('helloworld.tpl');

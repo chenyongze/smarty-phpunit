@@ -6,7 +6,7 @@
  * @author  Uwe Tews
  */
 
-include_once 'UnitTests/CacheResourceTests/Memcache/CacheResourceCustomMemcacheTest.php';
+include_once __DIR__ .'/../Memcache/CacheResourceCustomMemcacheTest.php';
 
 /**
  * class for cache resource file tests

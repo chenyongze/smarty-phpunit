@@ -6,7 +6,7 @@
  * @author  Uwe Tews
  */
 
-include_once 'UnitTests/CacheResourceTests/CacheResourceTestCommon.php';
+include_once __DIR__ . '/../CacheResourceTestCommon.php';
 
 /**
  * class for cache resource file tests
